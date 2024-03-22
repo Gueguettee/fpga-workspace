@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../rtl/DFF.vhd" \
+"../../../../rtl/SD_filter_pkg.vhd" \
+"../../../../rtl/FIR_rect.vhd" \
+"../../../../rtl/IIR_LP1o.vhd" \
+"../../../../rtl/bitstream_gen.vhd" \
+"../../../../rtl/SD_filter_testbench.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "SD_filter_testbench_behav" "xil_defaultlib.SD_filter_testbench" -log "elaborate.log" 
