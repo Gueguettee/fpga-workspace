@@ -1,0 +1,45 @@
+#add input and output ports
+add wave -divider Inputs_Ports
+add wave sim:/ex1/a_i
+add wave sim:/ex1/b_i
+add wave sim:/ex1/c_i
+
+add wave -divider Output_Portsf
+add wave sim:/ex1/y1_o
+add wave sim:/ex1/y2_o
+
+#Set init. values
+force -freeze sim:/ex1/a_i 0 0 ns
+force -freeze sim:/ex1/b_i 0 0 ns
+force -freeze sim:/ex1/c_i 0 0 ns
+
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 0 10 ns
+force -freeze sim:/ex1/b_i 0 10 ns
+force -freeze sim:/ex1/c_i 1 10 ns
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 0 20 ns
+force -freeze sim:/ex1/b_i 1 20 ns
+force -freeze sim:/ex1/c_i 0 20 ns
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 0 30 ns
+force -freeze sim:/ex1/b_i 1 30 ns
+force -freeze sim:/ex1/c_i 1 30 ns
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 1 40 ns
+force -freeze sim:/ex1/b_i 0 40 ns
+force -freeze sim:/ex1/c_i 0 40 ns
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 1 50 ns
+force -freeze sim:/ex1/b_i 0 50 ns
+force -freeze sim:/ex1/c_i 1 50 ns
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 1 60 ns
+force -freeze sim:/ex1/b_i 1 60 ns
+force -freeze sim:/ex1/c_i 0 60 ns
+#Set values of a, b and c
+force -freeze sim:/ex1/a_i 1 70 ns
+force -freeze sim:/ex1/b_i 1 70 ns
+force -freeze sim:/ex1/c_i 1 70 ns
+
+run 80 ns

@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/git/digital-circuits-desighs-workspace/Ex3_1
+Psipo_pkg
+DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 1
+w1697207488
+R0
+8C:/git/digital-circuits-desighs-workspace/Ex3_1/Design/src/main.vhd
+FC:/git/digital-circuits-desighs-workspace/Ex3_1/Design/src/main.vhd
+l0
+L4 3
+VMWhke<3zzfcB8]2P>M`Sl1
+!s100 f1bHZX51fK?iejAHI9>0c2
+OP;C;2023.3;77
+32
+!s110 1697207494
+!i10b 1
+!s108 1697207494.000000
+!s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Ex3_1/Design/src/main.vhd|
+!s107 C:/git/digital-circuits-desighs-workspace/Ex3_1/Design/src/main.vhd|
+!i113 1
+o-work work
+tExplicit 1 CvgOpt 0

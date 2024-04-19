@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ModelSimExos/exe_1_4
+Eadd2
+Z0 w1699022021
+Z1 DPx4 ieee 11 numeric_std 0 22 F8@]:i<mFK7<TjIzKcTGi0
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 42
+Z4 dC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4
+Z5 8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/add2.vhd
+Z6 FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/add2.vhd
+l0
+L5 1
+VY_9MAM<@ePgY<b7TjIWP?2
+!s100 UZ?gOX^=CW8<XY3;0lT0Y3
+Z7 OP;C;2023.3;77
+32
+Z8 !s110 1699022133
+!i10b 1
+Z9 !s108 1699022133.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/add2.vhd|
+Z11 !s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/add2.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 4 add2 0 22 Y_9MAM<@ePgY<b7TjIWP?2
+!i122 42
+l16
+L14 8
+V0zZ4BPlXh>KB=SA8TOL4D1
+!s100 BbHXPN_fJ4afMMd3FiD5=2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadd_tl
+Z14 w1699022127
+R2
+R3
+!i122 41
+R4
+Z15 8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/ADD_TL.vhd
+Z16 FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/ADD_TL.vhd
+l0
+L4 1
+ViLi106zB2ofKi>O:DLQoj3
+!s100 ]z;Z`?dz`9EJ4anT]FfN<3
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/ADD_TL.vhd|
+Z18 !s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/ADD_TL.vhd|
+!i113 1
+R12
+R13
+Astructural
+R2
+R3
+DEx4 work 6 add_tl 0 22 iLi106zB2ofKi>O:DLQoj3
+!i122 41
+l35
+L14 38
+VLDnE]T3JZVoTf[61oinFh1
+!s100 edNgUL6T`eDJ_6VP3kejM1
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Een_res
+Z19 w1699022065
+R2
+R3
+!i122 43
+R4
+Z20 8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/en_res.vhd
+Z21 FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/en_res.vhd
+l0
+L4 1
+VX=mmimJWiGSF2;iN[60fQ0
+!s100 fAVj0WXWMgUm:K[;CnbnD0
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/en_res.vhd|
+Z23 !s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_1_4/src/en_res.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+Z24 DEx4 work 6 en_res 0 22 X=mmimJWiGSF2;iN[60fQ0
+!i122 43
+l15
+Z25 L13 8
+Z26 VQ;>0_RSL7MoOG@<HGNQam0
+Z27 !s100 VGKYhH76T9af9;04RDNi=2
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13

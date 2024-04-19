@@ -1,0 +1,23 @@
+set_property LOC F22 [get_ports a_i[0]]
+set_property LOC G22 [get_ports a_i[1]]
+set_property LOC H22 [get_ports a_i[2]]
+set_property IOSTANDARD LVCMOS33 [get_ports a_i[0]]
+set_property IOSTANDARD LVCMOS33 [get_ports a_i[1]]
+set_property IOSTANDARD LVCMOS33 [get_ports a_i[2]]
+
+set_property LOC F21 [get_ports b_i[0]]
+set_property LOC H19 [get_ports b_i[1]]
+set_property LOC H18 [get_ports b_i[2]]
+set_property IOSTANDARD LVCMOS33 [get_ports b_i[0]]
+set_property IOSTANDARD LVCMOS33 [get_ports b_i[1]]
+set_property IOSTANDARD LVCMOS33 [get_ports b_i[2]]
+
+set_property LOC H17 [get_ports en_i]
+set_property IOSTANDARD LVCMOS33 [get_ports en_i]
+
+set_property LOC T22 [get_ports y_o[0]]
+set_property LOC T21 [get_ports y_o[1]]
+set_property LOC U22 [get_ports y_o[2]]
+set_property IOSTANDARD LVCMOS33 [get_ports y_o[0]]
+set_property IOSTANDARD LVCMOS33 [get_ports y_o[1]]
+set_property IOSTANDARD LVCMOS33 [get_ports y_o[2]]

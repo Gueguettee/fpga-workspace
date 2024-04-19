@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/digital-circuits-desighs-workspace/Vivado/projectSemester/projectSemester.gen/sources_1/ip/Int_PLL/Int_PLL_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Int_PLL_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/digital-circuits-desighs-workspace/Vivado/projectSemester/projectSemester.gen/sources_1/ip/Int_PLL/Int_PLL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Int_PLL
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/git/digital-circuits-desighs-workspace/Vivado/projectSemester/projectSemester.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

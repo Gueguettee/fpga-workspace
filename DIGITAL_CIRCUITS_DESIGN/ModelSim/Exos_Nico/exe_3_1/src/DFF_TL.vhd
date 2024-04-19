@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity DFF_TL is
+	port
+	(
+		clk_i : in std_logic;
+		rst_i : in std_logic;
+		data_i : in std_logic;
+		data_o : out std_logic
+	);
+end entity DFF_TL;
+
+architecture behavioral of DFF_TL is
+-- architectcure parameters
+component DFF is
+	port (
+		D_i : in std_logic;
+		rst_i : in std_logic;
+		clk_i : in std_logic;
+		Q_o : out std_logic;
+		Qn_o : out std_logic
+	);
+end component DFF;
+-- begin architecture definition
+	begin
+		SIPO_reg: DFF port map(
+			Q_o => data_o,
+			clk_i => clk_i,
+			rst_i => rst_i,
+			D_i => data_i
+		);
+end architecture behavioral;

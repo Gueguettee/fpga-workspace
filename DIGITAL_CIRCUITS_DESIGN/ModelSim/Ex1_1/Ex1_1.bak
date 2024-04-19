@@ -1,0 +1,20 @@
+# add input and ouptut ports
+add wave -deivider Input_Ports
+add wave sim:/Ex1_1/a_i
+add wave sim:/Ex1_1/b_i
+add wave sim:/Ex1_1/c_i
+
+add wave -deivider Output_Ports
+add wave sim:/Ex1_1/y1_o
+add wave sim:/Ex1_1/y2_o
+
+# set init values
+force -freeze sim:/Ex1_1/a_i 0 0 ns
+force -freeze sim:/Ex1_1/b_i 0 0 ns
+force -freeze sim:/Ex1_1/c_i 0 0 ns
+
+force -freeze sim:/Ex1_1/a_i 0 10 ns
+force -freeze sim:/Ex1_1/b_i 0 10 ns
+force -freeze sim:/Ex1_1/c_i 1 10 ns
+
+run 80 ns

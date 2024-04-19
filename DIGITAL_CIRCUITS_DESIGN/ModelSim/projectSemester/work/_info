@@ -1,0 +1,245 @@
+m255
+K4
+z2
+!s11e vcom 2023.3 2023.07, Jul 17 2023
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/synologydrive/documents/Hefr/GE5/Cours/ConceptionSysNum/exos/ex3_1
+Edata_flow
+Z0 w1701444446
+Z1 DPx4 work 6 my_pkg 0 22 Ze[?F5l;MmJ<b:0135VPP3
+Z2 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z3 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 60
+Z4 dC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester
+Z5 8C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/data_flow.vhdl
+Z6 FC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/data_flow.vhdl
+l0
+L6 1
+VaTz0LiD]g2_OCKkk26aYT0
+!s100 ZoIF=9km6<X];HS85KfAj0
+Z7 OP;C;2023.3;77
+32
+Z8 !s110 1701444449
+!i10b 1
+Z9 !s108 1701444449.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/data_flow.vhdl|
+Z11 !s107 C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/data_flow.vhdl|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Amix
+R1
+R2
+R3
+DEx4 work 9 data_flow 0 22 aTz0LiD]g2_OCKkk26aYT0
+!i122 60
+l23
+L17 27
+VZG@2K1R?YlWJ`3ESmoM0l0
+!s100 id2WnQeV5MI7MQ2eLYnWI2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Edff
+Z14 w1700234381
+R2
+R3
+!i122 47
+R4
+Z15 8C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/DFF.vhdl
+Z16 FC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/DFF.vhdl
+l0
+L4 1
+VJPefBC_2AjOFbbOX[:WB:0
+!s100 5Yg9X@5<L`MQh@D5>bK8G2
+R7
+32
+Z17 !s110 1701443564
+!i10b 1
+Z18 !s108 1701443564.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/DFF.vhdl|
+Z20 !s107 C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/DFF.vhdl|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 3 dff 0 22 JPefBC_2AjOFbbOX[:WB:0
+!i122 47
+l15
+L14 14
+VKXZ4<OaRfEn5Y_lnk`mWX3
+!s100 799ojhbSig<QA2Y>n[l[<2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Emux
+Z21 w1701442036
+R2
+R3
+!i122 48
+R4
+Z22 8C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/MUX.vhdl
+Z23 FC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/MUX.vhdl
+l0
+L4 1
+V_aJlmWoIYL8;ae6ae2I3_0
+!s100 l[5]zUOBG959lm7TZEW2;2
+R7
+32
+Z24 !s110 1701443566
+!i10b 1
+Z25 !s108 1701443566.000000
+Z26 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/MUX.vhdl|
+Z27 !s107 C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/MUX.vhdl|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+DEx4 work 3 mux 0 22 _aJlmWoIYL8;ae6ae2I3_0
+!i122 48
+l15
+L13 9
+VXbMC:2N5zeae;E5]<HO;Z3
+!s100 FDjnEZ;CJi7B5cNHCah?L3
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13
+Pmy_pkg
+R2
+R3
+!i122 29
+w1700234972
+R4
+8C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/pkg/my_pkg.vhd
+FC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/pkg/my_pkg.vhd
+l0
+L4 4
+VZe[?F5l;MmJ<b:0135VPP3
+!s100 o_7Oo3_6?6cDVa]S4bY8i3
+R7
+32
+!s110 1701441698
+!i10b 1
+!s108 1701441698.000000
+!s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/pkg/my_pkg.vhd|
+!s107 C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/pkg/my_pkg.vhd|
+!i113 1
+R12
+R13
+Episo_shift_reg
+Z28 w1701444541
+R1
+R2
+R3
+!i122 61
+R4
+Z29 8C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/PISO_shift_reg.vhdl
+Z30 FC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/PISO_shift_reg.vhdl
+l0
+L6 1
+Vn>>BYnIM25lMTKBU5d8?J1
+!s100 W]P>PZPhgdEVmLj7CNk:g1
+R7
+32
+Z31 !s110 1701444553
+!i10b 1
+Z32 !s108 1701444553.000000
+Z33 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/PISO_shift_reg.vhdl|
+Z34 !s107 C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/PISO_shift_reg.vhdl|
+!i113 1
+R12
+R13
+Amix
+R1
+R2
+R3
+DEx4 work 14 piso_shift_reg 0 22 n>>BYnIM25lMTKBU5d8?J1
+!i122 61
+l45
+L18 59
+V[D@EW]g_FLH_OP7F`2=6X3
+!s100 dQ4O8jT@o:^CzKK:J9__b3
+R7
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R12
+R13
+Esipo_shift_reg
+Z35 w1701444588
+R1
+R2
+R3
+!i122 62
+R4
+Z36 8C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/SIPO_shift_reg.vhdl
+Z37 FC:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/SIPO_shift_reg.vhdl
+l0
+L6 1
+VFDoX1G>_OMSU`Pii>]:X53
+!s100 @E8n_UaQ7eE>D>_eA4E4D2
+R7
+32
+Z38 !s110 1701444592
+!i10b 1
+Z39 !s108 1701444592.000000
+Z40 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/SIPO_shift_reg.vhdl|
+Z41 !s107 C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/SIPO_shift_reg.vhdl|
+!i113 1
+R12
+R13
+Amix
+R1
+R2
+R3
+DEx4 work 14 sipo_shift_reg 0 22 FDoX1G>_OMSU`Pii>]:X53
+!i122 62
+l35
+L18 46
+V2CcKODY2Cl[XbOBT1jV@03
+!s100 IRmnoNA`mjePAQ=5:`<AA0
+R7
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13

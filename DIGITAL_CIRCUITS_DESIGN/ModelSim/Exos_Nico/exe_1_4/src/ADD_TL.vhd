@@ -1,0 +1,51 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ADD_TL is
+	port
+	(
+		en_i : in std_logic;
+		a_i : in std_logic_vector(2 downto 0);
+		b_i : in std_logic_vector(2 downto 0);
+		y_o : out std_logic_vector(2 downto 0)
+	);
+end entity ADD_TL;
+
+architecture structural of ADD_TL is
+	signal res_s : std_logic_vector(2 downto 0);
+	
+	-- Adder component
+	component add2 is
+		port (
+			a_i : in std_logic_vector(2 downto 0);
+			b_i : in std_logic_vector(2 downto 0);
+			res_o : out std_logic_vector(2 downto 0)
+		);
+	end component;
+	
+	-- Buffer component
+	component en_res is
+		port (
+			in_i : in std_logic_vector(2 downto 0);
+			out_o : out std_logic_vector(2 downto 0);
+			en_i : in std_logic
+		);
+	end component;
+	
+	begin
+	comp1 : add2
+		port map (
+		-- bloc => TL
+			a_i => a_i,
+			b_i => b_i,
+			res_o => res_s
+		);
+		
+	comp2 : en_res
+		port map (
+			in_i => res_s,
+			out_o => y_o,
+			en_i => en_i
+		);
+		
+end architecture;

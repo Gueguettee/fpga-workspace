@@ -1,0 +1,158 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/synologydrive/documents/Hefr/GE5/Cours/ConceptionSysNum/exos/ex3_1
+Edff
+Z0 w1699013125
+Z1 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z2 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 21
+Z3 dC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1
+Z4 8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF.vhdl
+Z5 FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF.vhdl
+l0
+L4 1
+VJPefBC_2AjOFbbOX[:WB:0
+!s100 5Yg9X@5<L`MQh@D5>bK8G2
+Z6 OP;C;2023.3;77
+32
+Z7 !s110 1699019831
+!i10b 1
+Z8 !s108 1699019831.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF.vhdl|
+Z10 !s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF.vhdl|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 3 dff 0 22 JPefBC_2AjOFbbOX[:WB:0
+!i122 21
+l15
+L14 14
+V2c4fnWZ_5;PCQHXjj7lG71
+!s100 Li@2N<lU@n5JU:3<7[o?F1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff_tl
+R0
+R1
+R2
+!i122 19
+R3
+Z13 8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF_TL.vhd
+Z14 FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF_TL.vhd
+l0
+L4 1
+VT?9YCkC=V>AoDC1X8`NmK0
+!s100 =JM9m`_<XhD>MlTW8;VL_0
+R6
+32
+Z15 !s110 1699019825
+!i10b 1
+Z16 !s108 1699019825.000000
+Z17 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF_TL.vhd|
+Z18 !s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/DFF_TL.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 6 dff_tl 0 22 T?9YCkC=V>AoDC1X8`NmK0
+!i122 19
+l26
+L14 20
+Vd;5nDCl880X>z:HecMK=h1
+!s100 f[z_BmU1AhUKNX9]DO]=P3
+R6
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Pmy_pkg
+R1
+R2
+!i122 22
+R0
+R3
+8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/pkg/my_pkg.vhd
+FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/pkg/my_pkg.vhd
+l0
+L4 4
+Vf1X872fb<8WC^]<`:=ogE1
+!s100 aV09nJ0M>:B8LNSG^2YgT1
+R6
+32
+!s110 1699019848
+!i10b 1
+!s108 1699019848.000000
+!s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/pkg/my_pkg.vhd|
+!s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/pkg/my_pkg.vhd|
+!i113 1
+R11
+R12
+Esipo_shift_reg
+R0
+Z19 DPx4 work 6 my_pkg 0 22 f1X872fb<8WC^]<`:=ogE1
+R1
+R2
+!i122 20
+R3
+Z20 8C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/SIPO_shift_reg.vhdl
+Z21 FC:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/SIPO_shift_reg.vhdl
+l0
+L6 1
+VBgOHa9RmfQQ7I]?0iA7:92
+!s100 I^EJCA^N9Qjhd;EUF?;DB3
+R6
+32
+Z22 !s110 1699019829
+!i10b 1
+Z23 !s108 1699019829.000000
+Z24 !s90 -reportprogress|300|-work|work|C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/SIPO_shift_reg.vhdl|
+Z25 !s107 C:/git/digital-circuits-desighs-workspace/Exos_Nico/exe_3_1/src/SIPO_shift_reg.vhdl|
+!i113 1
+R11
+R12
+Amix
+R19
+R1
+R2
+DEx4 work 14 sipo_shift_reg 0 22 BgOHa9RmfQQ7I]?0iA7:92
+!i122 20
+l31
+L16 31
+Vfd68UL6Co<0n8i7I^^TWT3
+!s100 TONM]e9c:Ui?K23a;AU0a2
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R11
+R12

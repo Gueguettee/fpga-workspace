@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/DFF.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DFF'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/MUX.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/PISO_shift_reg.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PISO_shift_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/SIPO_shift_reg.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SIPO_shift_reg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/data_flow.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'data_flow'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/git/digital-circuits-desighs-workspace/ModelSim/projectSemester/src/TL.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TL'
