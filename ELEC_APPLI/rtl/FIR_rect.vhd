@@ -9,7 +9,7 @@ entity FIR_rect is
     );
     port (
         bitstream_i : in STD_LOGIC;
-        filtered_o : out STD_LOGIC_VECTOR (B-1 downto 0);
+        filtered_o : out STD_LOGIC_VECTOR (B_FIR-1 downto 0);
         reset_i : in STD_LOGIC;
         clock_i : in STD_LOGIC
     );
@@ -53,7 +53,7 @@ begin
     new_sum <= sum + add_sub_s;
     
     filtered_o_s <= std_logic_vector(new_sum);
-    filtered_o <= filtered_o_s(B-1 downto 0);
+    filtered_o <= filtered_o_s(B-1 downto B-B_FIR);
 
     process(clock_i, reset_i)
     begin

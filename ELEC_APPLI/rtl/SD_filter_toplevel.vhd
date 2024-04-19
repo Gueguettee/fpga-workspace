@@ -38,7 +38,7 @@ entity SD_filter_toplevel is
            rst_i : in STD_LOGIC;       -- from Zboard's push-button BTNC
            fos_i : in STD_LOGIC;       -- from SD modulator
            bitstream_i : in STD_LOGIC; -- from SD modulator
-           filtered_o : out STD_LOGIC_VECTOR (B-1 downto 0); -- to test DAC
+           filtered_o : out STD_LOGIC_VECTOR (B_FIR-1 downto 0); -- to test DAC
            FIRnIIR_i : in STD_LOGIC;  -- from Zboard's switch SW0
            fir_o: out STD_LOGIC;
            iir_o: out STD_LOGIC);    
@@ -47,13 +47,13 @@ end SD_filter_toplevel;
 architecture Behavioral of SD_filter_toplevel is
 
     signal clock_r: std_logic;
-    signal data_fir: std_logic_vector (B-1 downto 0);
+    signal data_fir: std_logic_vector (B_FIR-1 downto 0);
     signal data_iir: std_logic_vector (B_IIR-1 downto 0);
    
     component FIR_rect 
     port (
         bitstream_i : in STD_LOGIC;
-        filtered_o : out STD_LOGIC_VECTOR (B-1 downto 0);
+        filtered_o : out STD_LOGIC_VECTOR (B_FIR-1 downto 0);
         reset_i : in STD_LOGIC;
         clock_i : in STD_LOGIC);
     end component;
@@ -61,7 +61,7 @@ architecture Behavioral of SD_filter_toplevel is
     component IIR_LP1o 
     port (
         bitstream_i : in STD_LOGIC;
-        filtered_o : out STD_LOGIC_VECTOR (B-1 downto 0);
+        filtered_o : out STD_LOGIC_VECTOR (B_IIR-1 downto 0);
         reset_i : in STD_LOGIC;
         clock_i : in STD_LOGIC);
     end component;

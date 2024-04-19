@@ -32,7 +32,7 @@ end SD_filter_testbench;
 architecture Behavioral of SD_filter_testbench is
 
     constant FILE_PATH: string:= "C:\git\fpga-workspace\ELEC_APPLI";
-    constant HEADER: string:= "time/us,fir,iir";
+    constant HEADER: string:= "time/us,fir,iir,iirMSB,iirLSB";
     constant PERIOD: time:= 1 us;
     constant RST_DURATION: time:= 1 us;
     constant MAX_SIM_TIME: time:= 100000 ms;
@@ -40,7 +40,7 @@ architecture Behavioral of SD_filter_testbench is
     signal clock: std_logic := '0';
     signal reset: std_logic := '1';
     signal data_fir: std_logic_vector (B-1 downto 0);
-    signal data_iir: std_logic_vector (B_IIR-1 downto 0);
+    signal data_iir: std_logic_vector (B_IIR*2-1 downto 0);
     signal bitstream: std_logic;
     
     
@@ -85,7 +85,7 @@ begin
        variable sample_line: line;
        variable current_time: time;
        variable microsecond: real; 
-       variable current_fir, current_iir: integer;
+       variable current_fir, current_iir, current_iirMSB, current_iirLSB: integer;
        begin
           if rising_edge(clock) then
              if first_line then
@@ -97,11 +97,17 @@ begin
              microsecond:= real(current_time / 1 us);
              current_fir:= to_integer(unsigned(data_fir));
              current_iir:= to_integer(unsigned(data_iir));
+             current_iirMSB := to_integer(unsigned(data_iir(B_IIR*2-1 downto B_IIR*2-7)));
+             current_iirLSB := to_integer(unsigned(data_iir(B_IIR-1-7 downto 0)));
              write(sample_line, microsecond);
              write(sample_line, ',');
              write(sample_line, current_fir);
              write(sample_line, ',');
              write(sample_line, current_iir);
+             write(sample_line, ',');
+             write(sample_line, current_iirMSB);
+             write(sample_line, ',');
+             write(sample_line, current_iirLSB);
              writeline(data_out_file, sample_line);
           end if; 
        end process;

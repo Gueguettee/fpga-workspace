@@ -1,0 +1,1025 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
+| Date             : Fri Apr 19 11:08:35 2024
+| Host             : LAPTOP-CJ972H0K running 64-bit major release  (build 9200)
+| Command          : report_power -file SD_filter_toplevel_power_routed.rpt -pb SD_filter_toplevel_power_summary_routed.pb -rpx SD_filter_toplevel_power_routed.rpx
+| Design           : SD_filter_toplevel
+| Device           : xc7z020clg484-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+----------------------------------+
+| Total On-Chip Power (W)  | 27.270 (Junction temp exceeded!) |
+| Design Power Budget (W)  | Unspecified*                     |
+| Power Budget Margin (W)  | NA                               |
+| Dynamic (W)              | 26.229                           |
+| Device Static (W)        | 1.041                            |
+| Effective TJA (C/W)      | 11.5                             |
+| Max Ambient (C)          | 0.0                              |
+| Junction Temperature (C) | 125.0                            |
+| Confidence Level         | Low                              |
+| Setting File             | ---                              |
+| Simulation Activity File | ---                              |
+| Design Nets Matched      | NA                               |
++--------------------------+----------------------------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++----------------+-----------+----------+-----------+-----------------+
+| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
++----------------+-----------+----------+-----------+-----------------+
+| Slice Logic    |     0.665 |     1850 |       --- |             --- |
+|   LUT as Logic |     0.336 |       31 |     53200 |            0.06 |
+|   Register     |     0.278 |      913 |    106400 |            0.86 |
+|   CARRY4       |     0.052 |        7 |     13300 |            0.05 |
+|   BUFR         |     0.000 |        1 |        88 |            1.14 |
+|   Others       |     0.000 |      892 |       --- |             --- |
+| Signals        |     2.054 |      947 |       --- |             --- |
+| I/O            |    23.509 |       14 |       200 |            7.00 |
+| Static Power   |     1.041 |          |           |                 |
+| Total          |    27.270 |          |           |                 |
++----------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+| Vccint    |       1.000 |     3.030 |       2.732 |      0.299 |       NA    | Unspecified | NA         |
+| Vccaux    |       1.800 |     0.961 |       0.861 |      0.100 |       NA    | Unspecified | NA         |
+| Vcco33    |       3.300 |     6.652 |       6.651 |      0.001 |       NA    | Unspecified | NA         |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccbram   |       1.000 |     0.026 |       0.000 |      0.026 |       NA    | Unspecified | NA         |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.473 |       0.000 |      0.473 |       NA    | Unspecified | NA         |
+| Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |       NA    | Unspecified | NA         |
+| Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |       NA    | Unspecified | NA         |
+| Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco_mio0 |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco_mio1 |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |       NA    | Unspecified | NA         |
++-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | High       | User specified more than 25% of internal nodes         |                                                                                                                    |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+------------------------+
+| Ambient Temp (C)      | 25.0                   |
+| ThetaJA (C/W)         | 11.5                   |
+| Airflow (LFM)         | 250                    |
+| Heat Sink             | none                   |
+| ThetaSA (C/W)         | 0.0                    |
+| Board Selection       | medium (10"x10")       |
+| # of Board Layers     | 8to11 (8 to 11 Layers) |
+| Board Temperature (C) | 25.0                   |
++-----------------------+------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------+-----------+
+| Name                   | Power (W) |
++------------------------+-----------+
+| SD_filter_toplevel     |    26.229 |
+|   FIR                  |     2.270 |
+|     first_reg          |     0.001 |
+|     shift_reg[0].reg   |     0.025 |
+|     shift_reg[100].reg |     0.001 |
+|     shift_reg[101].reg |     0.002 |
+|     shift_reg[102].reg |     0.002 |
+|     shift_reg[103].reg |     0.002 |
+|     shift_reg[104].reg |     0.002 |
+|     shift_reg[105].reg |     0.002 |
+|     shift_reg[106].reg |     0.002 |
+|     shift_reg[107].reg |     0.002 |
+|     shift_reg[108].reg |     0.002 |
+|     shift_reg[109].reg |     0.002 |
+|     shift_reg[10].reg  |     0.002 |
+|     shift_reg[110].reg |     0.002 |
+|     shift_reg[111].reg |     0.002 |
+|     shift_reg[112].reg |     0.002 |
+|     shift_reg[113].reg |     0.002 |
+|     shift_reg[114].reg |     0.002 |
+|     shift_reg[115].reg |     0.002 |
+|     shift_reg[116].reg |     0.002 |
+|     shift_reg[117].reg |     0.002 |
+|     shift_reg[118].reg |     0.002 |
+|     shift_reg[119].reg |     0.002 |
+|     shift_reg[11].reg  |     0.002 |
+|     shift_reg[120].reg |     0.002 |
+|     shift_reg[121].reg |     0.002 |
+|     shift_reg[122].reg |     0.002 |
+|     shift_reg[123].reg |     0.002 |
+|     shift_reg[124].reg |     0.002 |
+|     shift_reg[125].reg |     0.002 |
+|     shift_reg[126].reg |     0.002 |
+|     shift_reg[127].reg |     0.002 |
+|     shift_reg[128].reg |     0.002 |
+|     shift_reg[129].reg |     0.002 |
+|     shift_reg[12].reg  |     0.002 |
+|     shift_reg[130].reg |     0.002 |
+|     shift_reg[131].reg |     0.002 |
+|     shift_reg[132].reg |     0.003 |
+|     shift_reg[133].reg |     0.002 |
+|     shift_reg[134].reg |     0.002 |
+|     shift_reg[135].reg |     0.003 |
+|     shift_reg[136].reg |     0.002 |
+|     shift_reg[137].reg |     0.003 |
+|     shift_reg[138].reg |     0.001 |
+|     shift_reg[139].reg |     0.002 |
+|     shift_reg[140].reg |     0.003 |
+|     shift_reg[141].reg |     0.002 |
+|     shift_reg[142].reg |     0.002 |
+|     shift_reg[143].reg |     0.003 |
+|     shift_reg[144].reg |     0.002 |
+|     shift_reg[145].reg |     0.002 |
+|     shift_reg[146].reg |     0.001 |
+|     shift_reg[147].reg |     0.002 |
+|     shift_reg[148].reg |     0.002 |
+|     shift_reg[149].reg |     0.002 |
+|     shift_reg[14].reg  |     0.002 |
+|     shift_reg[150].reg |     0.002 |
+|     shift_reg[151].reg |     0.002 |
+|     shift_reg[152].reg |     0.002 |
+|     shift_reg[153].reg |     0.002 |
+|     shift_reg[154].reg |     0.001 |
+|     shift_reg[155].reg |     0.002 |
+|     shift_reg[156].reg |     0.002 |
+|     shift_reg[157].reg |     0.002 |
+|     shift_reg[158].reg |     0.002 |
+|     shift_reg[159].reg |     0.002 |
+|     shift_reg[15].reg  |     0.002 |
+|     shift_reg[160].reg |     0.002 |
+|     shift_reg[161].reg |     0.002 |
+|     shift_reg[162].reg |     0.001 |
+|     shift_reg[163].reg |     0.003 |
+|     shift_reg[164].reg |     0.002 |
+|     shift_reg[165].reg |     0.002 |
+|     shift_reg[166].reg |     0.003 |
+|     shift_reg[167].reg |     0.002 |
+|     shift_reg[168].reg |     0.002 |
+|     shift_reg[169].reg |     0.002 |
+|     shift_reg[16].reg  |     0.003 |
+|     shift_reg[170].reg |     0.002 |
+|     shift_reg[171].reg |     0.002 |
+|     shift_reg[172].reg |     0.002 |
+|     shift_reg[174].reg |     0.002 |
+|     shift_reg[175].reg |     0.002 |
+|     shift_reg[176].reg |     0.002 |
+|     shift_reg[177].reg |     0.002 |
+|     shift_reg[178].reg |     0.001 |
+|     shift_reg[179].reg |     0.002 |
+|     shift_reg[17].reg  |     0.002 |
+|     shift_reg[180].reg |     0.002 |
+|     shift_reg[181].reg |     0.002 |
+|     shift_reg[182].reg |     0.002 |
+|     shift_reg[183].reg |     0.003 |
+|     shift_reg[184].reg |     0.002 |
+|     shift_reg[185].reg |     0.002 |
+|     shift_reg[186].reg |     0.003 |
+|     shift_reg[187].reg |     0.002 |
+|     shift_reg[188].reg |     0.002 |
+|     shift_reg[189].reg |     0.001 |
+|     shift_reg[18].reg  |     0.002 |
+|     shift_reg[190].reg |     0.002 |
+|     shift_reg[191].reg |     0.002 |
+|     shift_reg[192].reg |     0.002 |
+|     shift_reg[193].reg |     0.002 |
+|     shift_reg[194].reg |     0.002 |
+|     shift_reg[195].reg |     0.002 |
+|     shift_reg[196].reg |     0.002 |
+|     shift_reg[197].reg |     0.002 |
+|     shift_reg[198].reg |     0.002 |
+|     shift_reg[199].reg |     0.002 |
+|     shift_reg[19].reg  |     0.002 |
+|     shift_reg[1].reg   |     0.003 |
+|     shift_reg[200].reg |     0.002 |
+|     shift_reg[201].reg |     0.002 |
+|     shift_reg[202].reg |     0.002 |
+|     shift_reg[203].reg |     0.002 |
+|     shift_reg[204].reg |     0.002 |
+|     shift_reg[205].reg |     0.002 |
+|     shift_reg[206].reg |     0.002 |
+|     shift_reg[207].reg |     0.002 |
+|     shift_reg[208].reg |     0.002 |
+|     shift_reg[209].reg |     0.002 |
+|     shift_reg[20].reg  |     0.002 |
+|     shift_reg[210].reg |     0.002 |
+|     shift_reg[211].reg |     0.002 |
+|     shift_reg[212].reg |     0.002 |
+|     shift_reg[213].reg |     0.002 |
+|     shift_reg[214].reg |     0.002 |
+|     shift_reg[215].reg |     0.002 |
+|     shift_reg[216].reg |     0.002 |
+|     shift_reg[217].reg |     0.002 |
+|     shift_reg[218].reg |     0.002 |
+|     shift_reg[219].reg |     0.002 |
+|     shift_reg[21].reg  |     0.002 |
+|     shift_reg[220].reg |     0.002 |
+|     shift_reg[221].reg |     0.001 |
+|     shift_reg[222].reg |     0.002 |
+|     shift_reg[223].reg |     0.002 |
+|     shift_reg[224].reg |     0.002 |
+|     shift_reg[225].reg |     0.002 |
+|     shift_reg[226].reg |     0.002 |
+|     shift_reg[227].reg |     0.002 |
+|     shift_reg[228].reg |     0.002 |
+|     shift_reg[229].reg |     0.002 |
+|     shift_reg[22].reg  |     0.002 |
+|     shift_reg[230].reg |     0.002 |
+|     shift_reg[231].reg |     0.002 |
+|     shift_reg[232].reg |     0.002 |
+|     shift_reg[233].reg |     0.002 |
+|     shift_reg[234].reg |     0.002 |
+|     shift_reg[235].reg |     0.002 |
+|     shift_reg[236].reg |     0.002 |
+|     shift_reg[237].reg |     0.001 |
+|     shift_reg[238].reg |     0.002 |
+|     shift_reg[239].reg |     0.002 |
+|     shift_reg[23].reg  |     0.001 |
+|     shift_reg[240].reg |     0.002 |
+|     shift_reg[241].reg |     0.001 |
+|     shift_reg[242].reg |     0.002 |
+|     shift_reg[243].reg |     0.002 |
+|     shift_reg[244].reg |     0.002 |
+|     shift_reg[245].reg |     0.001 |
+|     shift_reg[246].reg |     0.002 |
+|     shift_reg[247].reg |     0.002 |
+|     shift_reg[248].reg |     0.002 |
+|     shift_reg[249].reg |     0.002 |
+|     shift_reg[24].reg  |     0.002 |
+|     shift_reg[250].reg |     0.002 |
+|     shift_reg[251].reg |     0.002 |
+|     shift_reg[252].reg |     0.002 |
+|     shift_reg[253].reg |     0.002 |
+|     shift_reg[254].reg |     0.001 |
+|     shift_reg[255].reg |     0.002 |
+|     shift_reg[256].reg |     0.002 |
+|     shift_reg[257].reg |     0.002 |
+|     shift_reg[258].reg |     0.002 |
+|     shift_reg[259].reg |     0.002 |
+|     shift_reg[25].reg  |     0.002 |
+|     shift_reg[260].reg |     0.002 |
+|     shift_reg[261].reg |     0.002 |
+|     shift_reg[262].reg |     0.002 |
+|     shift_reg[263].reg |     0.002 |
+|     shift_reg[264].reg |     0.002 |
+|     shift_reg[265].reg |     0.002 |
+|     shift_reg[266].reg |     0.002 |
+|     shift_reg[267].reg |     0.002 |
+|     shift_reg[268].reg |     0.002 |
+|     shift_reg[269].reg |     0.002 |
+|     shift_reg[26].reg  |     0.002 |
+|     shift_reg[270].reg |     0.002 |
+|     shift_reg[271].reg |     0.002 |
+|     shift_reg[272].reg |     0.002 |
+|     shift_reg[274].reg |     0.002 |
+|     shift_reg[275].reg |     0.002 |
+|     shift_reg[276].reg |     0.002 |
+|     shift_reg[277].reg |     0.002 |
+|     shift_reg[278].reg |     0.002 |
+|     shift_reg[279].reg |     0.002 |
+|     shift_reg[27].reg  |     0.002 |
+|     shift_reg[280].reg |     0.002 |
+|     shift_reg[281].reg |     0.002 |
+|     shift_reg[282].reg |     0.002 |
+|     shift_reg[283].reg |     0.002 |
+|     shift_reg[284].reg |     0.002 |
+|     shift_reg[285].reg |     0.002 |
+|     shift_reg[286].reg |     0.002 |
+|     shift_reg[287].reg |     0.002 |
+|     shift_reg[288].reg |     0.002 |
+|     shift_reg[289].reg |     0.002 |
+|     shift_reg[28].reg  |     0.003 |
+|     shift_reg[290].reg |     0.002 |
+|     shift_reg[291].reg |     0.002 |
+|     shift_reg[292].reg |     0.002 |
+|     shift_reg[293].reg |     0.002 |
+|     shift_reg[294].reg |     0.002 |
+|     shift_reg[295].reg |     0.002 |
+|     shift_reg[296].reg |     0.002 |
+|     shift_reg[297].reg |     0.002 |
+|     shift_reg[298].reg |     0.002 |
+|     shift_reg[299].reg |     0.002 |
+|     shift_reg[29].reg  |     0.002 |
+|     shift_reg[2].reg   |     0.003 |
+|     shift_reg[300].reg |     0.002 |
+|     shift_reg[301].reg |     0.002 |
+|     shift_reg[302].reg |     0.002 |
+|     shift_reg[303].reg |     0.002 |
+|     shift_reg[304].reg |     0.002 |
+|     shift_reg[305].reg |     0.002 |
+|     shift_reg[306].reg |     0.002 |
+|     shift_reg[307].reg |     0.002 |
+|     shift_reg[308].reg |     0.002 |
+|     shift_reg[309].reg |     0.002 |
+|     shift_reg[30].reg  |     0.002 |
+|     shift_reg[310].reg |     0.002 |
+|     shift_reg[311].reg |     0.002 |
+|     shift_reg[312].reg |     0.002 |
+|     shift_reg[313].reg |     0.002 |
+|     shift_reg[314].reg |     0.002 |
+|     shift_reg[315].reg |     0.002 |
+|     shift_reg[316].reg |     0.002 |
+|     shift_reg[317].reg |     0.002 |
+|     shift_reg[318].reg |     0.002 |
+|     shift_reg[319].reg |     0.002 |
+|     shift_reg[31].reg  |     0.001 |
+|     shift_reg[320].reg |     0.002 |
+|     shift_reg[321].reg |     0.002 |
+|     shift_reg[322].reg |     0.001 |
+|     shift_reg[323].reg |     0.002 |
+|     shift_reg[324].reg |     0.002 |
+|     shift_reg[325].reg |     0.002 |
+|     shift_reg[326].reg |     0.002 |
+|     shift_reg[327].reg |     0.002 |
+|     shift_reg[328].reg |     0.002 |
+|     shift_reg[329].reg |     0.002 |
+|     shift_reg[32].reg  |     0.002 |
+|     shift_reg[331].reg |     0.002 |
+|     shift_reg[332].reg |     0.002 |
+|     shift_reg[333].reg |     0.002 |
+|     shift_reg[334].reg |     0.002 |
+|     shift_reg[335].reg |     0.002 |
+|     shift_reg[336].reg |     0.002 |
+|     shift_reg[337].reg |     0.002 |
+|     shift_reg[338].reg |     0.002 |
+|     shift_reg[339].reg |     0.002 |
+|     shift_reg[33].reg  |     0.003 |
+|     shift_reg[340].reg |     0.002 |
+|     shift_reg[341].reg |     0.002 |
+|     shift_reg[342].reg |     0.002 |
+|     shift_reg[343].reg |     0.002 |
+|     shift_reg[344].reg |     0.002 |
+|     shift_reg[345].reg |     0.003 |
+|     shift_reg[347].reg |     0.002 |
+|     shift_reg[348].reg |     0.002 |
+|     shift_reg[349].reg |     0.002 |
+|     shift_reg[34].reg  |     0.002 |
+|     shift_reg[350].reg |     0.002 |
+|     shift_reg[351].reg |     0.001 |
+|     shift_reg[352].reg |     0.002 |
+|     shift_reg[353].reg |     0.002 |
+|     shift_reg[355].reg |     0.002 |
+|     shift_reg[356].reg |     0.002 |
+|     shift_reg[357].reg |     0.002 |
+|     shift_reg[358].reg |     0.002 |
+|     shift_reg[359].reg |     0.001 |
+|     shift_reg[35].reg  |     0.002 |
+|     shift_reg[360].reg |     0.002 |
+|     shift_reg[361].reg |     0.002 |
+|     shift_reg[362].reg |     0.002 |
+|     shift_reg[363].reg |     0.002 |
+|     shift_reg[364].reg |     0.002 |
+|     shift_reg[365].reg |     0.002 |
+|     shift_reg[366].reg |     0.002 |
+|     shift_reg[367].reg |     0.001 |
+|     shift_reg[368].reg |     0.002 |
+|     shift_reg[369].reg |     0.002 |
+|     shift_reg[36].reg  |     0.002 |
+|     shift_reg[370].reg |     0.002 |
+|     shift_reg[371].reg |     0.002 |
+|     shift_reg[372].reg |     0.002 |
+|     shift_reg[373].reg |     0.002 |
+|     shift_reg[374].reg |     0.002 |
+|     shift_reg[375].reg |     0.001 |
+|     shift_reg[376].reg |     0.002 |
+|     shift_reg[377].reg |     0.002 |
+|     shift_reg[378].reg |     0.002 |
+|     shift_reg[379].reg |     0.002 |
+|     shift_reg[37].reg  |     0.002 |
+|     shift_reg[380].reg |     0.002 |
+|     shift_reg[381].reg |     0.002 |
+|     shift_reg[382].reg |     0.002 |
+|     shift_reg[383].reg |     0.002 |
+|     shift_reg[384].reg |     0.002 |
+|     shift_reg[385].reg |     0.002 |
+|     shift_reg[387].reg |     0.002 |
+|     shift_reg[388].reg |     0.002 |
+|     shift_reg[389].reg |     0.002 |
+|     shift_reg[38].reg  |     0.002 |
+|     shift_reg[390].reg |     0.003 |
+|     shift_reg[391].reg |     0.001 |
+|     shift_reg[392].reg |     0.002 |
+|     shift_reg[393].reg |     0.002 |
+|     shift_reg[394].reg |     0.002 |
+|     shift_reg[395].reg |     0.002 |
+|     shift_reg[396].reg |     0.002 |
+|     shift_reg[397].reg |     0.002 |
+|     shift_reg[398].reg |     0.002 |
+|     shift_reg[399].reg |     0.002 |
+|     shift_reg[39].reg  |     0.001 |
+|     shift_reg[3].reg   |     0.003 |
+|     shift_reg[400].reg |     0.002 |
+|     shift_reg[401].reg |     0.002 |
+|     shift_reg[402].reg |     0.002 |
+|     shift_reg[403].reg |     0.002 |
+|     shift_reg[404].reg |     0.002 |
+|     shift_reg[405].reg |     0.002 |
+|     shift_reg[406].reg |     0.002 |
+|     shift_reg[407].reg |     0.002 |
+|     shift_reg[408].reg |     0.002 |
+|     shift_reg[409].reg |     0.002 |
+|     shift_reg[40].reg  |     0.001 |
+|     shift_reg[410].reg |     0.002 |
+|     shift_reg[411].reg |     0.003 |
+|     shift_reg[412].reg |     0.002 |
+|     shift_reg[413].reg |     0.002 |
+|     shift_reg[414].reg |     0.002 |
+|     shift_reg[415].reg |     0.002 |
+|     shift_reg[416].reg |     0.002 |
+|     shift_reg[417].reg |     0.002 |
+|     shift_reg[418].reg |     0.001 |
+|     shift_reg[419].reg |     0.002 |
+|     shift_reg[41].reg  |     0.002 |
+|     shift_reg[420].reg |     0.002 |
+|     shift_reg[422].reg |     0.002 |
+|     shift_reg[423].reg |     0.002 |
+|     shift_reg[424].reg |     0.002 |
+|     shift_reg[425].reg |     0.002 |
+|     shift_reg[426].reg |     0.002 |
+|     shift_reg[427].reg |     0.002 |
+|     shift_reg[428].reg |     0.002 |
+|     shift_reg[429].reg |     0.002 |
+|     shift_reg[42].reg  |     0.003 |
+|     shift_reg[430].reg |     0.002 |
+|     shift_reg[431].reg |     0.002 |
+|     shift_reg[432].reg |     0.002 |
+|     shift_reg[433].reg |     0.002 |
+|     shift_reg[434].reg |     0.002 |
+|     shift_reg[435].reg |     0.002 |
+|     shift_reg[436].reg |     0.002 |
+|     shift_reg[437].reg |     0.002 |
+|     shift_reg[438].reg |     0.002 |
+|     shift_reg[439].reg |     0.002 |
+|     shift_reg[43].reg  |     0.002 |
+|     shift_reg[440].reg |     0.002 |
+|     shift_reg[441].reg |     0.002 |
+|     shift_reg[442].reg |     0.002 |
+|     shift_reg[443].reg |     0.002 |
+|     shift_reg[444].reg |     0.002 |
+|     shift_reg[446].reg |     0.002 |
+|     shift_reg[447].reg |     0.002 |
+|     shift_reg[448].reg |     0.002 |
+|     shift_reg[449].reg |     0.003 |
+|     shift_reg[44].reg  |     0.002 |
+|     shift_reg[450].reg |     0.001 |
+|     shift_reg[451].reg |     0.002 |
+|     shift_reg[452].reg |     0.002 |
+|     shift_reg[453].reg |     0.002 |
+|     shift_reg[454].reg |     0.002 |
+|     shift_reg[455].reg |     0.002 |
+|     shift_reg[456].reg |     0.002 |
+|     shift_reg[457].reg |     0.002 |
+|     shift_reg[458].reg |     0.002 |
+|     shift_reg[459].reg |     0.002 |
+|     shift_reg[45].reg  |     0.002 |
+|     shift_reg[460].reg |     0.002 |
+|     shift_reg[461].reg |     0.002 |
+|     shift_reg[462].reg |     0.002 |
+|     shift_reg[463].reg |     0.003 |
+|     shift_reg[464].reg |     0.002 |
+|     shift_reg[465].reg |     0.002 |
+|     shift_reg[466].reg |     0.002 |
+|     shift_reg[467].reg |     0.003 |
+|     shift_reg[468].reg |     0.003 |
+|     shift_reg[469].reg |     0.002 |
+|     shift_reg[46].reg  |     0.002 |
+|     shift_reg[470].reg |     0.002 |
+|     shift_reg[471].reg |     0.002 |
+|     shift_reg[472].reg |     0.002 |
+|     shift_reg[473].reg |     0.003 |
+|     shift_reg[474].reg |     0.002 |
+|     shift_reg[475].reg |     0.002 |
+|     shift_reg[476].reg |     0.002 |
+|     shift_reg[477].reg |     0.002 |
+|     shift_reg[478].reg |     0.002 |
+|     shift_reg[479].reg |     0.003 |
+|     shift_reg[47].reg  |     0.002 |
+|     shift_reg[480].reg |     0.002 |
+|     shift_reg[481].reg |     0.002 |
+|     shift_reg[482].reg |     0.001 |
+|     shift_reg[483].reg |     0.002 |
+|     shift_reg[484].reg |     0.002 |
+|     shift_reg[485].reg |     0.002 |
+|     shift_reg[486].reg |     0.002 |
+|     shift_reg[487].reg |     0.002 |
+|     shift_reg[488].reg |     0.002 |
+|     shift_reg[489].reg |     0.002 |
+|     shift_reg[48].reg  |     0.002 |
+|     shift_reg[490].reg |     0.002 |
+|     shift_reg[491].reg |     0.002 |
+|     shift_reg[492].reg |     0.001 |
+|     shift_reg[493].reg |     0.002 |
+|     shift_reg[494].reg |     0.002 |
+|     shift_reg[496].reg |     0.002 |
+|     shift_reg[497].reg |     0.002 |
+|     shift_reg[498].reg |     0.002 |
+|     shift_reg[499].reg |     0.002 |
+|     shift_reg[49].reg  |     0.002 |
+|     shift_reg[4].reg   |     0.003 |
+|     shift_reg[500].reg |     0.002 |
+|     shift_reg[501].reg |     0.002 |
+|     shift_reg[502].reg |     0.002 |
+|     shift_reg[503].reg |     0.002 |
+|     shift_reg[504].reg |     0.002 |
+|     shift_reg[505].reg |     0.002 |
+|     shift_reg[506].reg |     0.002 |
+|     shift_reg[507].reg |     0.002 |
+|     shift_reg[508].reg |     0.002 |
+|     shift_reg[509].reg |     0.002 |
+|     shift_reg[50].reg  |     0.002 |
+|     shift_reg[510].reg |     0.002 |
+|     shift_reg[511].reg |     0.002 |
+|     shift_reg[512].reg |     0.002 |
+|     shift_reg[513].reg |     0.002 |
+|     shift_reg[514].reg |     0.002 |
+|     shift_reg[515].reg |     0.002 |
+|     shift_reg[516].reg |     0.002 |
+|     shift_reg[517].reg |     0.002 |
+|     shift_reg[518].reg |     0.002 |
+|     shift_reg[519].reg |     0.002 |
+|     shift_reg[51].reg  |     0.002 |
+|     shift_reg[520].reg |     0.002 |
+|     shift_reg[521].reg |     0.002 |
+|     shift_reg[522].reg |     0.002 |
+|     shift_reg[523].reg |     0.002 |
+|     shift_reg[524].reg |     0.002 |
+|     shift_reg[525].reg |     0.002 |
+|     shift_reg[526].reg |     0.002 |
+|     shift_reg[527].reg |     0.002 |
+|     shift_reg[528].reg |     0.002 |
+|     shift_reg[529].reg |     0.002 |
+|     shift_reg[52].reg  |     0.002 |
+|     shift_reg[530].reg |     0.002 |
+|     shift_reg[531].reg |     0.002 |
+|     shift_reg[532].reg |     0.001 |
+|     shift_reg[533].reg |     0.002 |
+|     shift_reg[534].reg |     0.002 |
+|     shift_reg[535].reg |     0.002 |
+|     shift_reg[536].reg |     0.002 |
+|     shift_reg[537].reg |     0.003 |
+|     shift_reg[538].reg |     0.002 |
+|     shift_reg[539].reg |     0.002 |
+|     shift_reg[53].reg  |     0.002 |
+|     shift_reg[540].reg |     0.002 |
+|     shift_reg[541].reg |     0.003 |
+|     shift_reg[542].reg |     0.002 |
+|     shift_reg[543].reg |     0.002 |
+|     shift_reg[544].reg |     0.002 |
+|     shift_reg[545].reg |     0.003 |
+|     shift_reg[546].reg |     0.002 |
+|     shift_reg[547].reg |     0.002 |
+|     shift_reg[548].reg |     0.001 |
+|     shift_reg[549].reg |     0.002 |
+|     shift_reg[54].reg  |     0.002 |
+|     shift_reg[550].reg |     0.002 |
+|     shift_reg[551].reg |     0.002 |
+|     shift_reg[552].reg |     0.002 |
+|     shift_reg[553].reg |     0.002 |
+|     shift_reg[554].reg |     0.002 |
+|     shift_reg[555].reg |     0.002 |
+|     shift_reg[556].reg |     0.002 |
+|     shift_reg[557].reg |     0.002 |
+|     shift_reg[558].reg |     0.002 |
+|     shift_reg[55].reg  |     0.002 |
+|     shift_reg[560].reg |     0.002 |
+|     shift_reg[561].reg |     0.002 |
+|     shift_reg[562].reg |     0.002 |
+|     shift_reg[563].reg |     0.003 |
+|     shift_reg[564].reg |     0.001 |
+|     shift_reg[565].reg |     0.002 |
+|     shift_reg[566].reg |     0.002 |
+|     shift_reg[567].reg |     0.002 |
+|     shift_reg[568].reg |     0.002 |
+|     shift_reg[569].reg |     0.002 |
+|     shift_reg[56].reg  |     0.002 |
+|     shift_reg[570].reg |     0.002 |
+|     shift_reg[571].reg |     0.002 |
+|     shift_reg[572].reg |     0.001 |
+|     shift_reg[573].reg |     0.002 |
+|     shift_reg[574].reg |     0.002 |
+|     shift_reg[575].reg |     0.002 |
+|     shift_reg[576].reg |     0.002 |
+|     shift_reg[577].reg |     0.002 |
+|     shift_reg[578].reg |     0.002 |
+|     shift_reg[579].reg |     0.002 |
+|     shift_reg[57].reg  |     0.002 |
+|     shift_reg[580].reg |     0.001 |
+|     shift_reg[581].reg |     0.002 |
+|     shift_reg[582].reg |     0.002 |
+|     shift_reg[583].reg |     0.002 |
+|     shift_reg[584].reg |     0.002 |
+|     shift_reg[585].reg |     0.002 |
+|     shift_reg[586].reg |     0.002 |
+|     shift_reg[587].reg |     0.002 |
+|     shift_reg[588].reg |     0.001 |
+|     shift_reg[589].reg |     0.002 |
+|     shift_reg[58].reg  |     0.002 |
+|     shift_reg[590].reg |     0.002 |
+|     shift_reg[591].reg |     0.002 |
+|     shift_reg[592].reg |     0.002 |
+|     shift_reg[593].reg |     0.002 |
+|     shift_reg[594].reg |     0.002 |
+|     shift_reg[595].reg |     0.002 |
+|     shift_reg[596].reg |     0.002 |
+|     shift_reg[597].reg |     0.002 |
+|     shift_reg[598].reg |     0.002 |
+|     shift_reg[599].reg |     0.002 |
+|     shift_reg[59].reg  |     0.001 |
+|     shift_reg[5].reg   |     0.001 |
+|     shift_reg[600].reg |     0.002 |
+|     shift_reg[601].reg |     0.002 |
+|     shift_reg[602].reg |     0.002 |
+|     shift_reg[603].reg |     0.002 |
+|     shift_reg[604].reg |     0.002 |
+|     shift_reg[605].reg |     0.002 |
+|     shift_reg[606].reg |     0.002 |
+|     shift_reg[607].reg |     0.002 |
+|     shift_reg[608].reg |     0.001 |
+|     shift_reg[609].reg |     0.002 |
+|     shift_reg[60].reg  |     0.002 |
+|     shift_reg[610].reg |     0.002 |
+|     shift_reg[611].reg |     0.002 |
+|     shift_reg[612].reg |     0.002 |
+|     shift_reg[613].reg |     0.002 |
+|     shift_reg[614].reg |     0.002 |
+|     shift_reg[616].reg |     0.002 |
+|     shift_reg[617].reg |     0.002 |
+|     shift_reg[618].reg |     0.002 |
+|     shift_reg[619].reg |     0.003 |
+|     shift_reg[61].reg  |     0.002 |
+|     shift_reg[620].reg |     0.001 |
+|     shift_reg[621].reg |     0.002 |
+|     shift_reg[622].reg |     0.002 |
+|     shift_reg[623].reg |     0.002 |
+|     shift_reg[624].reg |     0.002 |
+|     shift_reg[625].reg |     0.002 |
+|     shift_reg[626].reg |     0.002 |
+|     shift_reg[627].reg |     0.002 |
+|     shift_reg[628].reg |     0.002 |
+|     shift_reg[629].reg |     0.002 |
+|     shift_reg[62].reg  |     0.002 |
+|     shift_reg[630].reg |     0.002 |
+|     shift_reg[632].reg |     0.002 |
+|     shift_reg[633].reg |     0.002 |
+|     shift_reg[634].reg |     0.002 |
+|     shift_reg[635].reg |     0.002 |
+|     shift_reg[636].reg |     0.002 |
+|     shift_reg[637].reg |     0.002 |
+|     shift_reg[638].reg |     0.002 |
+|     shift_reg[639].reg |     0.002 |
+|     shift_reg[63].reg  |     0.002 |
+|     shift_reg[640].reg |     0.002 |
+|     shift_reg[641].reg |     0.002 |
+|     shift_reg[642].reg |     0.002 |
+|     shift_reg[643].reg |     0.002 |
+|     shift_reg[644].reg |     0.002 |
+|     shift_reg[645].reg |     0.002 |
+|     shift_reg[646].reg |     0.002 |
+|     shift_reg[647].reg |     0.002 |
+|     shift_reg[648].reg |     0.002 |
+|     shift_reg[649].reg |     0.002 |
+|     shift_reg[64].reg  |     0.002 |
+|     shift_reg[650].reg |     0.002 |
+|     shift_reg[651].reg |     0.002 |
+|     shift_reg[652].reg |     0.001 |
+|     shift_reg[653].reg |     0.002 |
+|     shift_reg[654].reg |     0.002 |
+|     shift_reg[655].reg |     0.002 |
+|     shift_reg[656].reg |     0.002 |
+|     shift_reg[657].reg |     0.002 |
+|     shift_reg[658].reg |     0.002 |
+|     shift_reg[659].reg |     0.002 |
+|     shift_reg[65].reg  |     0.002 |
+|     shift_reg[660].reg |     0.002 |
+|     shift_reg[661].reg |     0.002 |
+|     shift_reg[662].reg |     0.002 |
+|     shift_reg[663].reg |     0.002 |
+|     shift_reg[664].reg |     0.002 |
+|     shift_reg[665].reg |     0.002 |
+|     shift_reg[666].reg |     0.002 |
+|     shift_reg[667].reg |     0.002 |
+|     shift_reg[668].reg |     0.002 |
+|     shift_reg[669].reg |     0.002 |
+|     shift_reg[66].reg  |     0.002 |
+|     shift_reg[670].reg |     0.002 |
+|     shift_reg[671].reg |     0.002 |
+|     shift_reg[672].reg |     0.002 |
+|     shift_reg[673].reg |     0.002 |
+|     shift_reg[674].reg |     0.002 |
+|     shift_reg[675].reg |     0.002 |
+|     shift_reg[676].reg |     0.002 |
+|     shift_reg[677].reg |     0.002 |
+|     shift_reg[678].reg |     0.002 |
+|     shift_reg[679].reg |     0.001 |
+|     shift_reg[67].reg  |     0.002 |
+|     shift_reg[680].reg |     0.002 |
+|     shift_reg[681].reg |     0.002 |
+|     shift_reg[682].reg |     0.002 |
+|     shift_reg[683].reg |     0.002 |
+|     shift_reg[684].reg |     0.002 |
+|     shift_reg[685].reg |     0.002 |
+|     shift_reg[686].reg |     0.002 |
+|     shift_reg[687].reg |     0.002 |
+|     shift_reg[688].reg |     0.002 |
+|     shift_reg[689].reg |     0.001 |
+|     shift_reg[68].reg  |     0.002 |
+|     shift_reg[690].reg |     0.002 |
+|     shift_reg[691].reg |     0.002 |
+|     shift_reg[692].reg |     0.002 |
+|     shift_reg[693].reg |     0.002 |
+|     shift_reg[694].reg |     0.002 |
+|     shift_reg[695].reg |     0.002 |
+|     shift_reg[696].reg |     0.002 |
+|     shift_reg[697].reg |     0.002 |
+|     shift_reg[698].reg |     0.002 |
+|     shift_reg[699].reg |     0.002 |
+|     shift_reg[69].reg  |     0.002 |
+|     shift_reg[6].reg   |     0.001 |
+|     shift_reg[700].reg |     0.002 |
+|     shift_reg[701].reg |     0.002 |
+|     shift_reg[702].reg |     0.002 |
+|     shift_reg[703].reg |     0.002 |
+|     shift_reg[704].reg |     0.003 |
+|     shift_reg[705].reg |     0.002 |
+|     shift_reg[706].reg |     0.002 |
+|     shift_reg[707].reg |     0.002 |
+|     shift_reg[708].reg |     0.002 |
+|     shift_reg[709].reg |     0.002 |
+|     shift_reg[70].reg  |     0.002 |
+|     shift_reg[710].reg |     0.002 |
+|     shift_reg[711].reg |     0.002 |
+|     shift_reg[712].reg |     0.002 |
+|     shift_reg[713].reg |     0.002 |
+|     shift_reg[714].reg |     0.002 |
+|     shift_reg[715].reg |     0.002 |
+|     shift_reg[716].reg |     0.002 |
+|     shift_reg[717].reg |     0.002 |
+|     shift_reg[718].reg |     0.002 |
+|     shift_reg[719].reg |     0.002 |
+|     shift_reg[71].reg  |     0.002 |
+|     shift_reg[720].reg |     0.002 |
+|     shift_reg[721].reg |     0.003 |
+|     shift_reg[722].reg |     0.002 |
+|     shift_reg[723].reg |     0.002 |
+|     shift_reg[724].reg |     0.002 |
+|     shift_reg[725].reg |     0.002 |
+|     shift_reg[726].reg |     0.002 |
+|     shift_reg[727].reg |     0.001 |
+|     shift_reg[728].reg |     0.002 |
+|     shift_reg[729].reg |     0.002 |
+|     shift_reg[72].reg  |     0.002 |
+|     shift_reg[730].reg |     0.002 |
+|     shift_reg[731].reg |     0.003 |
+|     shift_reg[732].reg |     0.002 |
+|     shift_reg[733].reg |     0.002 |
+|     shift_reg[734].reg |     0.002 |
+|     shift_reg[735].reg |     0.002 |
+|     shift_reg[736].reg |     0.002 |
+|     shift_reg[737].reg |     0.002 |
+|     shift_reg[738].reg |     0.002 |
+|     shift_reg[739].reg |     0.002 |
+|     shift_reg[73].reg  |     0.002 |
+|     shift_reg[740].reg |     0.002 |
+|     shift_reg[741].reg |     0.002 |
+|     shift_reg[742].reg |     0.003 |
+|     shift_reg[743].reg |     0.002 |
+|     shift_reg[744].reg |     0.002 |
+|     shift_reg[745].reg |     0.002 |
+|     shift_reg[746].reg |     0.002 |
+|     shift_reg[747].reg |     0.002 |
+|     shift_reg[748].reg |     0.002 |
+|     shift_reg[749].reg |     0.002 |
+|     shift_reg[74].reg  |     0.002 |
+|     shift_reg[750].reg |     0.002 |
+|     shift_reg[751].reg |     0.002 |
+|     shift_reg[752].reg |     0.002 |
+|     shift_reg[753].reg |     0.003 |
+|     shift_reg[754].reg |     0.002 |
+|     shift_reg[755].reg |     0.002 |
+|     shift_reg[756].reg |     0.002 |
+|     shift_reg[757].reg |     0.002 |
+|     shift_reg[758].reg |     0.002 |
+|     shift_reg[75].reg  |     0.002 |
+|     shift_reg[760].reg |     0.003 |
+|     shift_reg[761].reg |     0.002 |
+|     shift_reg[762].reg |     0.002 |
+|     shift_reg[763].reg |     0.003 |
+|     shift_reg[764].reg |     0.002 |
+|     shift_reg[765].reg |     0.003 |
+|     shift_reg[766].reg |     0.002 |
+|     shift_reg[767].reg |     0.002 |
+|     shift_reg[768].reg |     0.002 |
+|     shift_reg[769].reg |     0.003 |
+|     shift_reg[76].reg  |     0.002 |
+|     shift_reg[770].reg |     0.003 |
+|     shift_reg[771].reg |     0.002 |
+|     shift_reg[772].reg |     0.002 |
+|     shift_reg[773].reg |     0.002 |
+|     shift_reg[774].reg |     0.002 |
+|     shift_reg[775].reg |     0.002 |
+|     shift_reg[776].reg |     0.002 |
+|     shift_reg[777].reg |     0.002 |
+|     shift_reg[778].reg |     0.002 |
+|     shift_reg[779].reg |     0.002 |
+|     shift_reg[77].reg  |     0.002 |
+|     shift_reg[780].reg |     0.002 |
+|     shift_reg[781].reg |     0.002 |
+|     shift_reg[782].reg |     0.002 |
+|     shift_reg[783].reg |     0.002 |
+|     shift_reg[784].reg |     0.002 |
+|     shift_reg[785].reg |     0.002 |
+|     shift_reg[786].reg |     0.002 |
+|     shift_reg[787].reg |     0.002 |
+|     shift_reg[788].reg |     0.002 |
+|     shift_reg[789].reg |     0.002 |
+|     shift_reg[78].reg  |     0.002 |
+|     shift_reg[790].reg |     0.002 |
+|     shift_reg[791].reg |     0.002 |
+|     shift_reg[792].reg |     0.001 |
+|     shift_reg[793].reg |     0.002 |
+|     shift_reg[794].reg |     0.002 |
+|     shift_reg[795].reg |     0.002 |
+|     shift_reg[796].reg |     0.002 |
+|     shift_reg[797].reg |     0.002 |
+|     shift_reg[798].reg |     0.002 |
+|     shift_reg[799].reg |     0.002 |
+|     shift_reg[79].reg  |     0.002 |
+|     shift_reg[7].reg   |     0.002 |
+|     shift_reg[800].reg |     0.002 |
+|     shift_reg[801].reg |     0.002 |
+|     shift_reg[802].reg |     0.002 |
+|     shift_reg[803].reg |     0.002 |
+|     shift_reg[804].reg |     0.002 |
+|     shift_reg[805].reg |     0.002 |
+|     shift_reg[806].reg |     0.002 |
+|     shift_reg[807].reg |     0.002 |
+|     shift_reg[808].reg |     0.002 |
+|     shift_reg[809].reg |     0.002 |
+|     shift_reg[80].reg  |     0.002 |
+|     shift_reg[810].reg |     0.002 |
+|     shift_reg[811].reg |     0.002 |
+|     shift_reg[812].reg |     0.002 |
+|     shift_reg[813].reg |     0.002 |
+|     shift_reg[814].reg |     0.002 |
+|     shift_reg[815].reg |     0.002 |
+|     shift_reg[816].reg |     0.002 |
+|     shift_reg[817].reg |     0.002 |
+|     shift_reg[818].reg |     0.002 |
+|     shift_reg[819].reg |     0.002 |
+|     shift_reg[81].reg  |     0.002 |
+|     shift_reg[820].reg |     0.002 |
+|     shift_reg[821].reg |     0.002 |
+|     shift_reg[822].reg |     0.002 |
+|     shift_reg[823].reg |     0.001 |
+|     shift_reg[824].reg |     0.002 |
+|     shift_reg[825].reg |     0.002 |
+|     shift_reg[826].reg |     0.002 |
+|     shift_reg[827].reg |     0.002 |
+|     shift_reg[828].reg |     0.002 |
+|     shift_reg[829].reg |     0.002 |
+|     shift_reg[82].reg  |     0.001 |
+|     shift_reg[830].reg |     0.002 |
+|     shift_reg[831].reg |     0.002 |
+|     shift_reg[832].reg |     0.002 |
+|     shift_reg[833].reg |     0.002 |
+|     shift_reg[834].reg |     0.002 |
+|     shift_reg[835].reg |     0.002 |
+|     shift_reg[836].reg |     0.003 |
+|     shift_reg[837].reg |     0.002 |
+|     shift_reg[838].reg |     0.002 |
+|     shift_reg[839].reg |     0.001 |
+|     shift_reg[83].reg  |     0.002 |
+|     shift_reg[840].reg |     0.002 |
+|     shift_reg[841].reg |     0.003 |
+|     shift_reg[842].reg |     0.002 |
+|     shift_reg[843].reg |     0.002 |
+|     shift_reg[844].reg |     0.002 |
+|     shift_reg[845].reg |     0.002 |
+|     shift_reg[846].reg |     0.002 |
+|     shift_reg[847].reg |     0.002 |
+|     shift_reg[848].reg |     0.002 |
+|     shift_reg[849].reg |     0.002 |
+|     shift_reg[84].reg  |     0.002 |
+|     shift_reg[850].reg |     0.002 |
+|     shift_reg[851].reg |     0.002 |
+|     shift_reg[852].reg |     0.002 |
+|     shift_reg[853].reg |     0.002 |
+|     shift_reg[854].reg |     0.002 |
+|     shift_reg[855].reg |     0.002 |
+|     shift_reg[856].reg |     0.002 |
+|     shift_reg[857].reg |     0.002 |
+|     shift_reg[858].reg |     0.002 |
+|     shift_reg[859].reg |     0.002 |
+|     shift_reg[85].reg  |     0.002 |
+|     shift_reg[860].reg |     0.002 |
+|     shift_reg[861].reg |     0.002 |
+|     shift_reg[862].reg |     0.002 |
+|     shift_reg[863].reg |     0.003 |
+|     shift_reg[864].reg |     0.002 |
+|     shift_reg[865].reg |     0.002 |
+|     shift_reg[866].reg |     0.002 |
+|     shift_reg[867].reg |     0.003 |
+|     shift_reg[868].reg |     0.002 |
+|     shift_reg[869].reg |     0.002 |
+|     shift_reg[86].reg  |     0.002 |
+|     shift_reg[870].reg |     0.001 |
+|     shift_reg[871].reg |     0.002 |
+|     shift_reg[872].reg |     0.002 |
+|     shift_reg[873].reg |     0.002 |
+|     shift_reg[874].reg |     0.002 |
+|     shift_reg[875].reg |     0.002 |
+|     shift_reg[876].reg |     0.002 |
+|     shift_reg[877].reg |     0.002 |
+|     shift_reg[878].reg |     0.002 |
+|     shift_reg[879].reg |     0.003 |
+|     shift_reg[87].reg  |     0.002 |
+|     shift_reg[880].reg |     0.002 |
+|     shift_reg[881].reg |     0.002 |
+|     shift_reg[882].reg |     0.003 |
+|     shift_reg[883].reg |     0.002 |
+|     shift_reg[884].reg |     0.002 |
+|     shift_reg[88].reg  |     0.002 |
+|     shift_reg[89].reg  |     0.002 |
+|     shift_reg[8].reg   |     0.002 |
+|     shift_reg[90].reg  |     0.002 |
+|     shift_reg[91].reg  |     0.002 |
+|     shift_reg[92].reg  |     0.002 |
+|     shift_reg[93].reg  |     0.002 |
+|     shift_reg[94].reg  |     0.002 |
+|     shift_reg[95].reg  |     0.002 |
+|     shift_reg[96].reg  |     0.002 |
+|     shift_reg[97].reg  |     0.002 |
+|     shift_reg[98].reg  |     0.002 |
+|     shift_reg[99].reg  |     0.002 |
+|     shift_reg[9].reg   |     0.002 |
+|   IIR                  |     0.370 |
++------------------------+-----------+
+
+

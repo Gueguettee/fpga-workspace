@@ -14,6 +14,7 @@ use ieee.numeric_std.all;
 package SD_filter_pkg is
 
     constant B : integer := 10;
+    constant B_FIR : integer := 8;
     constant B_IIR : integer := 8;
 
     component DFF is
@@ -38,12 +39,15 @@ package SD_filter_pkg is
     );
     port (
         bitstream_i : in STD_LOGIC;
-        filtered_o : out STD_LOGIC_VECTOR (B-1 downto 0);
+        filtered_o : out STD_LOGIC_VECTOR (B_FIR-1 downto 0);
         reset_i : in STD_LOGIC;
         clock_i : in STD_LOGIC);
     end component;
 
-    component IIR_LP1o 
+    component IIR_LP1o
+    generic (
+        d : integer := 7
+    );
     port (
         bitstream_i : in STD_LOGIC;
         filtered_o : out STD_LOGIC_VECTOR (B_IIR-1 downto 0);
