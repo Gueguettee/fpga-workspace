@@ -1,0 +1,376 @@
+{
+   "ActiveEmotionalView":"Color Coded",
+   "Addressing View_Layers":"/proc_sys_reset_0_peripheral_aresetn:false|/rst_ps7_0_100M_peripheral_aresetn:false|/reset_i_0_1:false|/processing_system7_0_FCLK_CLK1:false|/rst_ps7_0_100M_interconnect_aresetn:false|/processing_system7_0_FCLK_CLK0:false|/processing_system7_0_FCLK_RESET0_N:false|",
+   "Addressing View_ScaleFactor":"1.0",
+   "Addressing View_TopLeft":"-480,-370",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1690 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1690 -y 80 -defaultsOSRD
+preplace port port-id_FMC_LA26_P -pg 1 -lvl 5 -x 1690 -y 420 -defaultsOSRD
+preplace port port-id_FMC_LA22_N -pg 1 -lvl 0 -x -160 -y 660 -defaultsOSRD
+preplace port port-id_FMC_LA23_N -pg 1 -lvl 5 -x 1690 -y 440 -defaultsOSRD
+preplace port port-id_FMC_LA27_P -pg 1 -lvl 5 -x 1690 -y 460 -defaultsOSRD
+preplace port port-id_btn_d_i -pg 1 -lvl 0 -x -160 -y 560 -defaultsOSRD
+preplace port port-id_btn_l_i -pg 1 -lvl 0 -x -160 -y 580 -defaultsOSRD
+preplace port port-id_btn_r_i -pg 1 -lvl 0 -x -160 -y 600 -defaultsOSRD
+preplace port port-id_btn_u_i -pg 1 -lvl 0 -x -160 -y 540 -defaultsOSRD
+preplace port port-id_clk_i -pg 1 -lvl 0 -x -160 -y 20 -defaultsOSRD
+preplace port port-id_reset_i -pg 1 -lvl 0 -x -160 -y 500 -defaultsOSRD
+preplace port port-id_FMC_LA23_P -pg 1 -lvl 5 -x 1690 -y 500 -defaultsOSRD
+preplace port port-id_FMC_LA20_N -pg 1 -lvl 5 -x 1690 -y 520 -defaultsOSRD
+preplace port port-id_FMC_LA18_CC_P -pg 1 -lvl 0 -x -160 -y 680 -defaultsOSRD
+preplace port port-id_FMC_LA01_CC_N -pg 1 -lvl 5 -x 1690 -y -70 -defaultsOSRD
+preplace port port-id_FMC_LA18_CC_N -pg 1 -lvl 5 -x 1690 -y 200 -defaultsOSRD
+preplace port port-id_FMC_LA33_P -pg 1 -lvl 0 -x -160 -y 700 -defaultsOSRD
+preplace port port-id_FMC_LA26_N -pg 1 -lvl 0 -x -160 -y 720 -defaultsOSRD
+preplace port port-id_FMC_LA27_N -pg 1 -lvl 0 -x -160 -y 740 -defaultsOSRD
+preplace port port-id_FMC_LA00_CC_N -pg 1 -lvl 5 -x 1690 -y 620 -defaultsOSRD
+preplace port port-id_FMC_LA00_CC_P -pg 1 -lvl 0 -x -160 -y 760 -defaultsOSRD
+preplace port port-id_FMC_LA02_P -pg 1 -lvl 5 -x 1690 -y 640 -defaultsOSRD
+preplace port port-id_FMC_LA19_N -pg 1 -lvl 5 -x 1690 -y 540 -defaultsOSRD
+preplace port port-id_IQ_rdy_PL_o -pg 1 -lvl 5 -x 1690 -y 220 -defaultsOSRD
+preplace port port-id_write_IQ_o -pg 1 -lvl 5 -x 1690 -y 380 -defaultsOSRD
+preplace port port-id_SWR_TX_SER -pg 1 -lvl 5 -x 1690 -y 660 -defaultsOSRD
+preplace port port-id_SWR_TX_SRCLK -pg 1 -lvl 5 -x 1690 -y 680 -defaultsOSRD
+preplace port port-id_SWR_TX_RCLK -pg 1 -lvl 5 -x 1690 -y 720 -defaultsOSRD
+preplace port port-id_SWR_TX_SRCLR -pg 1 -lvl 5 -x 1690 -y 700 -defaultsOSRD
+preplace port port-id_SWR_RX_SER -pg 1 -lvl 5 -x 1690 -y 740 -defaultsOSRD
+preplace port port-id_SWR_RX_SRCLK -pg 1 -lvl 5 -x 1690 -y 760 -defaultsOSRD
+preplace port port-id_SWR_RX_SRCLR -pg 1 -lvl 5 -x 1690 -y 780 -defaultsOSRD
+preplace port port-id_SWR_RX_RCLK -pg 1 -lvl 5 -x 1690 -y 800 -defaultsOSRD
+preplace port port-id_FMC_LA22_P -pg 1 -lvl 5 -x 1690 -y 480 -defaultsOSRD
+preplace port port-id_FMC_LA19_P -pg 1 -lvl 5 -x 1690 -y 560 -defaultsOSRD
+preplace portBus led_o -pg 1 -lvl 5 -x 1690 -y 400 -defaultsOSRD
+preplace portBus sw_i -pg 1 -lvl 0 -x -160 -y 520 -defaultsOSRD
+preplace portBus ADC_TX_i -pg 1 -lvl 0 -x -160 -y 620 -defaultsOSRD
+preplace portBus ADC_RX_i -pg 1 -lvl 0 -x -160 -y 640 -defaultsOSRD
+preplace portBus V_o -pg 1 -lvl 5 -x 1690 -y 830 -defaultsOSRD
+preplace inst TL_VNA_MAIN_0 -pg 1 -lvl 4 -x 1420 -y 510 -defaultsOSRD
+preplace inst PL_registers_0 -pg 1 -lvl 3 -x 990 -y 400 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 30 29 36 28 35 33 34 31 32} -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 90 -y 400 -swap {0 4 1 2 3 6 7 8 5 9} -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 90 -y 180 -defaultsOSRD -resize 319 220
+preplace inst rst_ps7_0_80M -pg 1 -lvl 2 -x 490 -y 400 -defaultsOSRD
+preplace inst axi_clock_converter_0 -pg 1 -lvl 3 -x 990 -y 10 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 43 40 41 42} -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -x 490 -y 170 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 62 60 63 61 64} -defaultsOSRD
+preplace netloc ADC_RX_i_0_1 1 0 4 -130J 620 NJ 620 NJ 620 1240
+preplace netloc ADC_TX_i_0_1 1 0 4 -140J 590 NJ 590 NJ 590 N
+preplace netloc FMC_LA00_CC_P_1 1 0 4 NJ 760 NJ 760 NJ 760 1240
+preplace netloc FMC_LA04_P_0_1 1 0 4 -110J 630 NJ 630 NJ 630 N
+preplace netloc FMC_LA26_N_1 1 0 4 NJ 720 NJ 720 NJ 720 1200
+preplace netloc FMC_LA27_N_1 1 0 4 NJ 740 NJ 740 NJ 740 1230
+preplace netloc FMC_LA33_P_1 1 0 4 NJ 700 NJ 700 NJ 700 1170
+preplace netloc LO_MUXout_i_0_1 1 0 4 NJ 680 NJ 680 NJ 680 1150
+preplace netloc PL_registers_0_freq_done_o 1 3 1 NJ 370
+preplace netloc PL_registers_0_freq_val_o 1 3 1 NJ 410
+preplace netloc PL_registers_0_ifbw_val_o 1 3 1 NJ 430
+preplace netloc PL_registers_0_init_meas_o 1 3 1 NJ 350
+preplace netloc PL_registers_0_path_done_o 1 3 1 NJ 390
+preplace netloc PL_registers_0_path_rx_val_o 1 3 1 NJ 470
+preplace netloc PL_registers_0_path_tx_val_o 1 3 1 NJ 450
+preplace netloc PL_registers_0_start_PL_o 1 3 1 NJ 330
+preplace netloc S00_ARESETN_1 1 1 2 310 -10 N
+preplace netloc TL_VNA_MAIN_0_CSB_o 1 4 1 NJ 640
+preplace netloc TL_VNA_MAIN_0_FMC_LA04_N 1 4 1 NJ 420
+preplace netloc TL_VNA_MAIN_0_FMC_LA07_N 1 4 1 NJ 440
+preplace netloc TL_VNA_MAIN_0_FMC_LA07_P 1 4 1 NJ 460
+preplace netloc TL_VNA_MAIN_0_IQ_rdy_PL_o 1 2 3 780 150 1200 100 1660J
+preplace netloc TL_VNA_MAIN_0_I_RX_PL_o 1 2 3 760 140 N 140 1600
+preplace netloc TL_VNA_MAIN_0_I_TX_PL_o 1 2 3 800 160 1210 110 1620
+preplace netloc TL_VNA_MAIN_0_LO_CE_o 1 4 1 NJ 560
+preplace netloc TL_VNA_MAIN_0_LO_CSB_o 1 4 1 NJ 520
+preplace netloc TL_VNA_MAIN_0_LO_SCK_o 1 4 1 NJ 500
+preplace netloc TL_VNA_MAIN_0_LO_SDI_o 1 4 1 NJ 540
+preplace netloc TL_VNA_MAIN_0_Q_RX_PL_o 1 2 3 770 170 1230 120 1610
+preplace netloc TL_VNA_MAIN_0_Q_TX_PL_o 1 2 3 790 180 1240 130 1590
+preplace netloc TL_VNA_MAIN_0_RF_CE_o 1 4 1 NJ 480
+preplace netloc TL_VNA_MAIN_0_SCLK_o 1 4 1 NJ 620
+preplace netloc TL_VNA_MAIN_0_SPM_data_o 1 2 3 810 220 1220 80 1630
+preplace netloc TL_VNA_MAIN_0_SWR_RX_RCLK_o 1 4 1 NJ 800
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SER_o 1 4 1 NJ 740
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SRCLK_o 1 4 1 NJ 760
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SRCLR_o 1 4 1 NJ 780
+preplace netloc TL_VNA_MAIN_0_SWR_TX_RCLK_o 1 4 1 NJ 720
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SER_o 1 4 1 NJ 660
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SRCLK_o 1 4 1 NJ 680
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SRCLR_o 1 4 1 NJ 700
+preplace netloc TL_VNA_MAIN_0_clk_100_o 1 4 1 NJ 200
+preplace netloc TL_VNA_MAIN_0_clk_80_o 1 1 4 320 300 750 130 1160 60 1640
+preplace netloc TL_VNA_MAIN_0_led_o 1 4 1 NJ 400
+preplace netloc TL_VNA_MAIN_0_output_tilt_o 1 2 3 820 190 1190 50 1650
+preplace netloc TL_VNA_MAIN_0_write_IQ_o 1 4 1 NJ 380
+preplace netloc btn_d_i_0_1 1 0 4 -140J 570 NJ 570 NJ 570 1190
+preplace netloc btn_l_i_0_1 1 0 4 NJ 580 NJ 580 NJ 580 1210
+preplace netloc btn_r_i_0_1 1 0 4 NJ 600 NJ 600 NJ 600 1240
+preplace netloc btn_u_i_0_1 1 0 4 -120J 640 NJ 640 NJ 640 1220
+preplace netloc clk_i_1 1 0 4 NJ 20 NJ 20 740 210 1240
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -90 50 290 30 680
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 -90 500 270
+preplace netloc reset_i_0_1 1 0 4 -120J 510 NJ 510 800J 550 1150
+preplace netloc rst_ps7_0_100M1_interconnect_aresetn 1 2 1 720 30n
+preplace netloc sw_i_0_1 1 0 4 NJ 520 NJ 520 660J 560 1170
+preplace netloc TL_VNA_MAIN_0_V_o 1 4 1 1640 820n
+preplace netloc S00_AXI_1 1 1 1 320 110n
+preplace netloc axi_clock_converter_0_M_AXI 1 2 2 830 200 1150
+preplace netloc axi_interconnect_1_M00_AXI 1 2 1 660 -30n
+preplace netloc processing_system7_1_DDR 1 1 4 300J 50 670J 120 1170J 70 1660J
+preplace netloc processing_system7_1_FIXED_IO 1 1 4 270J 40 730J 110 1180J 90 1660J
+levelinfo -pg 1 -160 90 490 990 1420 1690
+pagesize -pg 1 -db -bbox -sgen -330 -90 1930 1370
+",
+   "Color Coded_PinnedBlocks":"/rst_ps7_0_100M|/processing_system7_0|/rst_ps7_0_80M|/axi_interconnect_0|/axi_clock_converter_0|/TL_VNA_MAIN_0|/PL_registers_0|",
+   "Color Coded_ScaleFactor":"1.73554",
+   "Color Coded_TopLeft":"1264,546",
+   "Default View_Layers":"/proc_sys_reset_0_peripheral_aresetn:true|/rst_ps7_0_100M_peripheral_aresetn:true|/reset_i_0_1:true|/processing_system7_0_FCLK_CLK1:true|/rst_ps7_0_100M_interconnect_aresetn:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_RESET0_N:true|",
+   "Default View_ScaleFactor":"0.488588",
+   "Default View_TopLeft":"-790,-483",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_Layers":"/proc_sys_reset_0_peripheral_aresetn:true|/rst_ps7_0_100M_peripheral_aresetn:true|/reset_i_0_1:true|/processing_system7_0_FCLK_CLK1:true|/rst_ps7_0_100M_interconnect_aresetn:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_RESET0_N:true|",
+   "Grouping and No Loops_ScaleFactor":"1.0",
+   "Grouping and No Loops_TopLeft":"-57,-78",
+   "Interfaces View_Layers":"/proc_sys_reset_0_peripheral_aresetn:false|/rst_ps7_0_100M_peripheral_aresetn:false|/reset_i_0_1:false|/processing_system7_0_FCLK_CLK1:false|/rst_ps7_0_100M_interconnect_aresetn:false|/processing_system7_0_FCLK_CLK0:false|/processing_system7_0_FCLK_RESET0_N:false|/rst_ps7_0_100M1_interconnect_aresetn:false|/S00_ARESETN_1:false|",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-480,-349",
+   "No Loops_ScaleFactor":"0.777506",
+   "No Loops_TopLeft":"-244,26",
+   "PinnedBlocks":"/processing_system7_0|/TL_VNA_MAIN_0|/ps7_0_axi_periph|/PL_registers_0|/rst_ps7_0_100M|/rst_ps7_0_40M|",
+   "PinnedPorts":"FMC_LA26_P|FMC_LA22_N|FMC_LA23_N|FMC_LA27_P|btn_d_i|btn_l_i|btn_r_i|btn_u_i|clk_i|led_o|reset_i|sw_i|FMC_LA23_P|FMC_LA20_N|FMC_LA18_CC_P|FMC_LA01_CC_N|FMC_LA18_CC_N|ADC_TX_i|ADC_RX_i|FMC_LA33_P|FMC_LA26_N|FMC_LA27_N|FMC_LA00_CC_N|FMC_LA00_CC_P|FMC_LA02_P|FMC_LA19_N|IQ_rdy_PL_o|write_IQ_o|SWR_TX_SER|SWR_TX_SRCLK|SWR_TX_RCLK|SWR_TX_SRCLR|SWR_RX_SER|SWR_RX_SRCLK|SWR_RX_SRCLR|SWR_RX_RCLK|DDR|FIXED_IO|",
+   "Reduced Jogs_ExpandedHierarchyInLayout":"",
+   "Reduced Jogs_Layers":"/proc_sys_reset_0_peripheral_aresetn:true|/rst_ps7_0_100M_peripheral_aresetn:true|/reset_i_0_1:true|/processing_system7_0_FCLK_CLK1:true|/rst_ps7_0_100M_interconnect_aresetn:true|/processing_system7_0_FCLK_CLK0:true|/processing_system7_0_FCLK_RESET0_N:true|/rst_ps7_0_100M1_interconnect_aresetn:true|/S00_ARESETN_1:true|",
+   "Reduced Jogs_Layout":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1840 -y 70 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1840 -y 90 -defaultsOSRD
+preplace port port-id_FMC_LA26_P -pg 1 -lvl 5 -x 1840 -y 990 -defaultsOSRD
+preplace port port-id_FMC_LA22_N -pg 1 -lvl 0 -x 0 -y 1010 -defaultsOSRD
+preplace port port-id_FMC_LA23_N -pg 1 -lvl 5 -x 1840 -y 1010 -defaultsOSRD
+preplace port port-id_FMC_LA27_P -pg 1 -lvl 5 -x 1840 -y 1030 -defaultsOSRD
+preplace port port-id_btn_d_i -pg 1 -lvl 0 -x 0 -y 910 -defaultsOSRD
+preplace port port-id_btn_l_i -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace port port-id_btn_r_i -pg 1 -lvl 0 -x 0 -y 950 -defaultsOSRD
+preplace port port-id_btn_u_i -pg 1 -lvl 0 -x 0 -y 890 -defaultsOSRD
+preplace port port-id_clk_i -pg 1 -lvl 0 -x 0 -y 550 -defaultsOSRD
+preplace port port-id_reset_i -pg 1 -lvl 0 -x 0 -y 850 -defaultsOSRD
+preplace port port-id_FMC_LA23_P -pg 1 -lvl 5 -x 1840 -y 1070 -defaultsOSRD
+preplace port port-id_FMC_LA20_N -pg 1 -lvl 5 -x 1840 -y 1090 -defaultsOSRD
+preplace port port-id_FMC_LA18_CC_P -pg 1 -lvl 0 -x 0 -y 1030 -defaultsOSRD
+preplace port port-id_FMC_LA01_CC_N -pg 1 -lvl 5 -x 1840 -y 20 -defaultsOSRD
+preplace port port-id_FMC_LA18_CC_N -pg 1 -lvl 5 -x 1840 -y 550 -defaultsOSRD
+preplace port port-id_FMC_LA33_P -pg 1 -lvl 0 -x 0 -y 1050 -defaultsOSRD
+preplace port port-id_FMC_LA26_N -pg 1 -lvl 0 -x 0 -y 1070 -defaultsOSRD
+preplace port port-id_FMC_LA27_N -pg 1 -lvl 0 -x 0 -y 1090 -defaultsOSRD
+preplace port port-id_FMC_LA00_CC_N -pg 1 -lvl 5 -x 1840 -y 1150 -defaultsOSRD
+preplace port port-id_FMC_LA00_CC_P -pg 1 -lvl 0 -x 0 -y 1110 -defaultsOSRD
+preplace port port-id_FMC_LA02_P -pg 1 -lvl 5 -x 1840 -y 1170 -defaultsOSRD
+preplace port port-id_FMC_LA19_N -pg 1 -lvl 5 -x 1840 -y 1110 -defaultsOSRD
+preplace port port-id_IQ_rdy_PL_o -pg 1 -lvl 5 -x 1840 -y 930 -defaultsOSRD
+preplace port port-id_write_IQ_o -pg 1 -lvl 5 -x 1840 -y 950 -defaultsOSRD
+preplace port port-id_SWR_TX_SER -pg 1 -lvl 5 -x 1840 -y 1190 -defaultsOSRD
+preplace port port-id_SWR_TX_SRCLK -pg 1 -lvl 5 -x 1840 -y 1210 -defaultsOSRD
+preplace port port-id_SWR_TX_RCLK -pg 1 -lvl 5 -x 1840 -y 1250 -defaultsOSRD
+preplace port port-id_SWR_TX_SRCLR -pg 1 -lvl 5 -x 1840 -y 1230 -defaultsOSRD
+preplace port port-id_SWR_RX_SER -pg 1 -lvl 5 -x 1840 -y 1270 -defaultsOSRD
+preplace port port-id_SWR_RX_SRCLK -pg 1 -lvl 5 -x 1840 -y 1310 -defaultsOSRD
+preplace port port-id_SWR_RX_SRCLR -pg 1 -lvl 5 -x 1840 -y 1330 -defaultsOSRD
+preplace port port-id_SWR_RX_RCLK -pg 1 -lvl 5 -x 1840 -y 1350 -defaultsOSRD
+preplace port port-id_FMC_LA22_P -pg 1 -lvl 5 -x 1840 -y 1050 -defaultsOSRD
+preplace port port-id_FMC_LA19_P -pg 1 -lvl 5 -x 1840 -y 1130 -defaultsOSRD
+preplace portBus led_o -pg 1 -lvl 5 -x 1840 -y 970 -defaultsOSRD
+preplace portBus sw_i -pg 1 -lvl 0 -x 0 -y 870 -defaultsOSRD
+preplace portBus ADC_TX_i -pg 1 -lvl 0 -x 0 -y 970 -defaultsOSRD
+preplace portBus ADC_RX_i -pg 1 -lvl 0 -x 0 -y 990 -defaultsOSRD
+preplace inst TL_VNA_MAIN_0 -pg 1 -lvl 3 -x 1150 -y 650 -swap {12 13 2 3 15 19 10 9 11 8 7 6 1 0 21 4 5 14 18 29 20 30 22 23 24 25 26 27 28 31 32 34 35 33 36 37 38 42 16 39 40 41 17 43 44 45 46 47 48 49 50 52 53 54 51} -defaultsOSRD -pinY clk_i 180L -pinY reset_i 200L -pinY clk_100_o 20R -pinY clk_80_o 40R -pinY clk_40_o 120R -pinY clk_10_o 200R -pinY start_PL_i 140L -pinY init_meas_i 120L -pinY freq_done_i 160L -pinY path_done_i 100L -pinBusY freq_val_i 80L -pinBusY ifbw_val_i 60L -pinBusY path_tx_val_i 40L -pinBusY path_rx_val_i 20L -pinY IQ_rdy_PL_o 220R -pinBusY I_TX_PL_o 60R -pinBusY Q_TX_PL_o 80R -pinBusY I_RX_PL_o 100R -pinBusY Q_RX_PL_o 180R -pinY write_IQ_o 300R -pinBusY sw_i 220L -pinBusY led_o 320R -pinY btn_u_i 240L -pinY btn_d_i 260L -pinY btn_l_i 280L -pinY btn_r_i 300L -pinBusY ADC_TX_i 320L -pinBusY ADC_RX_i 340L -pinY RF_MUXout_i 360L -pinY RF_SCK_o 340R -pinY RF_CSB_o 360R -pinY RF_SDI_o 380R -pinY RF_CE_o 400R -pinY LO_MUXout_i 380L -pinY LO_SCK_o 420R -pinY LO_CSB_o 440R -pinY LO_SDI_o 460R -pinY LO_CE_o 480R -pinBusY output_tilt_o 140R -pinY input_tilt_1 400L -pinY input_tilt_2 420L -pinY input_tilt_3 440L -pinBusY SPM_data_o 160R -pinY SPM_MISO_i 460L -pinY SPM_SCLK_o 500R -pinY SPM_CSB_o 520R -pinY SWR_TX_SER_o 540R -pinY SWR_TX_SRCLK_o 560R -pinY SWR_TX_SRCLR_o 580R -pinY SWR_TX_RCLK_o 600R -pinY SWR_RX_SER_o 620R -pinY SWR_RX_SRCLK_o 660R -pinY SWR_RX_SRCLR_o 680R -pinY SWR_RX_RCLK_o 700R -pinBusY V_o 640R
+preplace inst PL_registers_0 -pg 1 -lvl 4 -x 1570 -y 590 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 24 23 25 22 21 20 27 26 36 30 31 32 33 34 35 29 28} -defaultsOSRD -pinY S00_AXI 20L -pinY start_PL_o 100R -pinY init_meas_o 80R -pinY freq_done_o 120R -pinY path_done_o 60R -pinBusY freq_val_o 40R -pinBusY ifbw_val_o 20R -pinBusY path_tx_val_o 240R -pinBusY path_rx_val_o 220R -pinY IQ_rdy_PL_i 240L -pinBusY I_TX_PL_i 120L -pinBusY Q_TX_PL_i 140L -pinBusY I_RX_PL_i 160L -pinBusY Q_RX_PL_i 180L -pinBusY output_tilt_i 200L -pinBusY SPM_data_i 220L -pinY s00_axi_aclk 60L -pinY s00_axi_aresetn 40L
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 220 -y 270 -swap {0 4 1 2 3 5 6 8 7 9} -defaultsOSRD -pinY slowest_sync_clk 20L -pinY ext_reset_in 100L -pinY aux_reset_in 40L -pinY mb_debug_sys_rst 60L -pinY dcm_locked 80L -pinY mb_reset 20R -pinBusY bus_struct_reset 40R -pinBusY peripheral_reset 80R -pinBusY interconnect_aresetn 60R -pinBusY peripheral_aresetn 100R
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 50 -defaultsOSRD -pinY DDR 20R -pinY FIXED_IO 40R -pinY M_AXI_GP0 100R -pinY M_AXI_GP0_ACLK 20L -pinY FCLK_CLK0 120R -pinY FCLK_RESET0_N 140R
+preplace inst rst_ps7_0_100M1 -pg 1 -lvl 2 -x 610 -y 390 -defaultsOSRD -pinY slowest_sync_clk 20L -pinY ext_reset_in 40L -pinY aux_reset_in 60L -pinY mb_debug_sys_rst 80L -pinY dcm_locked 100L -pinY mb_reset 20R -pinBusY bus_struct_reset 40R -pinBusY peripheral_reset 60R -pinBusY interconnect_aresetn 80R -pinBusY peripheral_aresetn 100R
+preplace inst axi_clock_converter_0 -pg 1 -lvl 3 -x 1150 -y 250 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 43 40 41 42} -defaultsOSRD -pinY S_AXI 20L -pinY M_AXI 140R -pinY s_axi_aclk 140L -pinY s_axi_aresetn 80L -pinY m_axi_aclk 100L -pinY m_axi_aresetn 120L
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 610 -y 130 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 62 60 63 61 64} -defaultsOSRD -pinY S00_AXI 20L -pinY M00_AXI 140R -pinY ACLK 40L -pinY ARESETN 100L -pinY S00_ACLK 60L -pinY S00_ARESETN 120L -pinY M00_ACLK 80L -pinY M00_ARESETN 140L
+preplace netloc ADC_RX_i_0_1 1 0 3 NJ 990 NJ 990 NJ
+preplace netloc ADC_TX_i_0_1 1 0 3 NJ 970 NJ 970 NJ
+preplace netloc FMC_LA00_CC_P_1 1 0 3 NJ 1110 NJ 1110 NJ
+preplace netloc FMC_LA04_P_0_1 1 0 3 NJ 1010 NJ 1010 NJ
+preplace netloc FMC_LA26_N_1 1 0 3 NJ 1070 NJ 1070 NJ
+preplace netloc FMC_LA27_N_1 1 0 3 NJ 1090 NJ 1090 NJ
+preplace netloc FMC_LA33_P_1 1 0 3 NJ 1050 NJ 1050 NJ
+preplace netloc LO_MUXout_i_0_1 1 0 3 NJ 1030 NJ 1030 NJ
+preplace netloc PL_registers_0_freq_done_o 1 2 3 840 210 NJ 210 1820
+preplace netloc PL_registers_0_freq_val_o 1 2 3 920 510 NJ 510 1740
+preplace netloc PL_registers_0_ifbw_val_o 1 2 3 940 530 NJ 530 1720
+preplace netloc PL_registers_0_init_meas_o 1 2 3 880 470 NJ 470 1780
+preplace netloc PL_registers_0_path_done_o 1 2 3 900 490 NJ 490 1760
+preplace netloc PL_registers_0_path_rx_val_o 1 2 3 980 610 1320J 910 1740
+preplace netloc PL_registers_0_path_tx_val_o 1 2 3 960 590 1380J 890 1720
+preplace netloc PL_registers_0_start_PL_o 1 2 3 860 450 NJ 450 1800
+preplace netloc TL_VNA_MAIN_0_CSB_o 1 3 2 NJ 1170 NJ
+preplace netloc TL_VNA_MAIN_0_FMC_LA04_N 1 3 2 NJ 990 NJ
+preplace netloc TL_VNA_MAIN_0_FMC_LA07_N 1 3 2 NJ 1010 NJ
+preplace netloc TL_VNA_MAIN_0_FMC_LA07_P 1 3 2 NJ 1030 NJ
+preplace netloc TL_VNA_MAIN_0_IQ_rdy_PL_o 1 3 2 1420 930 NJ
+preplace netloc TL_VNA_MAIN_0_I_RX_PL_o 1 3 1 N 750
+preplace netloc TL_VNA_MAIN_0_I_TX_PL_o 1 3 1 N 710
+preplace netloc TL_VNA_MAIN_0_LO_CE_o 1 3 2 NJ 1130 NJ
+preplace netloc TL_VNA_MAIN_0_LO_CSB_o 1 3 2 NJ 1090 NJ
+preplace netloc TL_VNA_MAIN_0_LO_SCK_o 1 3 2 NJ 1070 NJ
+preplace netloc TL_VNA_MAIN_0_LO_SDI_o 1 3 2 NJ 1110 NJ
+preplace netloc TL_VNA_MAIN_0_Q_RX_PL_o 1 3 1 1400 770n
+preplace netloc TL_VNA_MAIN_0_Q_TX_PL_o 1 3 1 N 730
+preplace netloc TL_VNA_MAIN_0_RF_CE_o 1 3 2 NJ 1050 NJ
+preplace netloc TL_VNA_MAIN_0_SCLK_o 1 3 2 NJ 1150 NJ
+preplace netloc TL_VNA_MAIN_0_SPM_data_o 1 3 1 N 810
+preplace netloc TL_VNA_MAIN_0_SWR_RX_RCLK_o 1 3 2 NJ 1350 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SER_o 1 3 2 NJ 1270 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SRCLK_o 1 3 2 NJ 1310 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SRCLR_o 1 3 2 NJ 1330 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_TX_RCLK_o 1 3 2 NJ 1250 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SER_o 1 3 2 NJ 1190 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SRCLK_o 1 3 2 NJ 1210 NJ
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SRCLR_o 1 3 2 NJ 1230 NJ
+preplace netloc TL_VNA_MAIN_0_clk_100_o 1 3 2 1360J 550 NJ
+preplace netloc TL_VNA_MAIN_0_led_o 1 3 2 NJ 970 NJ
+preplace netloc TL_VNA_MAIN_0_output_tilt_o 1 3 1 N 790
+preplace netloc TL_VNA_MAIN_0_write_IQ_o 1 3 2 NJ 950 NJ
+preplace netloc btn_d_i_0_1 1 0 3 NJ 910 NJ 910 NJ
+preplace netloc btn_l_i_0_1 1 0 3 NJ 930 NJ 930 NJ
+preplace netloc btn_r_i_0_1 1 0 3 NJ 950 NJ 950 NJ
+preplace netloc btn_u_i_0_1 1 0 3 NJ 890 NJ 890 NJ
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 430 420
+preplace netloc reset_i_0_1 1 0 3 NJ 850 NJ 850 NJ
+preplace netloc sw_i_0_1 1 0 3 NJ 870 NJ 870 NJ
+preplace netloc clk_i_1 1 0 3 NJ 550 NJ 550 780
+preplace netloc TL_VNA_MAIN_0_clk_80_o 1 1 3 440 350 800 550 1340
+preplace netloc rst_ps7_0_100M1_interconnect_aresetn 1 2 2 820 570 1400J
+preplace netloc S00_ARESETN_1 1 1 2 440 330 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 20 10 440
+preplace netloc processing_system7_1_DDR 1 1 4 NJ 70 NJ 70 NJ 70 NJ
+preplace netloc processing_system7_1_FIXED_IO 1 1 4 NJ 90 NJ 90 NJ 90 NJ
+preplace netloc S00_AXI_1 1 1 1 N 150
+preplace netloc axi_interconnect_1_M00_AXI 1 2 1 N 270
+preplace netloc axi_clock_converter_0_M_AXI 1 3 1 1420 390n
+levelinfo -pg 1 0 220 610 1150 1570 1840
+pagesize -pg 1 -db -bbox -sgen -170 0 2010 1410
+",
+   "Reduced Jogs_ScaleFactor":"0.641951",
+   "Reduced Jogs_TopLeft":"-168,-33",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 2910 -y 110 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 2910 -y 70 -defaultsOSRD
+preplace port port-id_FMC_LA26_P -pg 1 -lvl 4 -x 2910 -y 380 -defaultsOSRD
+preplace port port-id_FMC_LA22_N -pg 1 -lvl 0 -x -30 -y 610 -defaultsOSRD
+preplace port port-id_FMC_LA23_N -pg 1 -lvl 4 -x 2910 -y 470 -defaultsOSRD
+preplace port port-id_FMC_LA27_P -pg 1 -lvl 4 -x 2910 -y 530 -defaultsOSRD
+preplace port port-id_btn_d_i -pg 1 -lvl 0 -x -30 -y 510 -defaultsOSRD
+preplace port port-id_btn_l_i -pg 1 -lvl 0 -x -30 -y 530 -defaultsOSRD
+preplace port port-id_btn_r_i -pg 1 -lvl 0 -x -30 -y 550 -defaultsOSRD
+preplace port port-id_btn_u_i -pg 1 -lvl 0 -x -30 -y 430 -defaultsOSRD
+preplace port port-id_clk_i -pg 1 -lvl 0 -x -30 -y 470 -defaultsOSRD
+preplace port port-id_reset_i -pg 1 -lvl 0 -x -30 -y 490 -defaultsOSRD
+preplace port port-id_FMC_LA23_P -pg 1 -lvl 4 -x 2910 -y 430 -defaultsOSRD
+preplace port port-id_FMC_LA20_N -pg 1 -lvl 4 -x 2910 -y 510 -defaultsOSRD
+preplace port port-id_FMC_LA18_CC_P -pg 1 -lvl 0 -x -30 -y 630 -defaultsOSRD
+preplace port port-id_FMC_LA01_CC_N -pg 1 -lvl 4 -x 2910 -y -990 -defaultsOSRD
+preplace port port-id_FMC_LA18_CC_N -pg 1 -lvl 4 -x 2910 -y 290 -defaultsOSRD
+preplace port port-id_FMC_LA33_P -pg 1 -lvl 0 -x -30 -y 650 -defaultsOSRD
+preplace port port-id_FMC_LA26_N -pg 1 -lvl 0 -x -30 -y 670 -defaultsOSRD
+preplace port port-id_FMC_LA27_N -pg 1 -lvl 0 -x -30 -y 690 -defaultsOSRD
+preplace port port-id_FMC_LA00_CC_N -pg 1 -lvl 4 -x 2910 -y 570 -defaultsOSRD
+preplace port port-id_FMC_LA00_CC_P -pg 1 -lvl 0 -x -30 -y 710 -defaultsOSRD
+preplace port port-id_FMC_LA02_P -pg 1 -lvl 4 -x 2910 -y 670 -defaultsOSRD
+preplace port port-id_FMC_LA19_N -pg 1 -lvl 4 -x 2910 -y 250 -defaultsOSRD
+preplace port port-id_IQ_rdy_PL_o -pg 1 -lvl 4 -x 2910 -y 310 -defaultsOSRD
+preplace port port-id_write_IQ_o -pg 1 -lvl 4 -x 2910 -y 330 -defaultsOSRD
+preplace port port-id_SWR_TX_SER -pg 1 -lvl 4 -x 2910 -y 620 -defaultsOSRD
+preplace port port-id_SWR_TX_SRCLK -pg 1 -lvl 4 -x 2910 -y 710 -defaultsOSRD
+preplace port port-id_SWR_TX_RCLK -pg 1 -lvl 4 -x 2910 -y 750 -defaultsOSRD
+preplace port port-id_SWR_TX_SRCLR -pg 1 -lvl 4 -x 2910 -y 730 -defaultsOSRD
+preplace port port-id_SWR_RX_SER -pg 1 -lvl 4 -x 2910 -y 770 -defaultsOSRD
+preplace port port-id_SWR_RX_SRCLK -pg 1 -lvl 4 -x 2910 -y 790 -defaultsOSRD
+preplace port port-id_SWR_RX_SRCLR -pg 1 -lvl 4 -x 2910 -y 850 -defaultsOSRD
+preplace port port-id_SWR_RX_RCLK -pg 1 -lvl 4 -x 2910 -y 830 -defaultsOSRD
+preplace port port-id_FMC_LA22_P -pg 1 -lvl 4 -x 2910 -y 490 -defaultsOSRD
+preplace port port-id_FMC_LA19_P -pg 1 -lvl 4 -x 2910 -y 810 -defaultsOSRD
+preplace portBus led_o -pg 1 -lvl 4 -x 2910 -y 400 -defaultsOSRD
+preplace portBus sw_i -pg 1 -lvl 0 -x -30 -y 450 -defaultsOSRD
+preplace portBus ADC_TX_i -pg 1 -lvl 0 -x -30 -y 570 -defaultsOSRD
+preplace portBus ADC_RX_i -pg 1 -lvl 0 -x -30 -y 590 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 320 -y 140 -defaultsOSRD
+preplace inst rst_ps7_0_40M -pg 1 -lvl 2 -x 770 -y 360 -swap {0 1 2 3 4 7 8 9 5 6} -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 770 -y -110 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 62 60 63 61 64} -defaultsOSRD
+preplace inst TL_VNA_MAIN_0 -pg 1 -lvl 3 -x 1480 -y 480 -swap {6 7 24 17 18 19 9 10 11 12 13 20 22 23 21 16 14 15 5 29 8 30 0 2 1 43 25 26 28 31 32 34 35 27 36 37 38 42 3 41 33 40 4 39 44 45 46 47 48 49 50 51 52 53 54} -defaultsOSRD
+preplace inst PL_registers_0 -pg 1 -lvl 3 -x 1480 -y -220 -swap {0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 30 29 36 28 35 33 34 31 32} -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 2 -x 770 -y 180 -swap {0 4 1 2 3 6 7 8 5 9} -defaultsOSRD
+preplace netloc ADC_RX_i_0_1 1 0 3 NJ 590 NJ 590 1050J
+preplace netloc ADC_TX_i_0_1 1 0 3 NJ 570 NJ 570 990J
+preplace netloc FMC_LA00_CC_P_1 1 0 3 NJ 710 NJ 710 1170J
+preplace netloc FMC_LA04_P_0_1 1 0 3 NJ 610 NJ 610 NJ
+preplace netloc FMC_LA26_N_1 1 0 3 NJ 670 NJ 670 1140J
+preplace netloc FMC_LA27_N_1 1 0 3 NJ 690 NJ 690 1150J
+preplace netloc FMC_LA33_P_1 1 0 3 NJ 650 NJ 650 1160J
+preplace netloc LO_MUXout_i_0_1 1 0 3 NJ 630 NJ 630 1100J
+preplace netloc PL_registers_0_freq_done_o 1 2 2 1200 -410 1680
+preplace netloc PL_registers_0_freq_val_o 1 2 2 1230 -380 1690
+preplace netloc PL_registers_0_ifbw_val_o 1 2 2 1180 -430 1700
+preplace netloc PL_registers_0_init_meas_o 1 2 2 1190 -420 1650
+preplace netloc PL_registers_0_path_done_o 1 2 2 1240 -370 1660
+preplace netloc PL_registers_0_path_rx_val_o 1 2 2 1220 -70 1670
+preplace netloc PL_registers_0_path_tx_val_o 1 2 2 1250 -60 1680
+preplace netloc PL_registers_0_start_PL_o 1 2 2 1210 -400 1670
+preplace netloc TL_VNA_MAIN_0_CSB_o 1 3 1 1800 600n
+preplace netloc TL_VNA_MAIN_0_FMC_LA04_N 1 3 1 1770 380n
+preplace netloc TL_VNA_MAIN_0_FMC_LA07_N 1 3 1 1800 440n
+preplace netloc TL_VNA_MAIN_0_FMC_LA07_P 1 3 1 1790 460n
+preplace netloc TL_VNA_MAIN_0_IQ_rdy_PL_o 1 2 2 1260 110 1730
+preplace netloc TL_VNA_MAIN_0_I_RX_PL_o 1 2 2 1220 -390 1720
+preplace netloc TL_VNA_MAIN_0_I_TX_PL_o 1 2 2 1310 -50 1710
+preplace netloc TL_VNA_MAIN_0_LO_CE_o 1 3 1 1760 560n
+preplace netloc TL_VNA_MAIN_0_LO_CSB_o 1 3 1 1780 510n
+preplace netloc TL_VNA_MAIN_0_LO_SCK_o 1 3 1 1770 430n
+preplace netloc TL_VNA_MAIN_0_LO_SDI_o 1 3 1 1760 250n
+preplace netloc TL_VNA_MAIN_0_Q_RX_PL_o 1 2 2 1300 -40 1660
+preplace netloc TL_VNA_MAIN_0_Q_TX_PL_o 1 2 2 1290 -30 1700
+preplace netloc TL_VNA_MAIN_0_RF_CE_o 1 3 1 1780 480n
+preplace netloc TL_VNA_MAIN_0_SCLK_o 1 3 1 1800 570n
+preplace netloc TL_VNA_MAIN_0_SPM_data_o 1 2 2 1280 -20 1680
+preplace netloc TL_VNA_MAIN_0_SWR_RX_RCLK_o 1 3 1 1670 760n
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SER_o 1 3 1 1730 700n
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SRCLK_o 1 3 1 1720 720n
+preplace netloc TL_VNA_MAIN_0_SWR_RX_SRCLR_o 1 3 1 1690 740n
+preplace netloc TL_VNA_MAIN_0_SWR_TX_RCLK_o 1 3 1 1740 680n
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SER_o 1 3 1 N 620
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SRCLK_o 1 3 1 1790 640n
+preplace netloc TL_VNA_MAIN_0_SWR_TX_SRCLR_o 1 3 1 1780 660n
+preplace netloc TL_VNA_MAIN_0_clk_100_o 1 3 1 1740 290n
+preplace netloc TL_VNA_MAIN_0_led_o 1 3 1 N 400
+preplace netloc TL_VNA_MAIN_0_output_tilt_o 1 2 2 1270 -10 1650
+preplace netloc TL_VNA_MAIN_0_write_IQ_o 1 3 1 1750 330n
+preplace netloc btn_d_i_0_1 1 0 3 NJ 510 NJ 510 1000J
+preplace netloc btn_l_i_0_1 1 0 3 NJ 530 NJ 530 990J
+preplace netloc btn_r_i_0_1 1 0 3 NJ 550 NJ 550 950J
+preplace netloc btn_u_i_0_1 1 0 3 NJ 430 530J 480 970J
+preplace netloc clk_i_0_1 1 0 3 -10J 460 NJ 460 980J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 590 10 950
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 2 110 290 570
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 2 580 20 1170
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 590 220n
+preplace netloc reset_i_0_1 1 0 3 NJ 490 NJ 490 1020J
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 2 600 60 940
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 2 1 960 -210n
+preplace netloc sw_i_0_1 1 0 3 0J 470 NJ 470 1010J
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 50 NJ 50 1760
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 70 NJ 70 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 530 -170n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 950 -310n
+levelinfo -pg 1 -30 320 770 1480 2910
+pagesize -pg 1 -db -bbox -sgen -200 -1010 4140 1220
+"
+}
+{
+   "da_axi4_cnt":"22",
+   "da_board_cnt":"5",
+   "da_ps7_cnt":"2"
+}

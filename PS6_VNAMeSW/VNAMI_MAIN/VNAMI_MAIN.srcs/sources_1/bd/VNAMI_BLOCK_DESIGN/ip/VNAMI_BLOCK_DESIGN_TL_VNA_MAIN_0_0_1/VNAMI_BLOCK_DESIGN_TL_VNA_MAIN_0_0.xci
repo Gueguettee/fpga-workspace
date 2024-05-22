@@ -1,0 +1,111 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "VNAMI_BLOCK_DESIGN_TL_VNA_MAIN_0_0",
+    "cell_name": "TL_VNA_MAIN_0",
+    "component_reference": "xilinx.com:module_ref:TL_VNA_MAIN:1.0",
+    "ip_revision": "1",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "VNAMI_BLOCK_DESIGN_TL_VNA_MAIN_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zedboard:part0:1.1" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VHDL" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "VHDL" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../../../../../VNAMI_MAIN.gen/sources_1/bd/VNAMI_BLOCK_DESIGN/ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "clk_i": [ { "direction": "in" } ],
+        "reset_i": [ { "direction": "in" } ],
+        "clk_100_o": [ { "direction": "out" } ],
+        "clk_80_o": [ { "direction": "out" } ],
+        "clk_40_o": [ { "direction": "out" } ],
+        "clk_10_o": [ { "direction": "out" } ],
+        "start_PL_i": [ { "direction": "in" } ],
+        "init_meas_i": [ { "direction": "in" } ],
+        "freq_done_i": [ { "direction": "in" } ],
+        "path_done_i": [ { "direction": "in" } ],
+        "freq_val_i": [ { "direction": "in", "size_left": "5", "size_right": "0" } ],
+        "ifbw_val_i": [ { "direction": "in", "size_left": "4", "size_right": "0" } ],
+        "path_tx_val_i": [ { "direction": "in", "size_left": "23", "size_right": "0" } ],
+        "path_rx_val_i": [ { "direction": "in", "size_left": "23", "size_right": "0" } ],
+        "IQ_rdy_PL_o": [ { "direction": "out" } ],
+        "I_TX_PL_o": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "Q_TX_PL_o": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "I_RX_PL_o": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "Q_RX_PL_o": [ { "direction": "out", "size_left": "31", "size_right": "0" } ],
+        "write_IQ_o": [ { "direction": "out" } ],
+        "sw_i": [ { "direction": "in", "size_left": "7", "size_right": "0" } ],
+        "led_o": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "btn_u_i": [ { "direction": "in" } ],
+        "btn_d_i": [ { "direction": "in" } ],
+        "btn_l_i": [ { "direction": "in" } ],
+        "btn_r_i": [ { "direction": "in" } ],
+        "ADC_TX_i": [ { "direction": "in", "size_left": "13", "size_right": "0" } ],
+        "ADC_RX_i": [ { "direction": "in", "size_left": "13", "size_right": "0" } ],
+        "RF_MUXout_i": [ { "direction": "in" } ],
+        "RF_SCK_o": [ { "direction": "out" } ],
+        "RF_CSB_o": [ { "direction": "out" } ],
+        "RF_SDI_o": [ { "direction": "out" } ],
+        "RF_CE_o": [ { "direction": "out" } ],
+        "LO_MUXout_i": [ { "direction": "in" } ],
+        "LO_SCK_o": [ { "direction": "out" } ],
+        "LO_CSB_o": [ { "direction": "out" } ],
+        "LO_SDI_o": [ { "direction": "out" } ],
+        "LO_CE_o": [ { "direction": "out" } ],
+        "output_tilt_o": [ { "direction": "out", "size_left": "2", "size_right": "0" } ],
+        "input_tilt_1": [ { "direction": "in" } ],
+        "input_tilt_2": [ { "direction": "in" } ],
+        "input_tilt_3": [ { "direction": "in" } ],
+        "SPM_data_o": [ { "direction": "out", "size_left": "27", "size_right": "0" } ],
+        "SPM_MISO_i": [ { "direction": "in" } ],
+        "SPM_SCLK_o": [ { "direction": "out" } ],
+        "SPM_CSB_o": [ { "direction": "out" } ],
+        "SWR_TX_SER_o": [ { "direction": "out" } ],
+        "SWR_TX_SRCLK_o": [ { "direction": "out" } ],
+        "SWR_TX_SRCLR_o": [ { "direction": "out" } ],
+        "SWR_TX_RCLK_o": [ { "direction": "out" } ],
+        "SWR_RX_SER_o": [ { "direction": "out" } ],
+        "SWR_RX_SRCLK_o": [ { "direction": "out" } ],
+        "SWR_RX_SRCLR_o": [ { "direction": "out" } ],
+        "SWR_RX_RCLK_o": [ { "direction": "out" } ],
+        "V_o": [ { "direction": "out", "size_left": "3", "size_right": "0" } ]
+      },
+      "interfaces": {
+        "reset_i": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "reset_i" } ]
+          }
+        }
+      }
+    }
+  }
+}

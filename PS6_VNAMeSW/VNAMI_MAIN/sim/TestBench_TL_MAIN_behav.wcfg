@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestBench_MAIN_CONTROL_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestBench_MAIN_CONTROL" />
+            <top_module name="glbl" />
+            <top_module name="main_control_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,004,153.250 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,005,829.251 ns"></ZoomEndTime>
+      <Cursor1Time time="1,004,931.250 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="134"></NameColumnWidth>
+      <ValueColumnWidth column_width="59"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="group51" type="group">
+      <obj_property name="label">CONTROL</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group78" type="group">
+      <obj_property name="label">SYNTH_RF</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="group97" type="group">
+      <obj_property name="label">IO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/freq_val_i" type="array">
+      <obj_property name="ElementShortName">freq_val_i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_val_i[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/ifbw_val_i" type="array">
+      <obj_property name="ElementShortName">ifbw_val_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ifbw_val_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/path_val_i" type="array">
+      <obj_property name="ElementShortName">path_val_i[23:0]</obj_property>
+      <obj_property name="ObjectShortName">path_val_i[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/init_meas_i" type="logic">
+      <obj_property name="ElementShortName">init_meas_i</obj_property>
+      <obj_property name="ObjectShortName">init_meas_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/start_i" type="logic">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/path_done_i" type="logic">
+      <obj_property name="ElementShortName">path_done_i</obj_property>
+      <obj_property name="ObjectShortName">path_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/freq_done_i" type="logic">
+      <obj_property name="ElementShortName">freq_done_i</obj_property>
+      <obj_property name="ObjectShortName">freq_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/pll_locked_i" type="logic">
+      <obj_property name="ElementShortName">pll_locked_i</obj_property>
+      <obj_property name="ObjectShortName">pll_locked_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/sample_done_i" type="logic">
+      <obj_property name="ElementShortName">sample_done_i</obj_property>
+      <obj_property name="ObjectShortName">sample_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/start_sample_o" type="logic">
+      <obj_property name="ElementShortName">start_sample_o</obj_property>
+      <obj_property name="ObjectShortName">start_sample_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/IQ_rdy_PL_o" type="logic">
+      <obj_property name="ElementShortName">IQ_rdy_PL_o</obj_property>
+      <obj_property name="ObjectShortName">IQ_rdy_PL_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/freq_val_o" type="array">
+      <obj_property name="ElementShortName">freq_val_o[5:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_val_o[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/ifbw_val_o" type="array">
+      <obj_property name="ElementShortName">ifbw_val_o[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ifbw_val_o[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/path_val_o" type="array">
+      <obj_property name="ElementShortName">path_val_o[23:0]</obj_property>
+      <obj_property name="ObjectShortName">path_val_o[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/MAIN_CONTROL_uut/state_s" type="other">
+      <obj_property name="ElementShortName">state_s</obj_property>
+      <obj_property name="ObjectShortName">state_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/MAIN_CONTROL_uut/FREQ_RAM/rd_addr_i" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rd_addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_i[7:0]</obj_property>
+      <obj_property name="label">rd_addr_freq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/MAIN_CONTROL_uut/FREQ_RAM/wr_addr_i" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wr_addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_i[7:0]</obj_property>
+      <obj_property name="label">wr_addr_freq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/MAIN_CONTROL_uut/TX_PATH_RAM/rd_addr_i" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rd_addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr_i[7:0]</obj_property>
+      <obj_property name="label">rd_addr_path</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/MAIN_CONTROL_uut/TX_PATH_RAM/wr_addr_i" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wr_addr_i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr_i[7:0]</obj_property>
+      <obj_property name="label">wr_addr_path]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench_MAIN_CONTROL/MAIN_CONTROL_uut/en_set_freq_o" type="logic">
+      <obj_property name="ElementShortName">en_set_freq_o</obj_property>
+      <obj_property name="ObjectShortName">en_set_freq_o</obj_property>
+   </wvobject>
+</wave_config>

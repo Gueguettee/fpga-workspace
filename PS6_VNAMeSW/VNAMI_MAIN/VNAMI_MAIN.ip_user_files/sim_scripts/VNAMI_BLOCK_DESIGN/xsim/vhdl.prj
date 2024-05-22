@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/VNAMI_BLOCK_DESIGN/ip/VNAMI_BLOCK_DESIGN_TL_VNA_MAIN_0_0_1/sim/VNAMI_BLOCK_DESIGN_TL_VNA_MAIN_0_0.vhd" \
+"../../../bd/VNAMI_BLOCK_DESIGN/ipshared/e228/hdl/PL_registers_v1_0_S00_AXI.vhd" \
+"../../../bd/VNAMI_BLOCK_DESIGN/ipshared/e228/hdl/PL_registers_v1_0.vhd" \
+"../../../bd/VNAMI_BLOCK_DESIGN/ip/VNAMI_BLOCK_DESIGN_PL_registers_0_2_1/sim/VNAMI_BLOCK_DESIGN_PL_registers_0_2.vhd" \
+"../../../bd/VNAMI_BLOCK_DESIGN/ip/VNAMI_BLOCK_DESIGN_proc_sys_reset_0_0/sim/VNAMI_BLOCK_DESIGN_proc_sys_reset_0_0.vhd" \
+"../../../bd/VNAMI_BLOCK_DESIGN/ip/VNAMI_BLOCK_DESIGN_rst_ps7_0_100M_0/sim/VNAMI_BLOCK_DESIGN_rst_ps7_0_100M_0.vhd" \
+"../../../bd/VNAMI_BLOCK_DESIGN/sim/VNAMI_BLOCK_DESIGN.vhd" \
+
+# Do not sort compile order
+nosort
