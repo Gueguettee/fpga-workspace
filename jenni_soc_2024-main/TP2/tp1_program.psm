@@ -1,0 +1,70 @@
+; tp1_program.psm
+;
+; This is the start of 'tp1_program' for KCPSM6
+;
+; 8 DIP Switches
+CONSTANT IN_PORT, 01
+CONSTANT R_DATA_PORT, 02
+CONSTANT FLAG_PORT, 04
+;
+; 5 Direction Push Buttons
+CONSTANT OUT_PORT, 01
+CONSTANT W_DATA_PORT, 02
+;
+main:  CALL swled
+       INPUT s2, FLAG_PORT
+       TEST s2, 00000001'b
+       JUMP C, main
+input: INPUT s3, R_DATA_PORT
+       OUTPUT s3, W_DATA_PORT
+main2: CALL swled
+       INPUT s2, FLAG_PORT
+       TEST s2, 00000001'b
+       JUMP C, main2
+input2:INPUT s4, R_DATA_PORT
+       OUTPUT s4, W_DATA_PORT
+       CALL mult_soft
+output:CALL swled
+       INPUT s2, FLAG_PORT
+       TEST s2, 00000010'b
+       JUMP C, output
+       OUTPUT s5, W_DATA_PORT
+output2:CALL swled
+       INPUT s2, FLAG_PORT
+       TEST s2, 00000010'b
+       JUMP C, output2
+       OUTPUT s6, W_DATA_PORT
+       JUMP main
+
+swled: INPUT s0, IN_PORT
+       OUTPUT s0, OUT_PORT
+       return
+
+;=========================================================
+;routine: mult_soft
+;  function: 8-bit unsigned multiplier using
+;           shift-and-add algorithm
+;  input register:
+;     s3: multiplicand
+;     s4: multiplier
+;  output register:
+;     s5: upper byte of product
+;     s6: lower byte of product
+;  temp register: sF
+;=========================================================
+mult_soft:
+   load s5, 00               ;clear s5
+   load sF, 08               ;initialize loop index
+mult_loop:
+   sr0  s4                  ;shift lsb to carry
+   jump nc, shift_prod      ;lsb is 0
+   add s5, s3               ;lsb is 1
+shift_prod:
+   sra s5                   ;shift upper byte right,
+                            ;carry to MSB, LSB to carry
+   sra s6                   ;shift lower byte right,
+                            ;lsb of s5 to MSB of s6
+   sub sF, 01                ;dec loop index
+   jump nz, mult_loop       ;repeat until i=0
+   return
+   

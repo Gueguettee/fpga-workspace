@@ -1,0 +1,44 @@
+;=========================================================
+;routine: bin2bcd
+;  function: convert 8 bits binary to bcd
+;  input register : s0 (modified)
+;  temp register  : s5
+;  output register: s2: unit (ASCII code)
+;	                  s3: dec  (ASCII code)
+;	                  s4: hun  (ASCII code)
+;=========================================================
+bin2bcd:
+  load 	s2,00		  ; unit
+	load 	s3,00 		; dec
+	load 	s4,00 		; hun
+	load 	s5, 08'd 	; init counter for 8 shifts
+	
+loop1:	
+	sl0 	  s0        ; shift MSB of s0 into carry
+	sla 	  s2        ; shift carry into LSB of s2
+	test 	  s2,16'd   ; test bit 5 of s2 and set carry
+	sla 	  s3        ; shift carry into LSB of s3
+	and 	  s2, 15'd  ; clear bit 7-4 
+	compare s5 , 1'd  ; if last shift, dont add
+  jump    z, suite1	
+	compare s2,05'd 	
+	jump 	  c, suite1
+	add 	  s2,03'd 	
+suite1:	
+	test 	  s3,16'd   ; test bit 5 of s3 and set carry
+	sla 	  s4        ; shift carry into LSB of s4
+	and 	  s3, 15'd  ; clear bit 7-4
+	compare s5 , 1'd  ; if last shift, dont add
+  jump    z, suite2	
+	compare s3,05'd 
+	jump 	  c, suite2
+	add   	s3,03'd 
+suite2:
+	and     s4,15'd   ; clear bit 7-4
+	sub     s5,01
+	compare s5 ,00
+	jump    nz, loop1
+  add     s4,30
+  add     s3,30
+  add     s2,30
+	return

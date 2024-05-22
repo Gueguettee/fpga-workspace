@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_tp1_picoblaze_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="jtag_loader_pkg" />
+            <top_module name="tb_tp1_picoblaze" />
+            <top_module name="tp1_picoblaze_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,999,862.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,000,027.601 ns"></ZoomEndTime>
+      <Cursor1Time time="2,000,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="237"></NameColumnWidth>
+      <ValueColumnWidth column_width="230"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/tb_tp1_picoblaze/tb_clk_i_s" type="logic">
+      <obj_property name="ElementShortName">tb_clk_i_s</obj_property>
+      <obj_property name="ObjectShortName">tb_clk_i_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/tb_reset_i_s" type="logic">
+      <obj_property name="ElementShortName">tb_reset_i_s</obj_property>
+      <obj_property name="ObjectShortName">tb_reset_i_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/port1_i_s" type="array">
+      <obj_property name="ElementShortName">port1_i_s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port1_i_s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/rx_i_s" type="logic">
+      <obj_property name="ElementShortName">rx_i_s</obj_property>
+      <obj_property name="ObjectShortName">rx_i_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/port1_o_s" type="array">
+      <obj_property name="ElementShortName">port1_o_s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port1_o_s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/tx_o_s" type="logic">
+      <obj_property name="ElementShortName">tx_o_s</obj_property>
+      <obj_property name="ObjectShortName">tx_o_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/cCLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">cCLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">cCLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/uart_component/w_data" type="array">
+      <obj_property name="ElementShortName">w_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">w_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/tx_o" type="logic">
+      <obj_property name="ElementShortName">tx_o</obj_property>
+      <obj_property name="ObjectShortName">tx_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/port_id" type="array">
+      <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/rd_uart_s" type="logic">
+      <obj_property name="ElementShortName">rd_uart_s</obj_property>
+      <obj_property name="ObjectShortName">rd_uart_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/wr_uart_s" type="logic">
+      <obj_property name="ElementShortName">wr_uart_s</obj_property>
+      <obj_property name="ObjectShortName">wr_uart_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/uart_component/wr_uart" type="logic">
+      <obj_property name="ElementShortName">wr_uart</obj_property>
+      <obj_property name="ObjectShortName">wr_uart</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_tp1_picoblaze/miniproc/read_strobe" type="logic">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+</wave_config>

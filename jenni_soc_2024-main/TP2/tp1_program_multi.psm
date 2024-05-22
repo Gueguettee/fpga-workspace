@@ -1,0 +1,51 @@
+; tp1_program.psm
+;
+; This is the start of 'tp1_program' for KCPSM6
+;
+; 8 DIP Switches
+CONSTANT IN_PORT, 01
+CONSTANT R_DATA_PORT, 02
+CONSTANT FLAG_PORT, 04
+;
+; 5 Direction Push Buttons
+CONSTANT OUT_PORT, 01
+CONSTANT W_DATA_PORT, 02
+;
+main: INPUT s0, IN_PORT
+       OUTPUT s0, OUT_PORT
+       INPUT s2, FLAG_PORT
+       TEST s2, 00000001'b
+       JUMP C, main
+input: INPUT s1, R_DATA_PORT
+output:TEST s2, 00000010'b
+       JUMP C, main
+       OUTPUT s1, W_DATA_PORT
+       JUMP main
+
+;=========================================================
+;routine: mult_soft
+;  function: 8-bit unsigned multiplier using
+;           shift-and-add algorithm
+;  input register:
+;     s3: multiplicand
+;     s4: multiplier
+;  output register:
+;     s5: upper byte of product
+;     s6: lower byte of product
+;  temp register: sF
+;=========================================================
+mult_soft:
+   load s5, 00               ;clear s5
+   load sF, 08               ;initialize loop index
+mult_loop:
+   sr0  s4                  ;shift lsb to carry
+   jump nc, shift_prod      ;lsb is 0
+   add s5, s3               ;lsb is 1
+shift_prod:
+   sra s5                   ;shift upper byte right,
+                            ;carry to MSB, LSB to carry
+   sra s6                   ;shift lower byte right,
+                            ;lsb of s5 to MSB of s6
+   sub sF, 01                ;dec loop index
+   jump nz, mult_loop       ;repeat until i=0
+   return

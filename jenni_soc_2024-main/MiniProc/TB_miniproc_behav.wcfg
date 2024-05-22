@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_miniproc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_miniproc" />
+            <top_module name="miniproc_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3,683.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="3,854.401 ns"></ZoomEndTime>
+      <Cursor1Time time="160.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_data_mem/data_mem_s[0]" type="array">
+      <obj_property name="ElementShortName">[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_data_mem/data_mem_s[1]" type="array">
+      <obj_property name="ElementShortName">[1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_data_mem/data_mem_s[2]" type="array">
+      <obj_property name="ElementShortName">[2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_data_mem/data_mem_s[3]" type="array">
+      <obj_property name="ElementShortName">[3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_proc/cmp_traitement/cmp_registres/registers_s" type="array">
+      <obj_property name="ElementShortName">registers_s[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">registers_s[0:3][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_proc/cmp_traitement/cmp_pc/pc_o" type="array">
+      <obj_property name="ElementShortName">pc_o[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_o[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_proc/cmp_traitement/opcode_o" type="array">
+      <obj_property name="ElementShortName">opcode_o[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode_o[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_miniproc/miniproc/cmp_proc/cmp_controler/current_state_s" type="other">
+      <obj_property name="ElementShortName">current_state_s</obj_property>
+      <obj_property name="ObjectShortName">current_state_s</obj_property>
+   </wvobject>
+</wave_config>

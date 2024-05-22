@@ -1,0 +1,13 @@
+; tp1_program.psm
+;
+; This is the start of 'tp1_program' for KCPSM6
+;
+; 8 DIP Switches
+CONSTANT IN_PORT, 01
+;
+; 5 Direction Push Buttons
+CONSTANT OUT_PORT, 01
+;
+start: INPUT s0, IN_PORT
+       OUTPUT s0, OUT_PORT
+       Jump start
