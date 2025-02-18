@@ -88,12 +88,12 @@ BEGIN
 
   -- Mandelbrot algorithm
 
-    magnitudeSquaredxDS <= resize(shift_right((Z_RExDP * Z_RExDP), N_FRAC) + shift_right((Z_IMxDP * Z_IMxDP), N_FRAC), 2 * N_BITS); -- maybe because the signals we use Z are not fully defined or some shit?
+    magnitudeSquaredxDS <= resize(shift_right((Z_RExDP * Z_RExDP), N_FRAC) + shift_right((Z_IMxDP * Z_IMxDP), N_FRAC), 2 * N_BITS);
     keepIteratingxS <= '1' WHEN (iterationsxDP < MAX_ITER AND magnitudeSquaredxDS < ITER_LIM) ELSE
       '0';
 
     IF (keepIteratingxS = '1') THEN 
-      Z_RExDN <= resize(shift_right((Z_RExDP * Z_RExDP), N_FRAC) - shift_right((Z_IMxDP * Z_IMxDP), N_FRAC), N_BITS) + C_RExDP; -- this part of the loop is also broken
+      Z_RExDN <= resize(shift_right((Z_RExDP * Z_RExDP), N_FRAC) - shift_right((Z_IMxDP * Z_IMxDP), N_FRAC), N_BITS) + C_RExDP;
       Z_IMxDN <= resize(shift_right((2 * Z_RExDP * Z_IMxDP), N_FRAC), N_BITS) + C_IMxDP;
       iterationsxDN <= iterationsxDP + 1;
     ELSE

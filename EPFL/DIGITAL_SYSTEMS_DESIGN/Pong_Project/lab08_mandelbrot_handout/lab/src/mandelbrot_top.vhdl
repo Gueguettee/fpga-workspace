@@ -294,11 +294,6 @@ begin
     + unsigned(
       shift_left(shift_right(resize(MandelbrotYxD, MEM_ADDR_BW), 2), (10 - 2))));
   DINAxD    <= std_logic_vector(MandelbrotITERxD);
-  -- -- Port A
-  -- ENAxS     <= '0';
-  -- WEAxS     <= "0";
-  -- WrAddrAxD <= (others => '0');
-  -- DINAxD    <= (others => '0');
 
   -- Port B
   ENBxS     <= '1';

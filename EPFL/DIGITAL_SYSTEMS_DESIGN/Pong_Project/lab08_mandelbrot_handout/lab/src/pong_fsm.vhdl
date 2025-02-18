@@ -91,7 +91,7 @@ architecture rtl of pong_fsm is
   signal DirectionxDN, DirectionxDP : Direction_t := XY;
   signal SmileyDirectionxDN, SmileyDirectionxDP : SmileyDirection_t := X;
   signal CollisionSmileyxS : std_logic;
-  signal CollisionSmileyXxS : std_logic;
+  signal CollisionSmileyYxS : std_logic;
 
 --=============================================================================
 -- ARCHITECTURE BEGIN
@@ -101,7 +101,7 @@ begin
   CollisionSmileyxS <= '1' when ((BallXxDS + BALL_WIDTH > SmileyXxDN and BallXxDS < SmileyXxDN + SMILEY_WIDTH) and (BallYxDS + BALL_HEIGHT > SmileyYxDN and BallYxDS < SmileyYxDN + SMILEY_HEIGHT)) 
     or ((BallXxDS + BALL_WIDTH > Smiley2XxDN and BallXxDS < Smiley2XxDN + SMILEY_WIDTH) and (BallYxDS + BALL_HEIGHT > Smiley2YxDN and BallYxDS < Smiley2YxDN + SMILEY_HEIGHT))
     else '0';
-  CollisionSmileyXxS <= '1' when (BallXxDS > SmileyXxDN and BallXxDS + BALL_WIDTH < SmileyXxDN + SMILEY_WIDTH) else '0';
+  CollisionSmileyYxS <= '1' when ((BallXxDS > SmileyXxDN and BallXxDS + BALL_WIDTH < SmileyXxDN + SMILEY_WIDTH) or (BallXxDS > Smiley2XxDN and BallXxDS + BALL_WIDTH < Smiley2XxDN + SMILEY_WIDTH)) else '0';
 
   process(all)
   begin
@@ -216,31 +216,33 @@ begin
         end case;
         
         if DirectionxDP = XY or DirectionxDP = XnY then
-          if (CollisionSmileyxS = '1' and CollisionSmileyXxS = '1')
+          if (CollisionSmileyxS = '1' and CollisionSmileyYxS = '0')
               or (BallXxDP + STEP_X > HS_DISPLAY - BALL_WIDTH) then
             if DirectionxDP = XY then
               DirectionxDN <= nXY;
             else
               DirectionxDN <= nXnY;
             end if;
+            BallXxDN <= BallXxDP - STEP_X;
           else
             BallXxDN <= BallXxDP + STEP_X;
           end if;
         else
-          if (CollisionSmileyxS = '1' and CollisionSmileyXxS = '1')
+          if (CollisionSmileyxS = '1' and CollisionSmileyYxS = '0')
               or (BallXxDP < STEP_X) then
             if DirectionxDP = nXY then
               DirectionxDN <= XY;
             else
               DirectionxDN <= XnY;
             end if;
+            BallXxDN <= BallXxDP + STEP_X;
           else
             BallXxDN <= BallXxDP - STEP_X;
           end if;
         end if;
 
         if DirectionxDP = XY or DirectionxDP = nXY then
-          if (CollisionSmileyxS = '1' and CollisionSmileyXxS = '0') 
+          if (CollisionSmileyxS = '1' and CollisionSmileyYxS = '1') 
               or ((BallXxDP + BALL_WIDTH - 1) >= PlateXxDP and BallXxDP <= (PlateXxDP + PLATE_WIDTH - 1)
               and BallYxDP + STEP_Y > (VS_DISPLAY - BALL_HEIGHT - PLATE_HEIGHT)) then
             if DirectionxDP = XY then
@@ -248,18 +250,20 @@ begin
             else
               DirectionxDN <= nXnY;
             end if;
+            BallYxDN <= BallYxDP - STEP_Y;
           elsif BallYxDP + STEP_Y > (VS_DISPLAY - BALL_HEIGHT) then
             StatexDN <= IDLE;
           else
             BallYxDN <= BallYxDP + STEP_Y;
           end if;
         else
-          if (CollisionSmileyxS = '1' and CollisionSmileyXxS = '0') or BallYxDP < STEP_Y then
+          if (CollisionSmileyxS = '1' and CollisionSmileyYxS = '1') or BallYxDP < STEP_Y then
             if DirectionxDP = XnY then
               DirectionxDN <= XY;
             else
               DirectionxDN <= nXY;
             end if;
+            BallYxDN <= BallYxDP + STEP_Y;
           else
             BallYxDN <= BallYxDP - STEP_Y;
           end if;
