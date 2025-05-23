@@ -1,0 +1,30 @@
+.vscode/
+*.ko*
+*.o
+modules.order
+*.symvers
+*.cmd
+*.tmp_versions*
+*.mod.c
+#*.dat
+NA/
+.Xil/
+vivado*.jou
+vivado*.log
+Vivado_def_val.txt
+Vivado_dump.txt
+vivado*.str
+vitis*.log
+
+# Comment the next two lines for the final submission, so that the final bitstreams are included in the repo.
+*.bit
+*.hwh
+
+# If your sources and TCL scripts are outside the Vitis/Vivado project folders, the next two lines
+# avoid that large project, synthesis and implementation files are added to the repository.
+Vivado/
+Exercise02_HLS/
+Exer03_Vitis/
+export/
+Vitis/
+CNN_Dogs_Cats_project/Conv2D/IP-Catalog/

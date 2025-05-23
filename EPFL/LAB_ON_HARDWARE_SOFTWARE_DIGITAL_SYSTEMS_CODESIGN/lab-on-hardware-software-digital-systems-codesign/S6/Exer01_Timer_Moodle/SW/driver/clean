@@ -1,0 +1,6 @@
+rm modules.order
+rm Module.symvers
+rm .testtimer.*
+rm testtimer.mod*
+rm testtimer.ko*
+rm testtimer.o

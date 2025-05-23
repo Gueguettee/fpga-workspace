@@ -1,0 +1,5 @@
+sudo python3 ./programOverlay.py radioastro_SW_power_ranger/adc_bit.bit/adc_bit.bit
+cd radioastro_SW_power_ranger
+chmod +x one.sh
+make
+sudo ./one.sh

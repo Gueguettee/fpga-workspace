@@ -1,0 +1,10 @@
+sudo python3 ./programOverlay.py radioastro_SW_power_ranger/adc_bit.bit/adc_bit.bit
+cd radioastro_SW_power_ranger
+cd src/driver
+make
+./load
+cd .. && cd ..
+chmod +x one.sh
+make USE_KERNEL=1
+sudo ./one.sh
+./unload

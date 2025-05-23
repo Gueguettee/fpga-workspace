@@ -1,0 +1,6 @@
+rm modules.order
+rm Module.symvers
+rm .fft.*
+rm fft.mod*
+rm fft.ko*
+rm fft.o
