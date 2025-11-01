@@ -1,0 +1,7 @@
+set search_path [list . /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/syn_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/sim_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/libraries/syn ] 
+analyze -format sverilog  "mac_unit_2.sv" 
+C/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/project/work
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/project/work/mac_unit_2.sv
+mac_unit_2
+elaborate mac_unit_2
+set_top_module mac_unit_2

@@ -1,0 +1,142 @@
+//LDT 19 0
+smf_layer_compress_info.push_back({layer_num = {19,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 21 0
+smf_layer_compress_info.push_back({layer_num = {21,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 23 0
+smf_layer_compress_info.push_back({layer_num = {23,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 25 0
+smf_layer_compress_info.push_back({layer_num = {25,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 27 0
+smf_layer_compress_info.push_back({layer_num = {27,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 29 0
+smf_layer_compress_info.push_back({layer_num = {29,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 31 0
+smf_layer_compress_info.push_back({layer_num = {31,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 33 0
+smf_layer_compress_info.push_back({layer_num = {33,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 1 0
+smf_layer_compress_info.push_back({layer_num = {1,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 2 0
+smf_layer_compress_info.push_back({layer_num = {2,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 3 0
+smf_layer_compress_info.push_back({layer_num = {3,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 4 0
+smf_layer_compress_info.push_back({layer_num = {4,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 5 0
+smf_layer_compress_info.push_back({layer_num = {5,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 6 0
+smf_layer_compress_info.push_back({layer_num = {6,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 7 0
+smf_layer_compress_info.push_back({layer_num = {7,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 8 0
+smf_layer_compress_info.push_back({layer_num = {8,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 9 0
+smf_layer_compress_info.push_back({layer_num = {9,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 10 0
+smf_layer_compress_info.push_back({layer_num = {10,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 11 0
+smf_layer_compress_info.push_back({layer_num = {11,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 12 0
+smf_layer_compress_info.push_back({layer_num = {12,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 13 0
+smf_layer_compress_info.push_back({layer_num = {13,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 14 0
+smf_layer_compress_info.push_back({layer_num = {14,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 15 0
+smf_layer_compress_info.push_back({layer_num = {15,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 16 0
+smf_layer_compress_info.push_back({layer_num = {16,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 17 0
+smf_layer_compress_info.push_back({layer_num = {17,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 18 0
+smf_layer_compress_info.push_back({layer_num = {18,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 81 0
+smf_layer_compress_info.push_back({layer_num = {81,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 20 0
+smf_layer_compress_info.push_back({layer_num = {20,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 22 0
+smf_layer_compress_info.push_back({layer_num = {22,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 24 0
+smf_layer_compress_info.push_back({layer_num = {24,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 26 0
+smf_layer_compress_info.push_back({layer_num = {26,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 28 0
+smf_layer_compress_info.push_back({layer_num = {28,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 30 0
+smf_layer_compress_info.push_back({layer_num = {30,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 32 0
+smf_layer_compress_info.push_back({layer_num = {32,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 34 0
+smf_layer_compress_info.push_back({layer_num = {34,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 35 0
+smf_layer_compress_info.push_back({layer_num = {35,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 36 0
+smf_layer_compress_info.push_back({layer_num = {36,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 37 0
+smf_layer_compress_info.push_back({layer_num = {37,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 38 0
+smf_layer_compress_info.push_back({layer_num = {38,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 39 0
+smf_layer_compress_info.push_back({layer_num = {39,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 40 0
+smf_layer_compress_info.push_back({layer_num = {40,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 41 0
+smf_layer_compress_info.push_back({layer_num = {41,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 42 0
+smf_layer_compress_info.push_back({layer_num = {42,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 43 0
+smf_layer_compress_info.push_back({layer_num = {43,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 44 0
+smf_layer_compress_info.push_back({layer_num = {44,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 45 0
+smf_layer_compress_info.push_back({layer_num = {45,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 46 0
+smf_layer_compress_info.push_back({layer_num = {46,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 47 0
+smf_layer_compress_info.push_back({layer_num = {47,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 48 0
+smf_layer_compress_info.push_back({layer_num = {48,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 49 0
+smf_layer_compress_info.push_back({layer_num = {49,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 50 0
+smf_layer_compress_info.push_back({layer_num = {50,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 51 0
+smf_layer_compress_info.push_back({layer_num = {51,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 52 0
+smf_layer_compress_info.push_back({layer_num = {52,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 53 0
+smf_layer_compress_info.push_back({layer_num = {53,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 54 0
+smf_layer_compress_info.push_back({layer_num = {54,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 56 0
+smf_layer_compress_info.push_back({layer_num = {56,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 57 0
+smf_layer_compress_info.push_back({layer_num = {57,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 58 0
+smf_layer_compress_info.push_back({layer_num = {58,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 59 0
+smf_layer_compress_info.push_back({layer_num = {59,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 60 0
+smf_layer_compress_info.push_back({layer_num = {60,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 61 0
+smf_layer_compress_info.push_back({layer_num = {61,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 62 0
+smf_layer_compress_info.push_back({layer_num = {62,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 63 0
+smf_layer_compress_info.push_back({layer_num = {63,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 64 0
+smf_layer_compress_info.push_back({layer_num = {64,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 65 0
+smf_layer_compress_info.push_back({layer_num = {65,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 66 0
+smf_layer_compress_info.push_back({layer_num = {66,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 82 0
+smf_layer_compress_info.push_back({layer_num = {82,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 83 0
+smf_layer_compress_info.push_back({layer_num = {83,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 84 0
+smf_layer_compress_info.push_back({layer_num = {84,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 85 0
+smf_layer_compress_info.push_back({layer_num = {85,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});
+//LDT 86 0
+smf_layer_compress_info.push_back({layer_num = {86,0},compress_fill={ mode = NONE, cell = "" },cell_prefix=""});

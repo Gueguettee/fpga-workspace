@@ -1,0 +1,171 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+            Version V-2023.12 for linux64 - Dec 04, 2023 cl#9489491
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -host_init 2 -icc2 -f NDM -i i2c_master_top.dlib -p /scratch/schiavon/FC_Labs/FC_Labs/labs/results -c i2c_master_top -ndm_design_label signoff -icc_density_blockage -I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run -I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1 -I /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl -I /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl -rc /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/icvOptionFile.rc -lf /scratch/schiavon/FC_Labs/FC_Labs/common/map/saed14nm_1p9m_gdsout_mw.map /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl/signoff_metal_fill.rs
+
+Command Line Summary:
+icv
+-c i2c_master_top
+-f NDM
+-host_init 2
+-i i2c_master_top.dlib
+-icc2
+-icc_density_blockage
+-lf /scratch/schiavon/FC_Labs/FC_Labs/common/map/saed14nm_1p9m_gdsout_mw.map
+-ndm_design_label signoff
+-p /scratch/schiavon/FC_Labs/FC_Labs/labs/results
+-rc /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/icvOptionFile.rc
+-I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run
+-I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1
+-I /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl
+-I /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl
+/softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl/signoff_metal_fill.rs
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        i2c_master_top.dlib
+Top cell name:          i2c_master_top
+Layout format:          NDM
+Runset file:            /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl/signoff_metal_fill.rs
+Working directory:      /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1
+Run details directory:  /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details
+Layout error file:      i2c_master_top.LAYOUT_ERRORS
+User name:              schiavon
+Time started:           2025/09/24 09:56:18AM
+Time ended:             2025/09/24 09:56:31AM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+4 total rules were run.
+0 rules NOT EXECUTED.
+1 rule has violations.
+There are 86 total violations.
+Refer to i2c_master_top.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                           Violations Found
+Fill candidates within window  v = 86
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 18
+ Empty Utilized Assign Layers = 5
+ Non-Empty Utilized Assign Layers = 13
+Pruned Assign Layers = 134
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_limit_per_check = 100
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/schiavon"
+ICV_HOME_DIR = "/softs/synopsys/icv/V-2023.12"
+PATH = "/softs/synopsys/icv/V-2023.12/bin/LINUX64_L31el:/softs/synopsys/icv/V-2023.12/contrib/bin/LINUX64_L31el:/softs/synopsys/site/bin:/softs/synopsys/sold:/softs/synopsys/icv/2023.12/bin:/softs/synopsys/fusioncompiler/2024.09/bin:/edadk/bin:/tools/MATLAB/latest/bin:/tools/anaconda/latest/bin:/tools/texlive/latest/bin/x86_64-linux:/tools/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
+SNPSLMD_LICENSE_FILE = "27020@edalicsrv.epfl.ch:27000@ielsrv01.epfl.ch"
+USER = "schiavon"
+
+5 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/tech.tf"
+
+1 debug environment variable set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ tclsrv3.epfl.ch (2/96)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+   CPU:   96 cpu 3000 MHz
+   Cores: 48 HT
+   RAM:   377.383 GB
+   Swap:  127.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:13
+Peak Single Command Memory = 1.006 GB
+Peak Disk Usage = 0.000 GB
+Network Disk Usage Peak=0.008 GB (no group)
+Group File Disk Usage Peak=0.002 GB
+
+Distributed Host Memory Usage
+ tclsrv3.epfl.ch (2/96)  ....  Average=0.992 GB, Peak=0.992 GB / 377.383 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

@@ -1,0 +1,243 @@
+                             RESULTS: NOT CLEAN
+
+         #   #   ###   #####      ####  #      #####   ###   #   #
+         ##  #  #   #    #       #      #      #      #   #  ##  #
+         # # #  #   #    #       #      #      ####   #####  # # #
+         #  ##  #   #    #       #      #      #      #   #  #  ##
+         #   #   ###     #        ####  #####  #####  #   #  #   #
+
+===========================================================================
+
+
+---------------------------------------------------------------------------
+ICV Execution
+---------------------------------------------------------------------------
+
+
+                                 IC Validator 
+
+            Version V-2023.12 for linux64 - Dec 04, 2023 cl#9489491
+
+                    Copyright (c) 1996 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Called as: icv -host_init 2 -icc2 -f NDM -i i2c_master_top.dlib -p /scratch/schiavon/FC_Labs/FC_Labs/labs/results -c i2c_master_top -ndm_design_label signoff -clf /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/slnFile.txt -icc_density_blockage -icc2_error_categories -hm -I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run -icc2_error_browser INST -icc2_error_cell signoff_check_drc.err -clf /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/rule_pattern.clf -rc /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/signoff_check_drc.rc -I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run -lf /scratch/schiavon/FC_Labs/FC_Labs/common/map/saed14nm_1p9m_gdsout_mw.map /scratch/schiavon/FC_Labs/FC_Labs/common/runsets/saed14nm_1p9m_drc_rules.rs  
+
+Command Line Summary:
+icv
+-c i2c_master_top
+-f NDM
+-hm
+-host_init 2
+-i i2c_master_top.dlib
+-icc2
+-icc2_error_browser INST
+-icc2_error_categories
+-icc2_error_cell signoff_check_drc.err
+-icc_density_blockage
+-lf /scratch/schiavon/FC_Labs/FC_Labs/common/map/saed14nm_1p9m_gdsout_mw.map
+-ndm_design_label signoff
+-p /scratch/schiavon/FC_Labs/FC_Labs/labs/results
+-rc /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/signoff_check_drc.rc
+-sln "19 21 23 25 27 29 31 33 35 47 20 22 24 26 28 30 32 34 48 "
+-uvc "*:*Density*of*"
+-uvc "*:*Density*of*"
+-uvc "*:LOGO*"
+-uvc "*:WARNING*"
+-uvc "*AN.R.[0-9]*"
+-uvc "*DIODMY.[A-Z].*"
+-uvc "*DIODMY.[A-Z].[0-9]*"
+-uvc "*DOD.[A-Z].[0-9]*"
+-uvc "*DTCD.[A-Z].[0-9]*"
+-uvc "*ESD.[A-Z].*"
+-uvc "*GRMx.C.2_M1*"
+-uvc "*GRMx.C.2_M2*"
+-uvc "*GRMx.C.2_M3*"
+-uvc "*GRMx.C.2_M4*"
+-uvc "*GRV1.C.6*"
+-uvc "*GRVx.C.6_V2*"
+-uvc "*GRVx.C.6_V3*"
+-uvc "*Gate"
+-uvc "*HV_N.[A-Z].*"
+-uvc "*LUP.[A-Z][0-9].*"
+-uvc "*M*.R.14*"
+-uvc "*M1.G0.1__M1.G0.2__M1.G0.3*"
+-uvc "*M2.G0.1__M2.G0.2__M2.G0.3*"
+-uvc "*M3.G0.1__M3.G0.2__M3.G0.3*"
+-uvc "*M4.G0.1__M4.G0.2__M4.G0.3*"
+-uvc "*M5.G0.1__M5.G0.2__M5.G0.3*"
+-uvc "*M6.G0.1__M6.G0.2__M6.G0.3*"
+-uvc "*NP.[A-Z].*"
+-uvc "*NW.[A-Z].*"
+-uvc "*NWROD.[A-Z].*"
+-uvc "*NWRSTI.[A-Z].*"
+-uvc "*OD.[A-Z].*"
+-uvc "*OD[0-1].[A-Z].*"
+-uvc "*PP.[A-Z].*"
+-uvc "*RH_OD.[A-Z].*"
+-uvc "*RH_TN.[A-Z].*"
+-uvc "*ROM.[A-Z].[0-9]*"
+-uvc "*SR.[A-Z].*"
+-uvc "*SRAM.[A-Z].[0-9]*"
+-uvc "*SSD.[A-Z].*"
+-uvc "*USER_GUIDE*"
+-uvc "*[0-9][A-Z]:HIADMY"
+-uvc "*[A-Z][0-9]:BJTDMY*"
+-uvc "*[A-Z][0-9]:BJTHDMY*"
+-uvc "CSR*:*"
+-uvc "DM*:*"
+-uvc "M*.DN.*:*"
+-uvc "Rule*DEN*:*"
+-uvc "Rule:.*:*Density*of*"
+-uvc "Rule:.*CSR*:*"
+-uvc "Rule:.*DM*:*"
+-uvc "Rule:.*M*.DN.*:*"
+-uvc "Rule:.*USER_GUIDE.M*"
+-uvc "Rule:.*USER_GUIDE.VIA*"
+-uvc "Rule:.*VIA*.DN.*:*"
+-uvc "USER_GUIDE.M*"
+-uvc "USER_GUIDE.VIA*"
+-uvc "VIA*.DN.*:*"
+-I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run
+-I /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run
+/scratch/schiavon/FC_Labs/FC_Labs/common/runsets/saed14nm_1p9m_drc_rules.rs
+
+CLF Files:
+  /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/slnFile.txt
+  /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/rule_pattern.clf
+  
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Input file name:        i2c_master_top.dlib
+Top cell name:          i2c_master_top
+Layout format:          NDM
+Runset file:            /scratch/schiavon/FC_Labs/FC_Labs/common/runsets/saed14nm_1p9m_drc_rules.rs
+Working directory:      /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run
+Run details directory:  /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/run_details
+Layout error file:      i2c_master_top.LAYOUT_ERRORS
+User name:              schiavon
+Time started:           2025/09/24 09:55:05AM
+Time ended:             2025/09/24 09:55:18AM
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+---------------------------------------------------------------------------
+Results Summary
+---------------------------------------------------------------------------
+
+Rule and DRC Error Summary
+
+242 total rules were run.
+114 rules NOT EXECUTED.
+7 rules have violations.
+There are 33 total violations.
+Refer to i2c_master_top.LAYOUT_ERRORS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Rule                                  Violations Found
+M2.S.2                                v = 2
+M2.S.3                                v = 2
+M5.S.1.2 Minimum notch must be 0.005  v = 6
+M5.S.1                                v = 4
+M5.S.2.1                              v = 10
+M5.W.1                                v = 6
+VIA5.S.1                              v = 3
+
+
+---------------------------------------------------------------------------
+Assign Layer Statistics
+---------------------------------------------------------------------------
+
+Utilized Assign Layers = 26
+ Empty Utilized Assign Layers = 13
+ Non-Empty Utilized Assign Layers = 13
+Pruned Assign Layers = 80
+
+
+---------------------------------------------------------------------------
+Run Configuration
+---------------------------------------------------------------------------
+
+run_options()
+ verbose_results_file = { ERRORS }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+hierarchy_options()
+ delete = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+error_options()
+ error_sampling_per_check = 1000
+ match_errors = { }
+ match_errors_processing_mode = HIERARCHICAL
+ match_errors_tolerance = 0.0000
+ violation_options = { }
+ report_empty_violations = false
+ clean_classifications = { }
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Production Environment Variables
+
+HOME = "/home/schiavon"
+ICV_HOME_DIR = "/softs/synopsys/icv/V-2023.12"
+ICV_REVERT = "NDM_DESIGN_ATTACHED_ERROR_DATA"
+PATH = "/softs/synopsys/icv/V-2023.12/bin/LINUX64_L31el:/softs/synopsys/icv/V-2023.12/contrib/bin/LINUX64_L31el:/softs/synopsys/site/bin:/softs/synopsys/sold:/softs/synopsys/icv/2023.12/bin:/softs/synopsys/fusioncompiler/2024.09/bin:/edadk/bin:/tools/MATLAB/latest/bin:/tools/anaconda/latest/bin:/tools/texlive/latest/bin/x86_64-linux:/tools/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"
+SNPSLMD_LICENSE_FILE = "27020@edalicsrv.epfl.ch:27000@ielsrv01.epfl.ch"
+USER = "schiavon"
+
+6 production environment variables set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Debug Environment Variables
+
+icv_WRITE_TECH_FILE_WITH_UPDATES = "/scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/tech.tf"
+
+1 debug environment variable set.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Distributed Processing
+ Distributed Cores = 2
+
+ tclsrv3.epfl.ch (2/96)
+   Commands: 2 in parallel, maximum
+   Model: Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz
+   CPU:   96 cpu 3000 MHz
+   Cores: 48 HT
+   RAM:   377.383 GB
+   Swap:  127.999 GB
+
+
+---------------------------------------------------------------------------
+Performance Statistics
+---------------------------------------------------------------------------
+
+IC Validator Run Time = 0:00:13
+Peak Single Command Memory = 1.069 GB
+Peak Disk Usage = 0.000 GB
+Network Disk Usage Peak=0.008 GB (no group)
+Group File Disk Usage Peak=0.002 GB
+
+Distributed Host Memory Usage
+ tclsrv3.epfl.ch (2/96)  ....  Average=1.068 GB, Peak=1.068 GB / 377.383 GB
+
+Overall Distributed Utilization: not available
+IC Validator is done.

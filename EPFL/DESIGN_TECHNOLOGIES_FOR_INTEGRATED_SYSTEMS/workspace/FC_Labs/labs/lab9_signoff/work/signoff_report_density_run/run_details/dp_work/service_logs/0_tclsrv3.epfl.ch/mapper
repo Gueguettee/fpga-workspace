@@ -1,0 +1,43 @@
+[144245:2025-09-24 09:56:34.212] Starting service 'mapper' (Node ID=0, Host Name=tclsrv3.epfl.ch)
+[144245:2025-09-24 09:56:34.243] <Redis> 144254:C 24 Sep 2025 09:56:34.243 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[144245:2025-09-24 09:56:34.244] <Redis> 144254:C 24 Sep 2025 09:56:34.243 # Redis version=6.2.1, bits=64, commit=00000000, modified=0, pid=144254, just started
+[144245:2025-09-24 09:56:34.244] <Redis> 144254:C 24 Sep 2025 09:56:34.243 # Configuration loaded
+[144245:2025-09-24 09:56:34.245] <Redis> 144254:M 24 Sep 2025 09:56:34.245 # You requested maxclients of 10000 requiring at least 10032 max file descriptors.
+[144245:2025-09-24 09:56:34.245] <Redis> 144254:M 24 Sep 2025 09:56:34.245 # Server can't set maximum open files to 10032 because of OS error: Operation not permitted.
+[144245:2025-09-24 09:56:34.245] <Redis> 144254:M 24 Sep 2025 09:56:34.245 # Current maximum open files is 4096. maxclients has been reduced to 4064 to compensate for low ulimit. If you need higher maxclients increase 'ulimit -n'.
+[144245:2025-09-24 09:56:34.245] <Redis> 144254:M 24 Sep 2025 09:56:34.245 * monotonic clock: POSIX clock_gettime
+[144245:2025-09-24 09:56:34.246] <Redis> 144254:M 24 Sep 2025 09:56:34.246 * Running mode=standalone, port=35823.
+[144245:2025-09-24 09:56:34.246] <Redis> 144254:M 24 Sep 2025 09:56:34.246 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+[144245:2025-09-24 09:56:34.246] <Redis> 144254:M 24 Sep 2025 09:56:34.246 # Server initialized
+[144245:2025-09-24 09:56:34.246] <Redis> 144254:M 24 Sep 2025 09:56:34.246 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+[144245:2025-09-24 09:56:34.247] <Redis> 144254:M 24 Sep 2025 09:56:34.246 * Ready to accept connections
+[144245:2025-09-24 09:56:34.247] Launched Redis process 144254 (Service Mapper) on address 127.0.0.1:35823. Attempting to connect...
+[144245:2025-09-24 09:56:34.247] Attempt #1 successfully connected to Redis at 127.0.0.1:35823
+[144245:2025-09-24 09:56:34.248] <Redis> 144254:M 24 Sep 2025 09:56:34.246 * The server is now ready to accept connections at /tmp/icv_Vx8cY0/mapper
+[144245:2025-09-24 09:56:34.249] Wrote service info file to run_details/dp_work/service_info
+[144244:2025-09-24 09:56:44.251] [2025-09-24 09:56:34.292] Service 'launcher:0' registered on tclsrv3.epfl.ch:59038
+[144259:2025-09-24 09:56:44.252] [2025-09-24 09:56:34.318] Service 'cluster' registered on tclsrv3.epfl.ch:58726
+[144258:2025-09-24 09:56:44.252] [2025-09-24 09:56:34.318] Service 'license_manager' registered on tclsrv3.epfl.ch:51430
+[144261:2025-09-24 09:56:44.252] [2025-09-24 09:56:34.319] Service 'lock_manager' registered on tclsrv3.epfl.ch:53656
+[144260:2025-09-24 09:56:44.252] [2025-09-24 09:56:34.337] Service 'hdb' registered on tclsrv3.epfl.ch:57773
+[144273:2025-09-24 09:56:44.252] [2025-09-24 09:56:34.499] Service 'memory_manager' registered on tclsrv3.epfl.ch:40015
+[144274:2025-09-24 09:56:44.252] [2025-09-24 09:56:34.500] Service 'cleanup' registered on tclsrv3.epfl.ch:52569
+[144350:2025-09-24 09:56:44.252] [2025-09-24 09:56:43.204] Per-host service 'worker_pool:tclsrv3.epfl.ch' registered on tclsrv3.epfl.ch:45883
+[144350:2025-09-24 09:56:44.252] [2025-09-24 09:56:43.204] Per-host service 'host_stats:tclsrv3.epfl.ch' registered on tclsrv3.epfl.ch:52676
+[144264:2025-09-24 09:56:44.252] [2025-09-24 09:56:43.204] Service 'add_host' registered on tclsrv3.epfl.ch:43352
+[144273:2025-09-24 09:56:47.287] [2025-09-24 09:56:47.228] Removing service 'memory_manager'
+[144264:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.242] Removing service 'add_host'
+[144244:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.282] Removing service 'launcher:0'
+[144259:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.282] Removing service 'cluster'
+[144260:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.282] Removing service 'hdb'
+[144261:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.282] Removing service 'lock_manager'
+[144258:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.282] Removing service 'license_manager'
+[144350:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.283] Removing service 'worker_pool:tclsrv3.epfl.ch'
+[144350:2025-09-24 09:56:47.288] [2025-09-24 09:56:47.284] Removing service 'host_stats:tclsrv3.epfl.ch'
+[144245:2025-09-24 09:56:47.289] Received signal 15 (Terminated). Exiting.
+[144245:2025-09-24 09:56:47.292] <Redis> 144254:M 24 Sep 2025 09:56:47.289 # User requested shutdown...
+[144245:2025-09-24 09:56:47.292] <Redis> 144254:M 24 Sep 2025 09:56:47.289 * Removing the unix socket file.
+[144245:2025-09-24 09:56:47.292] <Redis> 144254:M 24 Sep 2025 09:56:47.289 # Redis is now ready to exit, bye bye...
+[144245:2025-09-24 09:56:47.292] Pipe is closed from from Redis.
+[144245:2025-09-24 09:56:47.292] /tmp/icv_Vx8cY0 is removed
+[144245:2025-09-24 09:56:47.292] Service info file run_details/dp_work/service_info is removed.

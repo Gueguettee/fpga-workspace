@@ -1,0 +1,14 @@
+/* ============================================ */
+/*   Environment setup for signoff_check_drc   */
+/* ============================================ */
+#define SNPSINDESIGN 
+#define USE_ICC2 
+#define RESOLUTION_OPTIONS_LAYOUT_RESOLUTION_CHECK {}
+#define SNPSINDESIGN_DRC_RUN_DIRECTORY /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work
+#define NDM_OPTIONS_DRC_BLACK_BOX_CELLS {"*","!i2c_master_top"}
+#define NDM_OPTIONS_MISSING_CELL ABORT
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_INTERNAL_DESIGNS {{use=FILL_USE,read_from=ALL,out_of_date=DISCARD}}
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW,FRAME_VIEW}, cells={"*","!"+get_top_cell()} }
+#define NDM_OPTIONS_SEARCH_PATH "/scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/syn_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/sim_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/libraries/syn  ."
+#define ERROR_OPTIONS_ERROR_LIMIT_PER_CHECK 1000

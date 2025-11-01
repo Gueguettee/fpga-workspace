@@ -1,0 +1,36 @@
+09/24/2025 09:55:41 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@edalicsrv.epfl.ch:27000@ielsrv01.epfl.ch"
+
+09/24/2025 09:55:41 License manager initialized. (Time=0:00:00)
+09/24/2025 09:55:41 Using license file: 27020@edalicsrv.epfl.ch
+09/24/2025 09:55:41 Using license file: 27000@ielsrv01.epfl.ch
+09/24/2025 09:55:41 (icv) Pre-Checking (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:41 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+09/24/2025 09:55:51 Requesting (ICValidator-Manager-2020/2023.12)
+09/24/2025 09:55:51 LicenseCache: Failed to create cache directory /home/schiavon/.cache/Synopsys/icv/license: filesystem error: cannot create directories: Permission denied [/home/schiavon/.cache/Synopsys/icv/license]
+09/24/2025 09:55:51 LicenseCache: Failed to create cache directory /home/schiavon/.cache/Synopsys/icv/license: filesystem error: cannot create directories: Permission denied [/home/schiavon/.cache/Synopsys/icv/license]
+09/24/2025 09:55:51   ICValidator-Manager-2020/2023.12 license denied. (Time=0:00:00)
+09/24/2025 09:55:51 Requesting (ICValidator-Manager/2023.12)
+09/24/2025 09:55:51 LicenseCache: Failed to create cache directory /home/schiavon/.cache/Synopsys/icv/license: filesystem error: cannot create directories: Permission denied [/home/schiavon/.cache/Synopsys/icv/license]
+09/24/2025 09:55:51 LicenseCache: Failed to create cache directory /home/schiavon/.cache/Synopsys/icv/license: filesystem error: cannot create directories: Permission denied [/home/schiavon/.cache/Synopsys/icv/license]
+09/24/2025 09:55:51   ICValidator-Manager/2023.12 license denied. (Time=0:00:00)
+09/24/2025 09:55:51 Requesting (ICValidator-Manager-Apex/2023.12)
+09/24/2025 09:55:51 LicenseCache: Failed to create cache directory /home/schiavon/.cache/Synopsys/icv/license: filesystem error: cannot create directories: Permission denied [/home/schiavon/.cache/Synopsys/icv/license]
+09/24/2025 09:55:51   27020@edalicsrv.epfl.ch: ICValidator-Manager-Apex license obtained. (Time=0:00:00)
+09/24/2025 09:55:51 
+09/24/2025 09:55:51 Obtained 1 total ICValidator-Manager-Apex license.
+09/24/2025 09:55:51 This will allow up to 4 engine processes to run.
+
+09/24/2025 09:55:51 (pydb_server) ICValidator2-GeometryEngine license is available.  (Cached)
+09/24/2025 09:55:51 (icv_engine 1) Requesting (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:51 (icv_engine 1) LicenseCache: Failed to create cache directory /home/schiavon/.cache/Synopsys/icv/license: filesystem error: cannot create directories: Permission denied [/home/schiavon/.cache/Synopsys/icv/license]
+09/24/2025 09:55:51 (icv_engine 1)   27020@edalicsrv.epfl.ch: ICValidator2-GeometryEngine license obtained. (Time=0:00:00)
+09/24/2025 09:55:51 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:51 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:52 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:52 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:52 (icv_engine 1) Using existing copy of (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:52 (icv_engine 0) Using existing copy of (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:55:54 Releasing all licenses
+09/24/2025 09:55:54 License manager shutting down. (Time=0:00:00)

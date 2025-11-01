@@ -1,0 +1,2749 @@
+#
+# runset is /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl/report_metal_density.rs
+#
+runset_csum = 58115
+num_hosts = 2
+events {
+S 351.0.0 1273 0
+# tclsrv3.epfl.ch(0):       825  1 _prescan_library
+S 359.0.0 1302 1
+# tclsrv3.epfl.ch(1):       576  1 _read_schematic_cell_names
+F 359.0.0 1302 1
+F 351.0.0 1273 0
+S 353.0.0 1280 0
+# tclsrv3.epfl.ch(0):       871  1 _scan_hierarchy
+F 0 0 1
+F 353.0.0 1280 0
+S 358.0.0 1297 1
+# tclsrv3.epfl.ch(1):     12417  1 _read_library_segment
+F 358.0.0 1297 1
+S 361.0.0 1307 0
+# tclsrv3.epfl.ch(0):      7429  1 _create_hierarchy_tree
+F 361.0.0 1307 0
+S 429.0.0 1531 0
+# tclsrv3.epfl.ch(0):      1728  1 _optimize_hierarchy_tree
+S 428.0.0 1529 1
+# tclsrv3.epfl.ch(1):       579  1 _generate_sibling_refref
+F 428.0.0 1529 1
+S 3861.0.0 12846 1
+# tclsrv3.epfl.ch(1):      1214  1 _empty_layer
+F 3861.0.0 12846 1
+S 3859.0.0 12842 1
+# tclsrv3.epfl.ch(1):      1214  1 _empty_layer
+F 3859.0.0 12842 1
+S 3857.0.0 12838 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3857.0.0 12838 1
+S 3855.0.0 12834 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3855.0.0 12834 1
+S 3853.0.0 12830 1
+# tclsrv3.epfl.ch(1):      1203  1 _empty_layer
+F 3853.0.0 12830 1
+S 3851.0.0 12826 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3851.0.0 12826 1
+S 3849.0.0 12822 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3849.0.0 12822 1
+S 3847.0.0 12818 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3847.0.0 12818 1
+S 3845.0.0 12814 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3845.0.0 12814 1
+S 3703.0.0 12310 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3703.0.0 12310 1
+S 3701.0.0 12306 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3701.0.0 12306 1
+S 3699.0.0 12302 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3699.0.0 12302 1
+S 3697.0.0 12298 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3697.0.0 12298 1
+S 3695.0.0 12294 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3695.0.0 12294 1
+S 3693.0.0 12290 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3693.0.0 12290 1
+S 3551.0.0 11786 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3551.0.0 11786 1
+S 3549.0.0 11782 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3549.0.0 11782 1
+S 3547.0.0 11778 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3547.0.0 11778 1
+S 3545.0.0 11774 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3545.0.0 11774 1
+S 3543.0.0 11770 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3543.0.0 11770 1
+S 3541.0.0 11766 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3541.0.0 11766 1
+S 3399.0.0 11262 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3399.0.0 11262 1
+S 3397.0.0 11258 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3397.0.0 11258 1
+S 3395.0.0 11254 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3395.0.0 11254 1
+S 3393.0.0 11250 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3393.0.0 11250 1
+S 3391.0.0 11246 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3391.0.0 11246 1
+S 3389.0.0 11242 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3389.0.0 11242 1
+S 3246.0.0 10731 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3246.0.0 10731 1
+S 3244.0.0 10727 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3244.0.0 10727 1
+S 3242.0.0 10723 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3242.0.0 10723 1
+S 3240.0.0 10719 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3240.0.0 10719 1
+S 3238.0.0 10715 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3238.0.0 10715 1
+S 3236.0.0 10711 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3236.0.0 10711 1
+S 3093.0.0 10200 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3093.0.0 10200 1
+S 3091.0.0 10196 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 3091.0.0 10196 1
+S 3089.0.0 10192 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3089.0.0 10192 1
+S 3087.0.0 10188 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3087.0.0 10188 1
+S 3085.0.0 10184 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 3085.0.0 10184 1
+S 3083.0.0 10180 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 3083.0.0 10180 1
+S 2987.0.0 9848 1
+# tclsrv3.epfl.ch(1):      1214  1 _empty_layer
+F 2987.0.0 9848 1
+S 2985.0.0 9844 1
+# tclsrv3.epfl.ch(1):      1214  1 _empty_layer
+F 2985.0.0 9844 1
+S 2983.0.0 9840 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 2983.0.0 9840 1
+S 2981.0.0 9836 1
+# tclsrv3.epfl.ch(1):      1199  1 _empty_layer
+F 2981.0.0 9836 1
+S 2979.0.0 9832 1
+# tclsrv3.epfl.ch(1):      1203  1 _empty_layer
+F 2979.0.0 9832 1
+S 2977.0.0 9828 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 2977.0.0 9828 1
+S 2975.0.0 9824 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 2975.0.0 9824 1
+S 2973.0.0 9820 1
+# tclsrv3.epfl.ch(1):      1186  1 _empty_layer
+F 2973.0.0 9820 1
+S 2971.0.0 9816 1
+# tclsrv3.epfl.ch(1):      1188  1 _empty_layer
+F 2971.0.0 9816 1
+S 2769.0.0 9130 1
+# tclsrv3.epfl.ch(1):      1206  1 _empty_layer
+F 2769.0.0 9130 1
+S 2767.0.0 9126 1
+# tclsrv3.epfl.ch(1):      1206  1 _empty_layer
+F 2767.0.0 9126 1
+S 2765.0.0 9122 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 2765.0.0 9122 1
+S 2763.0.0 9118 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 2763.0.0 9118 1
+S 2761.0.0 9114 1
+# tclsrv3.epfl.ch(1):      1195  1 _empty_layer
+F 2761.0.0 9114 1
+S 2755.0.0 9097 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 2755.0.0 9097 1
+S 2753.0.0 9093 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 2753.0.0 9093 1
+S 2751.0.0 9089 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 2751.0.0 9089 1
+S 2749.0.0 9085 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 2749.0.0 9085 1
+S 2467.0.0 8081 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 2467.0.0 8081 1
+S 2465.0.0 8077 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 2465.0.0 8077 1
+S 2463.0.0 8073 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 2463.0.0 8073 1
+S 2461.0.0 8069 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 2461.0.0 8069 1
+S 2451.0.0 8039 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 2451.0.0 8039 1
+S 2449.0.0 8035 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 2449.0.0 8035 1
+S 2447.0.0 8031 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 2447.0.0 8031 1
+S 2445.0.0 8027 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 429.0.0 1531 0
+S 430.0.0 1541 0
+# tclsrv3.epfl.ch(0):      1018  1 _hierarchy_cleanup
+F 2445.0.0 8027 1
+S 2163.0.0 7023 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 2163.0.0 7023 1
+S 2161.0.0 7019 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 2161.0.0 7019 1
+S 2159.0.0 7015 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 2159.0.0 7015 1
+S 2157.0.0 7011 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 2157.0.0 7011 1
+S 2147.0.0 6981 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 2147.0.0 6981 1
+S 2145.0.0 6977 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 2145.0.0 6977 1
+S 2143.0.0 6973 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 2143.0.0 6973 1
+S 2141.0.0 6969 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 2141.0.0 6969 1
+S 1859.0.0 5965 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 1859.0.0 5965 1
+S 1857.0.0 5961 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 1857.0.0 5961 1
+S 1855.0.0 5957 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1855.0.0 5957 1
+S 1853.0.0 5953 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1853.0.0 5953 1
+S 1843.0.0 5923 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1843.0.0 5923 1
+S 1841.0.0 5919 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1841.0.0 5919 1
+S 1839.0.0 5915 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1839.0.0 5915 1
+S 1837.0.0 5911 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1837.0.0 5911 1
+S 1553.0.0 4893 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 1553.0.0 4893 1
+S 1547.0.0 4876 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1547.0.0 4876 1
+S 1545.0.0 4872 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1545.0.0 4872 1
+S 1535.0.0 4842 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1535.0.0 4842 1
+S 1533.0.0 4838 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1533.0.0 4838 1
+S 1531.0.0 4834 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1531.0.0 4834 1
+S 1529.0.0 4830 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1529.0.0 4830 1
+S 1245.0.0 3812 1
+# tclsrv3.epfl.ch(1):      1845  1 _empty_layer
+F 1245.0.0 3812 1
+S 1239.0.0 3795 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1239.0.0 3795 1
+S 1237.0.0 3791 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1237.0.0 3791 1
+S 1227.0.0 3761 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1227.0.0 3761 1
+S 1225.0.0 3757 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1225.0.0 3757 1
+S 1223.0.0 3753 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1223.0.0 3753 1
+S 1221.0.0 3749 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1221.0.0 3749 1
+S 1031.0.0 3087 1
+# tclsrv3.epfl.ch(1):      1206  1 _empty_layer
+F 1031.0.0 3087 1
+S 1029.0.0 3083 1
+# tclsrv3.epfl.ch(1):      1206  1 _empty_layer
+F 1029.0.0 3083 1
+S 1027.0.0 3079 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1027.0.0 3079 1
+S 1025.0.0 3075 1
+# tclsrv3.epfl.ch(1):      1191  1 _empty_layer
+F 1025.0.0 3075 1
+S 1023.0.0 3071 1
+# tclsrv3.epfl.ch(1):      1195  1 _empty_layer
+F 1023.0.0 3071 1
+S 1017.0.0 3054 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1017.0.0 3054 1
+S 1015.0.0 3050 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1015.0.0 3050 1
+S 1013.0.0 3046 1
+# tclsrv3.epfl.ch(1):      1178  1 _empty_layer
+F 1013.0.0 3046 1
+S 1011.0.0 3042 1
+# tclsrv3.epfl.ch(1):      1180  1 _empty_layer
+F 1011.0.0 3042 1
+S 994.0.0 3004 1
+# tclsrv3.epfl.ch(1):      1578  1 _empty_layer
+F 994.0.0 3004 1
+S 992.0.0 3000 1
+# tclsrv3.epfl.ch(1):      1422  1 _empty_layer
+F 992.0.0 3000 1
+S 987.0.0 2989 1
+# tclsrv3.epfl.ch(1):      1578  1 _empty_layer
+F 987.0.0 2989 1
+S 985.0.0 2985 1
+# tclsrv3.epfl.ch(1):      1422  1 _empty_layer
+F 985.0.0 2985 1
+S 980.0.0 2974 1
+# tclsrv3.epfl.ch(1):      1578  1 _empty_layer
+F 980.0.0 2974 1
+S 978.0.0 2970 1
+# tclsrv3.epfl.ch(1):      1422  1 _empty_layer
+F 978.0.0 2970 1
+S 963.0.0 2932 1
+# tclsrv3.epfl.ch(1):      1578  1 _empty_layer
+F 963.0.0 2932 1
+S 961.0.0 2928 1
+# tclsrv3.epfl.ch(1):      1422  1 _empty_layer
+F 961.0.0 2928 1
+S 956.0.0 2917 1
+# tclsrv3.epfl.ch(1):      1578  1 _empty_layer
+F 956.0.0 2917 1
+S 954.0.0 2913 1
+# tclsrv3.epfl.ch(1):      1422  1 _empty_layer
+F 954.0.0 2913 1
+S 949.0.0 2902 1
+# tclsrv3.epfl.ch(1):      1578  1 _empty_layer
+F 949.0.0 2902 1
+S 947.0.0 2898 1
+# tclsrv3.epfl.ch(1):      1422  1 _empty_layer
+F 947.0.0 2898 1
+S 938.0.0 2864 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 938.0.0 2864 1
+S 937.0.0 2862 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 937.0.0 2862 1
+S 936.0.0 2860 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 936.0.0 2860 1
+S 932.0.0 2851 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 932.0.0 2851 1
+S 931.0.0 2849 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 931.0.0 2849 1
+S 930.0.0 2847 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 930.0.0 2847 1
+S 919.0.0 2811 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 919.0.0 2811 1
+S 918.0.0 2809 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 918.0.0 2809 1
+S 917.0.0 2807 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 917.0.0 2807 1
+S 913.0.0 2798 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 913.0.0 2798 1
+S 912.0.0 2796 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 912.0.0 2796 1
+S 911.0.0 2794 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 911.0.0 2794 1
+S 900.0.0 2758 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 900.0.0 2758 1
+S 899.0.0 2756 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 899.0.0 2756 1
+S 898.0.0 2754 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 898.0.0 2754 1
+S 894.0.0 2745 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 894.0.0 2745 1
+S 893.0.0 2743 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 893.0.0 2743 1
+S 892.0.0 2741 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 892.0.0 2741 1
+S 881.0.0 2705 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 881.0.0 2705 1
+S 880.0.0 2703 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 880.0.0 2703 1
+S 879.0.0 2701 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 879.0.0 2701 1
+S 861.0.0 2638 1
+# tclsrv3.epfl.ch(1):      2834  1 _empty_layer
+F 861.0.0 2638 1
+S 860.0.0 2636 1
+# tclsrv3.epfl.ch(1):      2832  1 _empty_layer
+F 860.0.0 2636 1
+S 859.0.0 2634 1
+# tclsrv3.epfl.ch(1):      2805  1 _empty_layer
+F 859.0.0 2634 1
+S 841.0.0 2571 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 841.0.0 2571 1
+S 840.0.0 2569 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 840.0.0 2569 1
+S 839.0.0 2567 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 839.0.0 2567 1
+S 835.0.0 2558 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 835.0.0 2558 1
+S 834.0.0 2556 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 834.0.0 2556 1
+S 833.0.0 2554 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 833.0.0 2554 1
+S 829.0.0 2545 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 829.0.0 2545 1
+S 828.0.0 2543 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 828.0.0 2543 1
+S 827.0.0 2541 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 827.0.0 2541 1
+S 823.0.0 2532 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 823.0.0 2532 1
+S 822.0.0 2530 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 822.0.0 2530 1
+S 821.0.0 2528 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 821.0.0 2528 1
+S 817.0.0 2519 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 817.0.0 2519 1
+S 816.0.0 2517 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 816.0.0 2517 1
+S 815.0.0 2515 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 815.0.0 2515 1
+S 811.0.0 2506 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 811.0.0 2506 1
+S 810.0.0 2504 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 810.0.0 2504 1
+S 809.0.0 2502 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 809.0.0 2502 1
+S 805.0.0 2493 1
+# tclsrv3.epfl.ch(1):      2787  1 _empty_layer
+F 805.0.0 2493 1
+S 804.0.0 2491 1
+# tclsrv3.epfl.ch(1):      2785  1 _empty_layer
+F 804.0.0 2491 1
+S 803.0.0 2489 1
+# tclsrv3.epfl.ch(1):      2758  1 _empty_layer
+F 803.0.0 2489 1
+S 799.0.0 2480 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 799.0.0 2480 1
+S 798.0.0 2478 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 798.0.0 2478 1
+S 797.0.0 2476 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 797.0.0 2476 1
+S 793.0.0 2467 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 793.0.0 2467 1
+S 792.0.0 2465 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 792.0.0 2465 1
+S 791.0.0 2463 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 791.0.0 2463 1
+S 787.0.0 2454 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 787.0.0 2454 1
+S 786.0.0 2452 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 786.0.0 2452 1
+S 785.0.0 2450 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 785.0.0 2450 1
+S 781.0.0 2441 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 781.0.0 2441 1
+S 780.0.0 2439 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 780.0.0 2439 1
+S 779.0.0 2437 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 779.0.0 2437 1
+S 775.0.0 2428 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 775.0.0 2428 1
+S 774.0.0 2426 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 774.0.0 2426 1
+S 773.0.0 2424 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 773.0.0 2424 1
+S 769.0.0 2415 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 769.0.0 2415 1
+S 768.0.0 2413 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 768.0.0 2413 1
+S 767.0.0 2411 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 767.0.0 2411 1
+S 763.0.0 2402 1
+# tclsrv3.epfl.ch(1):      2819  1 _empty_layer
+F 763.0.0 2402 1
+S 762.0.0 2400 1
+# tclsrv3.epfl.ch(1):      2817  1 _empty_layer
+F 762.0.0 2400 1
+S 761.0.0 2398 1
+# tclsrv3.epfl.ch(1):      2790  1 _empty_layer
+F 761.0.0 2398 1
+S 757.0.0 2389 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 757.0.0 2389 1
+S 756.0.0 2387 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 756.0.0 2387 1
+S 755.0.0 2385 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 755.0.0 2385 1
+S 751.0.0 2376 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 751.0.0 2376 1
+S 750.0.0 2374 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 750.0.0 2374 1
+S 749.0.0 2372 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 749.0.0 2372 1
+S 745.0.0 2363 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 745.0.0 2363 1
+S 744.0.0 2361 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 744.0.0 2361 1
+S 743.0.0 2359 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 743.0.0 2359 1
+S 739.0.0 2350 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 739.0.0 2350 1
+S 738.0.0 2348 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 738.0.0 2348 1
+S 737.0.0 2346 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 737.0.0 2346 1
+S 733.0.0 2337 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 733.0.0 2337 1
+S 732.0.0 2335 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 732.0.0 2335 1
+S 731.0.0 2333 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 731.0.0 2333 1
+S 727.0.0 2324 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 727.0.0 2324 1
+S 726.0.0 2322 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 726.0.0 2322 1
+S 725.0.0 2320 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 725.0.0 2320 1
+S 721.0.0 2311 1
+# tclsrv3.epfl.ch(1):      2795  1 _empty_layer
+F 721.0.0 2311 1
+S 720.0.0 2309 1
+# tclsrv3.epfl.ch(1):      2793  1 _empty_layer
+F 720.0.0 2309 1
+S 719.0.0 2307 1
+# tclsrv3.epfl.ch(1):      2766  1 _empty_layer
+F 719.0.0 2307 1
+S 715.0.0 2298 1
+# tclsrv3.epfl.ch(1):      2827  1 _empty_layer
+F 715.0.0 2298 1
+S 714.0.0 2296 1
+# tclsrv3.epfl.ch(1):      2825  1 _empty_layer
+F 714.0.0 2296 1
+S 713.0.0 2294 1
+# tclsrv3.epfl.ch(1):      2798  1 _empty_layer
+F 713.0.0 2294 1
+S 709.0.0 2285 1
+# tclsrv3.epfl.ch(1):      2827  1 _empty_layer
+F 709.0.0 2285 1
+S 708.0.0 2283 1
+# tclsrv3.epfl.ch(1):      2825  1 _empty_layer
+F 708.0.0 2283 1
+S 707.0.0 2281 1
+# tclsrv3.epfl.ch(1):      2798  1 _empty_layer
+F 707.0.0 2281 1
+S 703.0.0 2272 1
+# tclsrv3.epfl.ch(1):      2827  1 _empty_layer
+F 703.0.0 2272 1
+S 702.0.0 2270 1
+# tclsrv3.epfl.ch(1):      2825  1 _empty_layer
+F 702.0.0 2270 1
+S 701.0.0 2268 1
+# tclsrv3.epfl.ch(1):      2798  1 _empty_layer
+F 701.0.0 2268 1
+S 697.0.0 2259 1
+# tclsrv3.epfl.ch(1):      2827  1 _empty_layer
+F 697.0.0 2259 1
+S 696.0.0 2257 1
+# tclsrv3.epfl.ch(1):      2825  1 _empty_layer
+F 696.0.0 2257 1
+S 695.0.0 2255 1
+# tclsrv3.epfl.ch(1):      2798  1 _empty_layer
+F 695.0.0 2255 1
+S 691.0.0 2246 1
+# tclsrv3.epfl.ch(1):      2827  1 _empty_layer
+F 691.0.0 2246 1
+S 690.0.0 2244 1
+# tclsrv3.epfl.ch(1):      2825  1 _empty_layer
+F 430.0.0 1541 0
+F 690.0.0 2244 1
+S 432.0.0 1546 1
+# tclsrv3.epfl.ch(1):      1336  1 _rebuild_exploded_hierarchy
+F 432.0.0 1546 1
+S 431.0.0 1544 1
+# tclsrv3.epfl.ch(1):      1052  1 _update_and_pushdown_refref
+F 431.0.0 1544 1
+S 3976.0.0 13223 1
+# tclsrv3.epfl.ch(1):       669  1 _find_ndm_output_resolution
+S 689.0.0 2242 0
+# tclsrv3.epfl.ch(0):      2798  1 _empty_layer
+F 689.0.0 2242 0
+S 685.0.0 2233 0
+# tclsrv3.epfl.ch(0):      2827  1 _empty_layer
+F 685.0.0 2233 0
+S 684.0.0 2231 0
+# tclsrv3.epfl.ch(0):      2825  1 _empty_layer
+F 684.0.0 2231 0
+S 683.0.0 2229 0
+# tclsrv3.epfl.ch(0):      2798  1 _empty_layer
+F 683.0.0 2229 0
+S 679.0.0 2220 0
+# tclsrv3.epfl.ch(0):      2827  1 _empty_layer
+F 679.0.0 2220 0
+S 678.0.0 2218 0
+# tclsrv3.epfl.ch(0):      2825  1 _empty_layer
+F 678.0.0 2218 0
+S 677.0.0 2216 0
+# tclsrv3.epfl.ch(0):      2798  1 _empty_layer
+F 677.0.0 2216 0
+S 673.0.0 2207 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 673.0.0 2207 0
+S 672.0.0 2205 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 672.0.0 2205 0
+S 671.0.0 2203 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 671.0.0 2203 0
+S 667.0.0 2194 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 667.0.0 2194 0
+S 666.0.0 2192 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 666.0.0 2192 0
+S 665.0.0 2190 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 665.0.0 2190 0
+S 661.0.0 2181 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 661.0.0 2181 0
+S 660.0.0 2179 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 660.0.0 2179 0
+S 659.0.0 2177 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 659.0.0 2177 0
+S 655.0.0 2168 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 655.0.0 2168 0
+S 654.0.0 2166 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 654.0.0 2166 0
+S 653.0.0 2164 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 653.0.0 2164 0
+S 649.0.0 2155 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 649.0.0 2155 0
+S 648.0.0 2153 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 648.0.0 2153 0
+S 647.0.0 2151 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 647.0.0 2151 0
+S 643.0.0 2142 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 643.0.0 2142 0
+S 642.0.0 2140 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 642.0.0 2140 0
+S 641.0.0 2138 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 641.0.0 2138 0
+S 637.0.0 2129 0
+# tclsrv3.epfl.ch(0):      2744  1 _empty_layer
+F 637.0.0 2129 0
+S 636.0.0 2127 0
+# tclsrv3.epfl.ch(0):      2742  1 _empty_layer
+F 636.0.0 2127 0
+S 635.0.0 2125 0
+# tclsrv3.epfl.ch(0):      2715  1 _empty_layer
+F 635.0.0 2125 0
+S 631.0.0 2116 0
+# tclsrv3.epfl.ch(0):      2776  1 _empty_layer
+F 631.0.0 2116 0
+S 630.0.0 2114 0
+# tclsrv3.epfl.ch(0):      2774  1 _empty_layer
+F 630.0.0 2114 0
+S 629.0.0 2112 0
+# tclsrv3.epfl.ch(0):      2747  1 _empty_layer
+F 629.0.0 2112 0
+S 625.0.0 2103 0
+# tclsrv3.epfl.ch(0):      2776  1 _empty_layer
+F 625.0.0 2103 0
+S 624.0.0 2101 0
+# tclsrv3.epfl.ch(0):      2774  1 _empty_layer
+F 624.0.0 2101 0
+S 623.0.0 2099 0
+# tclsrv3.epfl.ch(0):      2747  1 _empty_layer
+F 623.0.0 2099 0
+S 619.0.0 2090 0
+# tclsrv3.epfl.ch(0):      2776  1 _empty_layer
+F 619.0.0 2090 0
+S 618.0.0 2088 0
+# tclsrv3.epfl.ch(0):      2774  1 _empty_layer
+F 618.0.0 2088 0
+S 617.0.0 2086 0
+# tclsrv3.epfl.ch(0):      2747  1 _empty_layer
+F 617.0.0 2086 0
+S 606.0.0 2050 0
+# tclsrv3.epfl.ch(0):      2776  1 _empty_layer
+F 606.0.0 2050 0
+S 605.0.0 2048 0
+# tclsrv3.epfl.ch(0):      2774  1 _empty_layer
+F 605.0.0 2048 0
+S 604.0.0 2046 0
+# tclsrv3.epfl.ch(0):      2747  1 _empty_layer
+F 604.0.0 2046 0
+S 600.0.0 2037 0
+# tclsrv3.epfl.ch(0):      2776  1 _empty_layer
+F 600.0.0 2037 0
+S 599.0.0 2035 0
+# tclsrv3.epfl.ch(0):      2774  1 _empty_layer
+F 599.0.0 2035 0
+S 598.0.0 2033 0
+# tclsrv3.epfl.ch(0):      2747  1 _empty_layer
+F 598.0.0 2033 0
+S 594.0.0 2024 0
+# tclsrv3.epfl.ch(0):      2776  1 _empty_layer
+F 594.0.0 2024 0
+S 593.0.0 2022 0
+# tclsrv3.epfl.ch(0):      2774  1 _empty_layer
+F 593.0.0 2022 0
+S 592.0.0 2020 0
+# tclsrv3.epfl.ch(0):      2747  1 _empty_layer
+F 592.0.0 2020 0
+S 588.0.0 2011 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 588.0.0 2011 0
+S 587.0.0 2009 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 587.0.0 2009 0
+S 586.0.0 2007 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 586.0.0 2007 0
+S 582.0.0 1998 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 582.0.0 1998 0
+S 581.0.0 1996 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 581.0.0 1996 0
+S 580.0.0 1994 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 580.0.0 1994 0
+S 576.0.0 1985 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 576.0.0 1985 0
+S 575.0.0 1983 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 575.0.0 1983 0
+S 574.0.0 1981 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 574.0.0 1981 0
+S 570.0.0 1972 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 570.0.0 1972 0
+S 569.0.0 1970 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 569.0.0 1970 0
+S 568.0.0 1968 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 568.0.0 1968 0
+S 564.0.0 1959 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 564.0.0 1959 0
+S 563.0.0 1957 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 563.0.0 1957 0
+S 562.0.0 1955 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 562.0.0 1955 0
+S 558.0.0 1946 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 558.0.0 1946 0
+S 557.0.0 1944 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 557.0.0 1944 0
+S 556.0.0 1942 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 3976.0.0 13223 1
+S 3979.0.0 13229 1
+# tclsrv3.epfl.ch(1):      2206  1 _write_ndm
+F 556.0.0 1942 0
+S 552.0.0 1933 0
+# tclsrv3.epfl.ch(0):      2772  1 _empty_layer
+F 552.0.0 1933 0
+S 551.0.0 1931 0
+# tclsrv3.epfl.ch(0):      2770  1 _empty_layer
+F 551.0.0 1931 0
+S 550.0.0 1929 0
+# tclsrv3.epfl.ch(0):      2743  1 _empty_layer
+F 550.0.0 1929 0
+S 546.0.0 1920 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 546.0.0 1920 0
+S 545.0.0 1918 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 545.0.0 1918 0
+S 544.0.0 1916 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 544.0.0 1916 0
+S 540.0.0 1907 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 540.0.0 1907 0
+S 539.0.0 1905 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 539.0.0 1905 0
+S 538.0.0 1903 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 538.0.0 1903 0
+S 534.0.0 1894 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 534.0.0 1894 0
+S 533.0.0 1892 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 533.0.0 1892 0
+S 532.0.0 1890 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 532.0.0 1890 0
+S 528.0.0 1881 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 528.0.0 1881 0
+S 527.0.0 1879 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 527.0.0 1879 0
+S 526.0.0 1877 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 526.0.0 1877 0
+S 522.0.0 1868 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 522.0.0 1868 0
+S 521.0.0 1866 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 521.0.0 1866 0
+S 520.0.0 1864 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 520.0.0 1864 0
+S 516.0.0 1855 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 516.0.0 1855 0
+S 515.0.0 1853 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 515.0.0 1853 0
+S 514.0.0 1851 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 514.0.0 1851 0
+S 510.0.0 1842 0
+# tclsrv3.epfl.ch(0):      2780  1 _empty_layer
+F 510.0.0 1842 0
+S 509.0.0 1840 0
+# tclsrv3.epfl.ch(0):      2778  1 _empty_layer
+F 509.0.0 1840 0
+S 508.0.0 1838 0
+# tclsrv3.epfl.ch(0):      2751  1 _empty_layer
+F 508.0.0 1838 0
+S 427.0.0 1526 0
+# tclsrv3.epfl.ch(0):       837  1 _write_create_layer_shared_hierarchy
+F 3979.0.0 13229 1
+S 426.0.0 1523 1
+# tclsrv3.epfl.ch(1):       264  1 _empty_layer
+F 426.0.0 1523 1
+F 0 0 1
+F 427.0.0 1526 0
+S 923.0.0 2820 1
+# tclsrv3.epfl.ch(1):      4651  1 _create_layer_dp
+F 923.0.0 2820 1
+S 904.0.0 2767 1
+# tclsrv3.epfl.ch(1):      4651  1 _create_layer_dp
+F 904.0.0 2767 1
+S 885.0.0 2714 1
+# tclsrv3.epfl.ch(1):      4651  1 _create_layer_dp
+F 885.0.0 2714 1
+S 872.0.0 2674 1
+# tclsrv3.epfl.ch(1):      4729  1 _create_layer_dp
+S 865.0.0 2647 0
+# tclsrv3.epfl.ch(0):      4651  1 _create_layer_dp
+F 872.0.0 2674 1
+S 852.0.0 2607 1
+# tclsrv3.epfl.ch(1):      4729  1 _create_layer_dp
+F 865.0.0 2647 0
+S 845.0.0 2580 0
+# tclsrv3.epfl.ch(0):      4651  1 _create_layer_dp
+F 852.0.0 2607 1
+S 610.0.0 2059 1
+# tclsrv3.epfl.ch(1):      4571  1 _create_layer_dp
+F 610.0.0 2059 1
+S 501.0.0 1811 1
+# tclsrv3.epfl.ch(1):      4469  1 _create_layer_dp
+F 501.0.0 1811 1
+S 494.0.0 1784 1
+# tclsrv3.epfl.ch(1):      4469  1 _create_layer_dp
+F 494.0.0 1784 1
+S 487.0.0 1757 1
+# tclsrv3.epfl.ch(1):      4469  1 _create_layer_dp
+F 487.0.0 1757 1
+S 480.0.0 1730 1
+# tclsrv3.epfl.ch(1):      4469  1 _create_layer_dp
+F 845.0.0 2580 0
+S 473.0.0 1703 0
+# tclsrv3.epfl.ch(0):      4469  1 _create_layer_dp
+F 480.0.0 1730 1
+S 466.0.0 1676 1
+# tclsrv3.epfl.ch(1):      4469  1 _create_layer_dp
+F 473.0.0 1703 0
+S 459.0.0 1649 0
+# tclsrv3.epfl.ch(0):      4469  1 _create_layer_dp
+F 466.0.0 1676 1
+S 446.0.0 1592 1
+# tclsrv3.epfl.ch(1):      4668  1 _create_layer_dp
+F 446.0.0 1592 1
+S 447.0.0 1602 1
+# tclsrv3.epfl.ch(1):      4230  1 _optimize_layer_dp
+F 447.0.0 1602 1
+S 449.0.0.451.0.0 1618 1
+# tclsrv3.epfl.ch(1):      2597  1 _copy
+F 459.0.0 1649 0
+S 460.0.0 1654 0
+# tclsrv3.epfl.ch(0):      4151  1 _optimize_layer_dp
+F 449.0.0.451.0.0 1618 1
+S 449.0.0.452.0.0 1622 1
+# tclsrv3.epfl.ch(1):      3404  1 _assign_select_cell
+F 449.0.0.452.0.0 1622 1
+S 942.0.0.945.0.0 2887 1
+# tclsrv3.epfl.ch(1):      1639  1 _flatten
+F 942.0.0.945.0.0 2887 1
+S 461.0.0 1659 1
+# tclsrv3.epfl.ch(1):      4256  1 _optimize_unmerged_layer_dp
+F 460.0.0 1654 0
+S 462.0.0 1664 0
+# tclsrv3.epfl.ch(0):      4260  1 _optimize_unmerged_layer_dp
+F 462.0.0 1664 0
+S 454.0.0 1631 0
+# tclsrv3.epfl.ch(0):      4345  1 _optimize_unmerged_layer_dp
+F 461.0.0 1659 1
+S 455.0.0 1636 1
+# tclsrv3.epfl.ch(1):      4349  1 _optimize_unmerged_layer_dp
+F 454.0.0 1631 0
+S 469.0.0 1691 0
+# tclsrv3.epfl.ch(0):      4260  1 _optimize_unmerged_layer_dp
+F 455.0.0 1636 1
+S 996.0.0 3008 1
+# tclsrv3.epfl.ch(1):      2140  1 _copy
+F 469.0.0 1691 0
+S 989.0.0 2993 0
+# tclsrv3.epfl.ch(0):      2140  1 _copy
+F 996.0.0 3008 1
+S 982.0.0 2978 1
+# tclsrv3.epfl.ch(1):      2140  1 _copy
+F 989.0.0 2993 0
+S 965.0.0 2936 0
+# tclsrv3.epfl.ch(0):      2140  1 _copy
+F 982.0.0 2978 1
+S 958.0.0 2921 1
+# tclsrv3.epfl.ch(1):      2140  1 _copy
+F 965.0.0 2936 0
+S 951.0.0 2906 0
+# tclsrv3.epfl.ch(0):      2140  1 _copy
+F 958.0.0 2921 1
+S 468.0.0 1686 1
+# tclsrv3.epfl.ch(1):      4256  1 _optimize_unmerged_layer_dp
+F 951.0.0 2906 0
+S 1019.0.0 3058 0
+# tclsrv3.epfl.ch(0):       499  1 _create_q
+F 468.0.0 1686 1
+S 952.0.0 2909 1
+# tclsrv3.epfl.ch(1):       460  1 _create_q
+F 952.0.0 2909 1
+S 467.0.0 1681 1
+# tclsrv3.epfl.ch(1):      4151  1 _optimize_layer_dp
+F 1019.0.0 3058 0
+S 1020.0.0 3060 0
+# tclsrv3.epfl.ch(0):      2298  1 _boolean_and_q
+F 467.0.0 1681 1
+S 1229.0.0 3765 1
+# tclsrv3.epfl.ch(1):       499  1 _create_q
+F 1020.0.0 3060 0
+S 1021.0.0 3064 0
+# tclsrv3.epfl.ch(0):      2025  1 _compress_isolated
+F 1229.0.0 3765 1
+S 476.0.0 1718 1
+# tclsrv3.epfl.ch(1):      4260  1 _optimize_unmerged_layer_dp
+F 1021.0.0 3064 0
+S 3016.0.0.3017.0.0.3020.0.0 9956 0
+# tclsrv3.epfl.ch(0):      3734  1 _boolean_or_list
+F 476.0.0 1718 1
+S 1154.0.0.1155.0.0.1158.0.0 3525 1
+# tclsrv3.epfl.ch(1):      3991  1 _boolean_or_list
+F 3016.0.0.3017.0.0.3020.0.0 9956 0
+S 1060.0.0.1061.0.0.1064.0.0 3195 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 1060.0.0.1061.0.0.1064.0.0 3195 0
+S 3001.0.0.3002.0.0.3005.0.0 9901 0
+# tclsrv3.epfl.ch(0):      3695  1 _boolean_or_list
+F 1154.0.0.1155.0.0.1158.0.0 3525 1
+S 1139.0.0.1140.0.0.1143.0.0 3470 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 3001.0.0.3002.0.0.3005.0.0 9901 0
+S 3026.0.0.3027.0.0.3029.0.0 9989 0
+# tclsrv3.epfl.ch(0):      3335  1 _boolean_or_list
+F 1139.0.0.1140.0.0.1143.0.0 3470 1
+S 1164.0.0.1165.0.0.1167.0.0 3558 1
+# tclsrv3.epfl.ch(1):      3592  1 _boolean_or_list
+F 3026.0.0.3027.0.0.3029.0.0 9989 0
+S 3035.0.0.3057.0.0 10087 0
+# tclsrv3.epfl.ch(0):      3249  1 _remove_overlap
+F 1164.0.0.1165.0.0.1167.0.0 3558 1
+S 1173.0.0.1195.0.0 3656 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 3035.0.0.3057.0.0 10087 0
+S 1173.0.0.1189.0.0 3634 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1173.0.0.1195.0.0 3656 1
+S 1173.0.0.1188.0.0 3631 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1173.0.0.1189.0.0 3634 0
+S 1173.0.0.1187.0.0 3628 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1173.0.0.1188.0.0 3631 1
+S 1173.0.0.1186.0.0 3625 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1173.0.0.1187.0.0 3628 0
+S 1173.0.0.1185.0.0 3622 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1173.0.0.1186.0.0 3625 1
+S 1173.0.0.1182.0.0 3611 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1173.0.0.1185.0.0 3622 0
+S 1173.0.0.1181.0.0 3608 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1173.0.0.1182.0.0 3611 1
+S 1173.0.0.1180.0.0 3605 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1173.0.0.1181.0.0 3608 0
+S 1173.0.0.1179.0.0 3602 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1173.0.0.1180.0.0 3605 1
+S 3035.0.0.3052.0.0 10068 1
+# tclsrv3.epfl.ch(1):      3371  1 _boolean_not
+F 1173.0.0.1179.0.0 3602 0
+S 3035.0.0.3045.0.0 10045 0
+# tclsrv3.epfl.ch(0):      3382  1 _boolean_not
+F 3035.0.0.3052.0.0 10068 1
+S 3035.0.0.3053.0.0 10072 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 3035.0.0.3045.0.0 10045 0
+S 3035.0.0.3046.0.0 10049 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 3035.0.0.3046.0.0 10049 0
+S 1173.0.0.1194.0.0 3652 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 1173.0.0.1194.0.0 3652 0
+S 1173.0.0.1183.0.0 3614 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1173.0.0.1183.0.0 3614 0
+S 1173.0.0.1184.0.0 3618 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1173.0.0.1184.0.0 3618 0
+S 3035.0.0.3056.0.0 10083 0
+# tclsrv3.epfl.ch(0):      3313  1 _boolean_not
+F 3035.0.0.3056.0.0 10083 0
+S 1173.0.0.1190.0.0 3637 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1173.0.0.1190.0.0 3637 0
+S 3035.0.0.3051.0.0 10065 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3051.0.0 10065 0
+S 3035.0.0.3050.0.0 10062 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3053.0.0 10072 1
+S 1173.0.0.1191.0.0 3641 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 3035.0.0.3050.0.0 10062 0
+S 3035.0.0.3049.0.0 10059 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3049.0.0 10059 0
+S 3035.0.0.3048.0.0 10056 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 1173.0.0.1191.0.0 3641 1
+S 1217.0.0 3738 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 3035.0.0.3048.0.0 10056 0
+S 3035.0.0.3047.0.0 10053 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3047.0.0 10053 0
+S 3035.0.0.3044.0.0 10042 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3044.0.0 10042 0
+S 3035.0.0.3043.0.0 10039 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3043.0.0 10039 0
+S 3035.0.0.3042.0.0 10036 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3042.0.0 10036 0
+S 3035.0.0.3041.0.0 10033 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3035.0.0.3041.0.0 10033 0
+S 3079.0.0 10169 0
+# tclsrv3.epfl.ch(0):     17310  1 _density_m
+F 3079.0.0 10169 0
+S 1045.0.0.1046.0.0.1049.0.0 3140 0
+# tclsrv3.epfl.ch(0):      3952  1 _boolean_or_list
+F 1045.0.0.1046.0.0.1049.0.0 3140 0
+S 1070.0.0.1071.0.0.1073.0.0 3228 0
+# tclsrv3.epfl.ch(0):      3592  1 _boolean_or_list
+F 1217.0.0 3738 1
+S 475.0.0 1713 1
+# tclsrv3.epfl.ch(1):      4256  1 _optimize_unmerged_layer_dp
+F 1070.0.0.1071.0.0.1073.0.0 3228 0
+S 1079.0.0.1101.0.0 3326 0
+# tclsrv3.epfl.ch(0):      3506  1 _remove_overlap
+F 1079.0.0.1101.0.0 3326 0
+S 1079.0.0.1100.0.0 3322 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 1079.0.0.1100.0.0 3322 0
+S 1079.0.0.1096.0.0 3307 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1079.0.0.1096.0.0 3307 0
+S 1079.0.0.1097.0.0 3311 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1079.0.0.1097.0.0 3311 0
+S 1079.0.0.1089.0.0 3284 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1079.0.0.1089.0.0 3284 0
+S 1079.0.0.1090.0.0 3288 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1079.0.0.1090.0.0 3288 0
+S 1079.0.0.1095.0.0 3304 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1079.0.0.1095.0.0 3304 0
+S 1079.0.0.1094.0.0 3301 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 475.0.0 1713 1
+S 1079.0.0.1093.0.0 3298 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1079.0.0.1094.0.0 3301 0
+S 1079.0.0.1092.0.0 3295 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1079.0.0.1093.0.0 3298 1
+S 1079.0.0.1091.0.0 3292 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1079.0.0.1092.0.0 3295 0
+S 1079.0.0.1088.0.0 3281 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1079.0.0.1091.0.0 3292 1
+S 1079.0.0.1087.0.0 3278 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1079.0.0.1088.0.0 3281 0
+S 1079.0.0.1086.0.0 3275 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1079.0.0.1087.0.0 3278 1
+S 1079.0.0.1085.0.0 3272 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1079.0.0.1086.0.0 3275 0
+S 474.0.0 1708 0
+# tclsrv3.epfl.ch(0):      4151  1 _optimize_layer_dp
+F 1079.0.0.1085.0.0 3272 1
+S 1123.0.0 3408 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 474.0.0 1708 0
+S 1537.0.0 4846 0
+# tclsrv3.epfl.ch(0):       499  1 _create_q
+F 1123.0.0 3408 1
+S 483.0.0 1745 1
+# tclsrv3.epfl.ch(1):      4260  1 _optimize_unmerged_layer_dp
+F 1537.0.0 4846 0
+S 482.0.0 1740 0
+# tclsrv3.epfl.ch(0):      4256  1 _optimize_unmerged_layer_dp
+F 483.0.0 1745 1
+S 481.0.0 1735 1
+# tclsrv3.epfl.ch(1):      4151  1 _optimize_layer_dp
+F 482.0.0 1740 0
+S 848.0.0 2595 0
+# tclsrv3.epfl.ch(0):      4404  1 _optimize_unmerged_layer_dp
+F 848.0.0 2595 0
+S 847.0.0 2590 0
+# tclsrv3.epfl.ch(0):      4400  1 _optimize_unmerged_layer_dp
+F 481.0.0 1735 1
+S 846.0.0 2585 1
+# tclsrv3.epfl.ch(1):      4257  1 _optimize_layer_dp
+F 847.0.0 2590 0
+S 490.0.0 1772 0
+# tclsrv3.epfl.ch(0):      4260  1 _optimize_unmerged_layer_dp
+F 490.0.0 1772 0
+S 489.0.0 1767 0
+# tclsrv3.epfl.ch(0):      4256  1 _optimize_unmerged_layer_dp
+F 489.0.0 1767 0
+S 488.0.0 1762 0
+# tclsrv3.epfl.ch(0):      4151  1 _optimize_layer_dp
+F 488.0.0 1762 0
+S 2149.0.0 6985 0
+# tclsrv3.epfl.ch(0):       499  1 _create_q
+F 2149.0.0 6985 0
+S 497.0.0 1799 0
+# tclsrv3.epfl.ch(0):      4260  1 _optimize_unmerged_layer_dp
+F 497.0.0 1799 0
+S 496.0.0 1794 0
+# tclsrv3.epfl.ch(0):      4256  1 _optimize_unmerged_layer_dp
+F 496.0.0 1794 0
+S 495.0.0 1789 0
+# tclsrv3.epfl.ch(0):      4151  1 _optimize_layer_dp
+F 495.0.0 1789 0
+S 2453.0.0 8043 0
+# tclsrv3.epfl.ch(0):       499  1 _create_q
+F 2453.0.0 8043 0
+S 504.0.0 1826 0
+# tclsrv3.epfl.ch(0):      4260  1 _optimize_unmerged_layer_dp
+F 846.0.0 2585 1
+S 1233.0.0 3778 1
+# tclsrv3.epfl.ch(1):       537  1 _create_q
+F 504.0.0 1826 0
+S 503.0.0 1821 0
+# tclsrv3.epfl.ch(0):      4256  1 _optimize_unmerged_layer_dp
+F 1233.0.0 3778 1
+S 502.0.0 1816 1
+# tclsrv3.epfl.ch(1):      4151  1 _optimize_layer_dp
+F 503.0.0 1821 0
+S 613.0.0 2074 0
+# tclsrv3.epfl.ch(0):      4350  1 _optimize_unmerged_layer_dp
+F 613.0.0 2074 0
+S 612.0.0 2069 0
+# tclsrv3.epfl.ch(0):      4346  1 _optimize_unmerged_layer_dp
+F 612.0.0 2069 0
+S 611.0.0 2064 0
+# tclsrv3.epfl.ch(0):      4229  1 _optimize_layer_dp
+F 611.0.0 2064 0
+S 968.0.0 2943 0
+# tclsrv3.epfl.ch(0):      1818  1 _copy
+F 502.0.0 1816 1
+S 2757.0.0 9101 1
+# tclsrv3.epfl.ch(1):       499  1 _create_q
+F 968.0.0 2943 0
+S 970.0.0 2948 0
+# tclsrv3.epfl.ch(0):      1994  1 _flatten
+F 2757.0.0 9101 1
+S 997.0.0 3011 1
+# tclsrv3.epfl.ch(1):       460  1 _create_q
+F 997.0.0 3011 1
+S 2758.0.0 9103 1
+# tclsrv3.epfl.ch(1):      2298  1 _boolean_and_q
+F 970.0.0 2948 0
+S 973.0.0 2955 0
+# tclsrv3.epfl.ch(0):       480  1 _create_q
+F 973.0.0 2955 0
+S 972.0.0 2953 0
+# tclsrv3.epfl.ch(0):       484  1 _create_q
+F 2758.0.0 9103 1
+S 2759.0.0 9107 1
+# tclsrv3.epfl.ch(1):      2025  1 _compress_isolated
+F 972.0.0 2953 0
+S 974.0.0 2957 0
+# tclsrv3.epfl.ch(0):      2294  1 _boolean_not_q
+F 2759.0.0 9107 1
+S 3890.0.0.3891.0.0.3894.0.0 12954 1
+# tclsrv3.epfl.ch(1):      3734  1 _boolean_or_list
+F 974.0.0 2957 0
+S 975.0.0 2961 0
+# tclsrv3.epfl.ch(0):      1964  1 _compress_isolated
+F 975.0.0 2961 0
+S 1845.0.0 5927 0
+# tclsrv3.epfl.ch(0):       499  1 _create_q
+F 3890.0.0.3891.0.0.3894.0.0 12954 1
+S 2892.0.0.2893.0.0.2896.0.0 9566 1
+# tclsrv3.epfl.ch(1):      3991  1 _boolean_or_list
+F 1845.0.0 5927 0
+S 2798.0.0.2799.0.0.2802.0.0 9238 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 2892.0.0.2893.0.0.2896.0.0 9566 1
+S 3875.0.0.3876.0.0.3879.0.0 12899 1
+# tclsrv3.epfl.ch(1):      3695  1 _boolean_or_list
+F 3875.0.0.3876.0.0.3879.0.0 12899 1
+S 3900.0.0.3901.0.0.3903.0.0 12987 1
+# tclsrv3.epfl.ch(1):      3335  1 _boolean_or_list
+F 2798.0.0.2799.0.0.2802.0.0 9238 0
+S 2877.0.0.2878.0.0.2881.0.0 9511 0
+# tclsrv3.epfl.ch(0):      3952  1 _boolean_or_list
+F 3900.0.0.3901.0.0.3903.0.0 12987 1
+S 3909.0.0.3931.0.0 13085 1
+# tclsrv3.epfl.ch(1):      3249  1 _remove_overlap
+F 2877.0.0.2878.0.0.2881.0.0 9511 0
+S 2902.0.0.2903.0.0.2905.0.0 9599 0
+# tclsrv3.epfl.ch(0):      3592  1 _boolean_or_list
+F 3909.0.0.3931.0.0 13085 1
+S 3909.0.0.3930.0.0 13081 1
+# tclsrv3.epfl.ch(1):      3313  1 _boolean_not
+F 2902.0.0.2903.0.0.2905.0.0 9599 0
+S 2911.0.0.2933.0.0 9697 0
+# tclsrv3.epfl.ch(0):      3506  1 _remove_overlap
+F 3909.0.0.3930.0.0 13081 1
+S 2911.0.0.2932.0.0 9693 1
+# tclsrv3.epfl.ch(1):      3570  1 _boolean_not
+F 2911.0.0.2933.0.0 9697 0
+S 2911.0.0.2921.0.0 9655 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 2911.0.0.2932.0.0 9693 1
+S 2911.0.0.2927.0.0 9675 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2911.0.0.2927.0.0 9675 1
+S 2911.0.0.2926.0.0 9672 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2911.0.0.2921.0.0 9655 0
+S 2911.0.0.2922.0.0 9659 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 2911.0.0.2926.0.0 9672 1
+S 2911.0.0.2925.0.0 9669 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2911.0.0.2925.0.0 9669 1
+S 2911.0.0.2924.0.0 9666 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2911.0.0.2922.0.0 9659 0
+S 2911.0.0.2923.0.0 9663 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2911.0.0.2924.0.0 9666 1
+S 2911.0.0.2920.0.0 9652 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2911.0.0.2923.0.0 9663 0
+S 2911.0.0.2919.0.0 9649 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2911.0.0.2920.0.0 9652 1
+S 2911.0.0.2918.0.0 9646 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2911.0.0.2919.0.0 9649 0
+S 2911.0.0.2917.0.0 9643 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2911.0.0.2918.0.0 9646 1
+S 3909.0.0.3926.0.0 13066 1
+# tclsrv3.epfl.ch(1):      3371  1 _boolean_not
+F 2911.0.0.2917.0.0 9643 0
+S 3909.0.0.3919.0.0 13043 0
+# tclsrv3.epfl.ch(0):      3322  1 _boolean_not
+F 3909.0.0.3926.0.0 13066 1
+S 3909.0.0.3927.0.0 13070 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 3909.0.0.3919.0.0 13043 0
+S 3909.0.0.3920.0.0 13047 0
+# tclsrv3.epfl.ch(0):      3267  1 _remove_overlap
+F 3909.0.0.3927.0.0 13070 1
+S 2911.0.0.2928.0.0 9678 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 3909.0.0.3920.0.0 13047 0
+S 3909.0.0.3925.0.0 13063 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 2911.0.0.2928.0.0 9678 1
+S 2911.0.0.2929.0.0 9682 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 3909.0.0.3925.0.0 13063 0
+S 3909.0.0.3924.0.0 13060 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 2911.0.0.2929.0.0 9682 1
+S 2955.0.0 9779 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 3909.0.0.3924.0.0 13060 0
+S 3909.0.0.3923.0.0 13057 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3923.0.0 13057 0
+S 3909.0.0.3922.0.0 13054 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3922.0.0 13054 0
+S 3909.0.0.3921.0.0 13051 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3921.0.0 13051 0
+S 3909.0.0.3918.0.0 13040 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3918.0.0 13040 0
+S 3909.0.0.3917.0.0 13037 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3917.0.0 13037 0
+S 3909.0.0.3916.0.0 13034 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3916.0.0 13034 0
+S 3909.0.0.3915.0.0 13031 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3909.0.0.3915.0.0 13031 0
+S 3953.0.0 13167 0
+# tclsrv3.epfl.ch(0):     17310  1 _density_m
+F 2955.0.0 9779 1
+S 2783.0.0.2784.0.0.2787.0.0 9183 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 2783.0.0.2784.0.0.2787.0.0 9183 1
+S 2808.0.0.2809.0.0.2811.0.0 9271 1
+# tclsrv3.epfl.ch(1):      3592  1 _boolean_or_list
+F 2808.0.0.2809.0.0.2811.0.0 9271 1
+S 2817.0.0.2839.0.0 9369 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 2817.0.0.2839.0.0 9369 1
+S 2817.0.0.2838.0.0 9365 1
+# tclsrv3.epfl.ch(1):      3570  1 _boolean_not
+F 2817.0.0.2838.0.0 9365 1
+S 2817.0.0.2834.0.0 9350 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2817.0.0.2834.0.0 9350 1
+S 2817.0.0.2835.0.0 9354 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2817.0.0.2835.0.0 9354 1
+S 2817.0.0.2827.0.0 9327 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2817.0.0.2827.0.0 9327 1
+S 2817.0.0.2828.0.0 9331 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2817.0.0.2828.0.0 9331 1
+S 2817.0.0.2833.0.0 9347 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2817.0.0.2833.0.0 9347 1
+S 2817.0.0.2832.0.0 9344 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 3953.0.0 13167 0
+S 2817.0.0.2831.0.0 9341 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2817.0.0.2832.0.0 9344 1
+S 2817.0.0.2830.0.0 9338 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2817.0.0.2831.0.0 9341 0
+S 2817.0.0.2829.0.0 9335 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2817.0.0.2830.0.0 9338 1
+S 2817.0.0.2826.0.0 9324 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2817.0.0.2829.0.0 9335 0
+S 2817.0.0.2825.0.0 9321 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2817.0.0.2826.0.0 9324 1
+S 2817.0.0.2824.0.0 9318 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2817.0.0.2825.0.0 9321 0
+S 2817.0.0.2823.0.0 9315 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2817.0.0.2824.0.0 9318 1
+S 855.0.0 2622 1
+# tclsrv3.epfl.ch(1):      4468  1 _optimize_unmerged_layer_dp
+F 2817.0.0.2823.0.0 9315 0
+S 2861.0.0 9451 0
+# tclsrv3.epfl.ch(0):     17568  1 _density_m
+F 855.0.0 2622 1
+S 854.0.0 2617 1
+# tclsrv3.epfl.ch(1):      4464  1 _optimize_unmerged_layer_dp
+F 854.0.0 2617 1
+S 853.0.0 2612 1
+# tclsrv3.epfl.ch(1):      4307  1 _optimize_layer_dp
+F 2861.0.0 9451 0
+S 868.0.0 2662 0
+# tclsrv3.epfl.ch(0):      4404  1 _optimize_unmerged_layer_dp
+F 868.0.0 2662 0
+S 867.0.0 2657 0
+# tclsrv3.epfl.ch(0):      4400  1 _optimize_unmerged_layer_dp
+F 867.0.0 2657 0
+S 866.0.0 2652 0
+# tclsrv3.epfl.ch(0):      4257  1 _optimize_layer_dp
+F 853.0.0 2612 1
+S 1241.0.0 3799 1
+# tclsrv3.epfl.ch(1):       553  1 _create_q
+F 1241.0.0 3799 1
+S 959.0.0 2924 1
+# tclsrv3.epfl.ch(1):       583  1 _create_q
+F 959.0.0 2924 1
+S 1242.0.0 3801 1
+# tclsrv3.epfl.ch(1):      2358  1 _boolean_and_q
+F 866.0.0 2652 0
+S 1541.0.0 4859 0
+# tclsrv3.epfl.ch(0):       537  1 _create_q
+F 1541.0.0 4859 0
+S 1234.0.0 3780 0
+# tclsrv3.epfl.ch(0):      2336  1 _boolean_and_q
+F 1242.0.0 3801 1
+S 1243.0.0 3805 1
+# tclsrv3.epfl.ch(1):      2057  1 _compress_isolated
+F 1243.0.0 3805 1
+S 1230.0.0 3767 1
+# tclsrv3.epfl.ch(1):      2298  1 _boolean_and_q
+F 1234.0.0 3780 0
+S 1235.0.0 3784 0
+# tclsrv3.epfl.ch(0):      2044  1 _compress_isolated
+F 1230.0.0 3767 1
+S 1231.0.0 3771 1
+# tclsrv3.epfl.ch(1):      2025  1 _compress_isolated
+F 1231.0.0 3771 1
+S 875.0.0 2689 1
+# tclsrv3.epfl.ch(1):      4468  1 _optimize_unmerged_layer_dp
+F 1235.0.0 3784 0
+S 3167.0.0.3168.0.0.3171.0.0 10473 0
+# tclsrv3.epfl.ch(0):      3734  1 _boolean_or_list
+F 875.0.0 2689 1
+S 3152.0.0.3153.0.0.3156.0.0 10418 1
+# tclsrv3.epfl.ch(1):      3753  1 _boolean_or_list
+F 3167.0.0.3168.0.0.3171.0.0 10473 0
+S 3122.0.0.3123.0.0.3126.0.0 10308 0
+# tclsrv3.epfl.ch(0):      3760  1 _boolean_or_list
+F 3122.0.0.3123.0.0.3126.0.0 10308 0
+S 3107.0.0.3108.0.0.3111.0.0 10253 0
+# tclsrv3.epfl.ch(0):      3760  1 _boolean_or_list
+F 3107.0.0.3108.0.0.3111.0.0 10253 0
+S 1460.0.0.1461.0.0.1464.0.0 4592 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 3152.0.0.3153.0.0.3156.0.0 10418 1
+S 1445.0.0.1446.0.0.1449.0.0 4537 1
+# tclsrv3.epfl.ch(1):      4010  1 _boolean_or_list
+F 1460.0.0.1461.0.0.1464.0.0 4592 0
+S 1415.0.0.1416.0.0.1419.0.0 4427 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1445.0.0.1446.0.0.1449.0.0 4537 1
+S 1400.0.0.1401.0.0.1404.0.0 4372 1
+# tclsrv3.epfl.ch(1):      4017  1 _boolean_or_list
+F 1415.0.0.1416.0.0.1419.0.0 4427 0
+S 1319.0.0.1320.0.0.1323.0.0 4085 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 1400.0.0.1401.0.0.1404.0.0 4372 1
+S 1304.0.0.1305.0.0.1308.0.0 4030 1
+# tclsrv3.epfl.ch(1):      4010  1 _boolean_or_list
+F 1319.0.0.1320.0.0.1323.0.0 4085 0
+S 1274.0.0.1275.0.0.1278.0.0 3920 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1304.0.0.1305.0.0.1308.0.0 4030 1
+S 1259.0.0.1260.0.0.1263.0.0 3865 1
+# tclsrv3.epfl.ch(1):      4017  1 _boolean_or_list
+F 1274.0.0.1275.0.0.1278.0.0 3920 0
+S 3137.0.0.3138.0.0.3141.0.0 10363 0
+# tclsrv3.epfl.ch(0):      3695  1 _boolean_or_list
+F 1259.0.0.1260.0.0.1263.0.0 3865 1
+S 1430.0.0.1431.0.0.1434.0.0 4482 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 3137.0.0.3138.0.0.3141.0.0 10363 0
+S 3177.0.0.3178.0.0.3180.0.0 10506 0
+# tclsrv3.epfl.ch(0):      3440  1 _boolean_or_list
+F 1430.0.0.1431.0.0.1434.0.0 4482 1
+S 1470.0.0.1471.0.0.1473.0.0 4625 1
+# tclsrv3.epfl.ch(1):      3697  1 _boolean_or_list
+F 3177.0.0.3178.0.0.3180.0.0 10506 0
+S 3186.0.0.3210.0.0 10614 0
+# tclsrv3.epfl.ch(0):      3249  1 _remove_overlap
+F 1470.0.0.1471.0.0.1473.0.0 4625 1
+S 1479.0.0.1503.0.0 4733 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 3186.0.0.3210.0.0 10614 0
+S 1479.0.0.1502.0.0 4729 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 1479.0.0.1503.0.0 4733 1
+S 1479.0.0.1490.0.0 4686 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1479.0.0.1502.0.0 4729 0
+S 1479.0.0.1495.0.0 4703 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1479.0.0.1490.0.0 4686 1
+S 1479.0.0.1491.0.0 4690 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1479.0.0.1495.0.0 4703 0
+S 1479.0.0.1494.0.0 4700 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1479.0.0.1491.0.0 4690 1
+S 1479.0.0.1493.0.0 4697 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1479.0.0.1494.0.0 4700 0
+S 1479.0.0.1492.0.0 4694 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1479.0.0.1493.0.0 4697 1
+S 1479.0.0.1489.0.0 4683 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1479.0.0.1492.0.0 4694 0
+S 1479.0.0.1486.0.0 4672 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1479.0.0.1489.0.0 4683 1
+S 1479.0.0.1485.0.0 4669 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1479.0.0.1486.0.0 4672 0
+S 3186.0.0.3209.0.0 10610 0
+# tclsrv3.epfl.ch(0):      3313  1 _boolean_not
+F 1479.0.0.1485.0.0 4669 1
+S 3186.0.0.3205.0.0 10595 1
+# tclsrv3.epfl.ch(1):      3371  1 _boolean_not
+F 3186.0.0.3209.0.0 10610 0
+S 3186.0.0.3203.0.0 10587 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3186.0.0.3205.0.0 10595 1
+S 3186.0.0.3206.0.0 10599 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 3186.0.0.3203.0.0 10587 0
+S 3186.0.0.3204.0.0 10591 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 3186.0.0.3206.0.0 10599 1
+S 1479.0.0.1496.0.0 4706 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1479.0.0.1496.0.0 4706 1
+S 1479.0.0.1498.0.0 4714 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1479.0.0.1498.0.0 4714 1
+S 1479.0.0.1499.0.0 4718 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1479.0.0.1499.0.0 4718 1
+S 3186.0.0.3197.0.0 10567 1
+# tclsrv3.epfl.ch(1):      3322  1 _boolean_not
+F 3186.0.0.3197.0.0 10567 1
+S 3186.0.0.3198.0.0 10571 1
+# tclsrv3.epfl.ch(1):      3267  1 _remove_overlap
+F 3186.0.0.3198.0.0 10571 1
+S 3186.0.0.3194.0.0 10556 1
+# tclsrv3.epfl.ch(1):      3373  1 _boolean_not
+F 3186.0.0.3194.0.0 10556 1
+S 3186.0.0.3195.0.0 10560 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 3186.0.0.3204.0.0 10591 0
+S 1479.0.0.1497.0.0 4710 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1479.0.0.1497.0.0 4710 0
+S 1479.0.0.1487.0.0 4675 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1479.0.0.1487.0.0 4675 0
+S 3186.0.0.3202.0.0 10584 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3202.0.0 10584 0
+S 3186.0.0.3201.0.0 10581 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3201.0.0 10581 0
+S 3186.0.0.3200.0.0 10578 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3200.0.0 10578 0
+S 3186.0.0.3199.0.0 10575 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3199.0.0 10575 0
+S 3186.0.0.3196.0.0 10564 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3196.0.0 10564 0
+S 3186.0.0.3193.0.0 10553 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3193.0.0 10553 0
+S 3186.0.0.3192.0.0 10550 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3186.0.0.3192.0.0 10550 0
+S 1289.0.0.1290.0.0.1293.0.0 3975 0
+# tclsrv3.epfl.ch(0):      3952  1 _boolean_or_list
+F 1289.0.0.1290.0.0.1293.0.0 3975 0
+S 1329.0.0.1330.0.0.1332.0.0 4118 0
+# tclsrv3.epfl.ch(0):      3697  1 _boolean_or_list
+F 1329.0.0.1330.0.0.1332.0.0 4118 0
+S 1338.0.0.1362.0.0 4226 0
+# tclsrv3.epfl.ch(0):      3506  1 _remove_overlap
+F 3186.0.0.3195.0.0 10560 1
+S 3232.0.0 10700 1
+# tclsrv3.epfl.ch(1):     17310  1 _density_m
+F 1338.0.0.1362.0.0 4226 0
+S 1479.0.0.1488.0.0 4679 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1479.0.0.1488.0.0 4679 0
+S 1525.0.0 4819 0
+# tclsrv3.epfl.ch(0):     17568  1 _density_m
+F 3232.0.0 10700 1
+S 1338.0.0.1361.0.0 4222 1
+# tclsrv3.epfl.ch(1):      3570  1 _boolean_not
+F 1338.0.0.1361.0.0 4222 1
+S 1338.0.0.1357.0.0 4207 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1525.0.0 4819 0
+S 1338.0.0.1355.0.0 4199 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1338.0.0.1357.0.0 4207 1
+S 1338.0.0.1358.0.0 4211 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1338.0.0.1355.0.0 4199 0
+S 1338.0.0.1356.0.0 4203 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1338.0.0.1358.0.0 4211 1
+S 1338.0.0.1349.0.0 4179 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1338.0.0.1356.0.0 4203 0
+S 1338.0.0.1346.0.0 4168 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1338.0.0.1349.0.0 4179 1
+S 1338.0.0.1350.0.0 4183 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1338.0.0.1346.0.0 4168 0
+S 1338.0.0.1347.0.0 4172 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1338.0.0.1350.0.0 4183 1
+S 1338.0.0.1354.0.0 4196 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1338.0.0.1347.0.0 4172 0
+S 1338.0.0.1353.0.0 4193 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1338.0.0.1354.0.0 4196 1
+S 1338.0.0.1352.0.0 4190 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1338.0.0.1353.0.0 4193 0
+S 1338.0.0.1351.0.0 4187 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1338.0.0.1352.0.0 4190 1
+S 1338.0.0.1348.0.0 4176 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1338.0.0.1351.0.0 4187 0
+S 1338.0.0.1345.0.0 4165 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1338.0.0.1348.0.0 4176 1
+S 1338.0.0.1344.0.0 4162 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1338.0.0.1345.0.0 4165 0
+S 874.0.0 2684 0
+# tclsrv3.epfl.ch(0):      4464  1 _optimize_unmerged_layer_dp
+F 1338.0.0.1344.0.0 4162 1
+S 1384.0.0 4312 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 874.0.0 2684 0
+S 873.0.0 2679 0
+# tclsrv3.epfl.ch(0):      4307  1 _optimize_layer_dp
+F 1384.0.0 4312 1
+S 888.0.0 2729 1
+# tclsrv3.epfl.ch(1):      4404  1 _optimize_unmerged_layer_dp
+F 873.0.0 2679 0
+S 1549.0.0 4880 0
+# tclsrv3.epfl.ch(0):       553  1 _create_q
+F 1549.0.0 4880 0
+S 966.0.0 2939 0
+# tclsrv3.epfl.ch(0):       583  1 _create_q
+F 966.0.0 2939 0
+S 1550.0.0 4882 0
+# tclsrv3.epfl.ch(0):      2358  1 _boolean_and_q
+F 888.0.0 2729 1
+S 1542.0.0 4861 1
+# tclsrv3.epfl.ch(1):      2336  1 _boolean_and_q
+F 1550.0.0 4882 0
+S 1551.0.0 4886 0
+# tclsrv3.epfl.ch(0):      2057  1 _compress_isolated
+F 1542.0.0 4861 1
+S 1543.0.0 4865 1
+# tclsrv3.epfl.ch(1):      2044  1 _compress_isolated
+F 1551.0.0 4886 0
+S 1538.0.0 4848 0
+# tclsrv3.epfl.ch(0):      2298  1 _boolean_and_q
+F 1543.0.0 4865 1
+S 887.0.0 2724 1
+# tclsrv3.epfl.ch(1):      4400  1 _optimize_unmerged_layer_dp
+F 1538.0.0 4848 0
+S 1539.0.0 4852 0
+# tclsrv3.epfl.ch(0):      2025  1 _compress_isolated
+F 887.0.0 2724 1
+S 886.0.0 2719 1
+# tclsrv3.epfl.ch(1):      4257  1 _optimize_layer_dp
+F 1539.0.0 4852 0
+S 3320.0.0.3321.0.0.3324.0.0 11004 0
+# tclsrv3.epfl.ch(0):      3734  1 _boolean_or_list
+F 3320.0.0.3321.0.0.3324.0.0 11004 0
+S 3305.0.0.3306.0.0.3309.0.0 10949 0
+# tclsrv3.epfl.ch(0):      3753  1 _boolean_or_list
+F 3305.0.0.3306.0.0.3309.0.0 10949 0
+S 3275.0.0.3276.0.0.3279.0.0 10839 0
+# tclsrv3.epfl.ch(0):      3760  1 _boolean_or_list
+F 3275.0.0.3276.0.0.3279.0.0 10839 0
+S 3260.0.0.3261.0.0.3264.0.0 10784 0
+# tclsrv3.epfl.ch(0):      3760  1 _boolean_or_list
+F 3260.0.0.3261.0.0.3264.0.0 10784 0
+S 1768.0.0.1769.0.0.1772.0.0 5673 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 1768.0.0.1769.0.0.1772.0.0 5673 0
+S 1753.0.0.1754.0.0.1757.0.0 5618 0
+# tclsrv3.epfl.ch(0):      4010  1 _boolean_or_list
+F 1753.0.0.1754.0.0.1757.0.0 5618 0
+S 1723.0.0.1724.0.0.1727.0.0 5508 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1723.0.0.1724.0.0.1727.0.0 5508 0
+S 1708.0.0.1709.0.0.1712.0.0 5453 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1708.0.0.1709.0.0.1712.0.0 5453 0
+S 1627.0.0.1628.0.0.1631.0.0 5166 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 1627.0.0.1628.0.0.1631.0.0 5166 0
+S 1612.0.0.1613.0.0.1616.0.0 5111 0
+# tclsrv3.epfl.ch(0):      4010  1 _boolean_or_list
+F 1612.0.0.1613.0.0.1616.0.0 5111 0
+S 1582.0.0.1583.0.0.1586.0.0 5001 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1582.0.0.1583.0.0.1586.0.0 5001 0
+S 1567.0.0.1568.0.0.1571.0.0 4946 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1567.0.0.1568.0.0.1571.0.0 4946 0
+S 3290.0.0.3291.0.0.3294.0.0 10894 0
+# tclsrv3.epfl.ch(0):      3695  1 _boolean_or_list
+F 3290.0.0.3291.0.0.3294.0.0 10894 0
+S 3330.0.0.3331.0.0.3333.0.0 11037 0
+# tclsrv3.epfl.ch(0):      3440  1 _boolean_or_list
+F 3330.0.0.3331.0.0.3333.0.0 11037 0
+S 3339.0.0.3363.0.0 11145 0
+# tclsrv3.epfl.ch(0):      3249  1 _remove_overlap
+F 886.0.0 2719 1
+S 1849.0.0 5940 1
+# tclsrv3.epfl.ch(1):       537  1 _create_q
+F 3339.0.0.3363.0.0 11145 0
+S 976.0.0 2966 0
+# tclsrv3.epfl.ch(0):       518  1 _create_q
+F 976.0.0 2966 0
+S 1846.0.0 5929 0
+# tclsrv3.epfl.ch(0):      2298  1 _boolean_and_q
+F 1849.0.0 5940 1
+S 1850.0.0 5942 1
+# tclsrv3.epfl.ch(1):      2336  1 _boolean_and_q
+F 1846.0.0 5929 0
+S 1847.0.0 5933 0
+# tclsrv3.epfl.ch(0):      2025  1 _compress_isolated
+F 1847.0.0 5933 0
+S 3339.0.0.3362.0.0 11141 0
+# tclsrv3.epfl.ch(0):      3313  1 _boolean_not
+F 3339.0.0.3362.0.0 11141 0
+S 3339.0.0.3358.0.0 11126 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3339.0.0.3358.0.0 11126 0
+S 3339.0.0.3359.0.0 11130 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 3339.0.0.3359.0.0 11130 0
+S 3339.0.0.3356.0.0 11118 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3339.0.0.3356.0.0 11118 0
+S 3339.0.0.3357.0.0 11122 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 1850.0.0 5942 1
+S 1851.0.0 5946 1
+# tclsrv3.epfl.ch(1):      2044  1 _compress_isolated
+F 1851.0.0 5946 1
+S 3473.0.0.3474.0.0.3477.0.0 11535 1
+# tclsrv3.epfl.ch(1):      3734  1 _boolean_or_list
+F 3339.0.0.3357.0.0 11122 0
+S 3458.0.0.3459.0.0.3462.0.0 11480 0
+# tclsrv3.epfl.ch(0):      3753  1 _boolean_or_list
+F 3473.0.0.3474.0.0.3477.0.0 11535 1
+S 3428.0.0.3429.0.0.3432.0.0 11370 1
+# tclsrv3.epfl.ch(1):      3760  1 _boolean_or_list
+F 3428.0.0.3429.0.0.3432.0.0 11370 1
+S 3413.0.0.3414.0.0.3417.0.0 11315 1
+# tclsrv3.epfl.ch(1):      3760  1 _boolean_or_list
+F 3458.0.0.3459.0.0.3462.0.0 11480 0
+S 2073.0.0.2074.0.0.2077.0.0 6738 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 3413.0.0.3414.0.0.3417.0.0 11315 1
+S 2058.0.0.2059.0.0.2062.0.0 6683 1
+# tclsrv3.epfl.ch(1):      4010  1 _boolean_or_list
+F 2073.0.0.2074.0.0.2077.0.0 6738 0
+S 2028.0.0.2029.0.0.2032.0.0 6573 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2058.0.0.2059.0.0.2062.0.0 6683 1
+S 2013.0.0.2014.0.0.2017.0.0 6518 1
+# tclsrv3.epfl.ch(1):      4017  1 _boolean_or_list
+F 2028.0.0.2029.0.0.2032.0.0 6573 0
+S 1933.0.0.1934.0.0.1937.0.0 6238 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 2013.0.0.2014.0.0.2017.0.0 6518 1
+S 1918.0.0.1919.0.0.1922.0.0 6183 1
+# tclsrv3.epfl.ch(1):      4010  1 _boolean_or_list
+F 1933.0.0.1934.0.0.1937.0.0 6238 0
+S 1888.0.0.1889.0.0.1892.0.0 6073 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 1918.0.0.1919.0.0.1922.0.0 6183 1
+S 1873.0.0.1874.0.0.1877.0.0 6018 1
+# tclsrv3.epfl.ch(1):      4017  1 _boolean_or_list
+F 1888.0.0.1889.0.0.1892.0.0 6073 0
+S 3443.0.0.3444.0.0.3447.0.0 11425 0
+# tclsrv3.epfl.ch(0):      3695  1 _boolean_or_list
+F 1873.0.0.1874.0.0.1877.0.0 6018 1
+S 2043.0.0.2044.0.0.2047.0.0 6628 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 3443.0.0.3444.0.0.3447.0.0 11425 0
+S 3483.0.0.3484.0.0.3486.0.0 11568 0
+# tclsrv3.epfl.ch(0):      3440  1 _boolean_or_list
+F 2043.0.0.2044.0.0.2047.0.0 6628 1
+S 2083.0.0.2084.0.0.2086.0.0 6771 1
+# tclsrv3.epfl.ch(1):      3697  1 _boolean_or_list
+F 3483.0.0.3484.0.0.3486.0.0 11568 0
+S 3492.0.0.3515.0.0 11671 0
+# tclsrv3.epfl.ch(0):      3249  1 _remove_overlap
+F 2083.0.0.2084.0.0.2086.0.0 6771 1
+S 2092.0.0.2115.0.0 6874 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 3492.0.0.3515.0.0 11671 0
+S 2092.0.0.2114.0.0 6870 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 2092.0.0.2115.0.0 6874 1
+S 2092.0.0.2107.0.0 6844 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2092.0.0.2114.0.0 6870 0
+S 2092.0.0.2106.0.0 6841 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2092.0.0.2107.0.0 6844 1
+S 2092.0.0.2105.0.0 6838 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2092.0.0.2106.0.0 6841 0
+S 2092.0.0.2104.0.0 6835 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2092.0.0.2105.0.0 6838 1
+S 2092.0.0.2101.0.0 6824 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2092.0.0.2104.0.0 6835 0
+S 2092.0.0.2100.0.0 6821 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2092.0.0.2101.0.0 6824 1
+S 2092.0.0.2099.0.0 6818 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2092.0.0.2100.0.0 6821 0
+S 2092.0.0.2098.0.0 6815 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2092.0.0.2099.0.0 6818 1
+S 3492.0.0.3514.0.0 11667 1
+# tclsrv3.epfl.ch(1):      3313  1 _boolean_not
+F 2092.0.0.2098.0.0 6815 0
+S 3492.0.0.3510.0.0 11652 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3492.0.0.3514.0.0 11667 1
+S 3492.0.0.3508.0.0 11644 1
+# tclsrv3.epfl.ch(1):      3371  1 _boolean_not
+F 3492.0.0.3510.0.0 11652 0
+S 3492.0.0.3511.0.0 11656 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 3492.0.0.3508.0.0 11644 1
+S 3492.0.0.3509.0.0 11648 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 3492.0.0.3511.0.0 11656 0
+S 2092.0.0.2108.0.0 6847 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 2092.0.0.2108.0.0 6847 0
+S 2092.0.0.2110.0.0 6855 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 2092.0.0.2110.0.0 6855 0
+S 2092.0.0.2111.0.0 6859 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 2092.0.0.2111.0.0 6859 0
+S 3492.0.0.3502.0.0 11624 0
+# tclsrv3.epfl.ch(0):      3382  1 _boolean_not
+F 3492.0.0.3502.0.0 11624 0
+S 3492.0.0.3503.0.0 11628 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 3492.0.0.3503.0.0 11628 0
+S 2092.0.0.2102.0.0 6827 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 2092.0.0.2102.0.0 6827 0
+S 2092.0.0.2103.0.0 6831 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 2092.0.0.2103.0.0 6831 0
+S 3492.0.0.3507.0.0 11641 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3507.0.0 11641 0
+S 3492.0.0.3506.0.0 11638 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3506.0.0 11638 0
+S 3492.0.0.3505.0.0 11635 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3505.0.0 11635 0
+S 3492.0.0.3504.0.0 11632 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3504.0.0 11632 0
+S 3492.0.0.3501.0.0 11621 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3501.0.0 11621 0
+S 3492.0.0.3500.0.0 11618 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3500.0.0 11618 0
+S 3492.0.0.3499.0.0 11615 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3499.0.0 11615 0
+S 3492.0.0.3498.0.0 11612 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3492.0.0.3498.0.0 11612 0
+S 1903.0.0.1904.0.0.1907.0.0 6128 0
+# tclsrv3.epfl.ch(0):      3952  1 _boolean_or_list
+F 1903.0.0.1904.0.0.1907.0.0 6128 0
+S 1943.0.0.1944.0.0.1946.0.0 6271 0
+# tclsrv3.epfl.ch(0):      3697  1 _boolean_or_list
+F 1943.0.0.1944.0.0.1946.0.0 6271 0
+S 1952.0.0.1975.0.0 6374 0
+# tclsrv3.epfl.ch(0):      3506  1 _remove_overlap
+F 1952.0.0.1975.0.0 6374 0
+S 1952.0.0.1974.0.0 6370 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 1952.0.0.1974.0.0 6370 0
+S 1952.0.0.1970.0.0 6355 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1952.0.0.1970.0.0 6355 0
+S 1952.0.0.1971.0.0 6359 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1952.0.0.1971.0.0 6359 0
+S 1952.0.0.1968.0.0 6347 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1952.0.0.1968.0.0 6347 0
+S 1952.0.0.1962.0.0 6327 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1952.0.0.1962.0.0 6327 0
+S 1952.0.0.1963.0.0 6331 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1952.0.0.1963.0.0 6331 0
+S 1952.0.0.1967.0.0 6344 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1967.0.0 6344 0
+S 1952.0.0.1966.0.0 6341 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1966.0.0 6341 0
+S 1952.0.0.1965.0.0 6338 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1965.0.0 6338 0
+S 1952.0.0.1964.0.0 6335 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1964.0.0 6335 0
+S 1952.0.0.1961.0.0 6324 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1961.0.0 6324 0
+S 1952.0.0.1960.0.0 6321 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1960.0.0 6321 0
+S 1952.0.0.1959.0.0 6318 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1959.0.0 6318 0
+S 1952.0.0.1958.0.0 6315 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1952.0.0.1958.0.0 6315 0
+S 3339.0.0.3350.0.0 11098 0
+# tclsrv3.epfl.ch(0):      3322  1 _boolean_not
+F 3339.0.0.3350.0.0 11098 0
+S 3339.0.0.3351.0.0 11102 0
+# tclsrv3.epfl.ch(0):      3267  1 _remove_overlap
+F 3492.0.0.3509.0.0 11648 1
+S 3537.0.0 11755 1
+# tclsrv3.epfl.ch(1):     17310  1 _density_m
+F 3339.0.0.3351.0.0 11102 0
+S 1952.0.0.1969.0.0 6351 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1952.0.0.1969.0.0 6351 0
+S 1997.0.0 6458 0
+# tclsrv3.epfl.ch(0):     17568  1 _density_m
+F 1997.0.0 6458 0
+S 2092.0.0.2109.0.0 6851 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 2092.0.0.2109.0.0 6851 0
+S 2137.0.0 6958 0
+# tclsrv3.epfl.ch(0):     17568  1 _density_m
+F 3537.0.0 11755 1
+S 3339.0.0.3347.0.0 11087 1
+# tclsrv3.epfl.ch(1):      3373  1 _boolean_not
+F 3339.0.0.3347.0.0 11087 1
+S 3339.0.0.3348.0.0 11091 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 2137.0.0 6958 0
+S 3339.0.0.3355.0.0 11115 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3355.0.0 11115 0
+S 3339.0.0.3354.0.0 11112 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3354.0.0 11112 0
+S 3339.0.0.3353.0.0 11109 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3353.0.0 11109 0
+S 3339.0.0.3352.0.0 11106 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3352.0.0 11106 0
+S 3339.0.0.3349.0.0 11095 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3349.0.0 11095 0
+S 3339.0.0.3346.0.0 11084 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3346.0.0 11084 0
+S 3339.0.0.3345.0.0 11081 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3339.0.0.3345.0.0 11081 0
+S 1738.0.0.1739.0.0.1742.0.0 5563 0
+# tclsrv3.epfl.ch(0):      3952  1 _boolean_or_list
+F 1738.0.0.1739.0.0.1742.0.0 5563 0
+S 1778.0.0.1779.0.0.1781.0.0 5706 0
+# tclsrv3.epfl.ch(0):      3697  1 _boolean_or_list
+F 1778.0.0.1779.0.0.1781.0.0 5706 0
+S 1787.0.0.1811.0.0 5814 0
+# tclsrv3.epfl.ch(0):      3506  1 _remove_overlap
+F 3339.0.0.3348.0.0 11091 1
+S 3385.0.0 11231 1
+# tclsrv3.epfl.ch(1):     17310  1 _density_m
+F 1787.0.0.1811.0.0 5814 0
+S 1787.0.0.1810.0.0 5810 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 1787.0.0.1810.0.0 5810 0
+S 1787.0.0.1806.0.0 5795 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1787.0.0.1806.0.0 5795 0
+S 1787.0.0.1807.0.0 5799 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1787.0.0.1807.0.0 5799 0
+S 1787.0.0.1804.0.0 5787 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1787.0.0.1804.0.0 5787 0
+S 1787.0.0.1805.0.0 5791 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1787.0.0.1805.0.0 5791 0
+S 1787.0.0.1798.0.0 5767 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1787.0.0.1798.0.0 5767 0
+S 1787.0.0.1799.0.0 5771 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1787.0.0.1799.0.0 5771 0
+S 1787.0.0.1795.0.0 5756 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 1787.0.0.1795.0.0 5756 0
+S 1787.0.0.1796.0.0 5760 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 1787.0.0.1796.0.0 5760 0
+S 1787.0.0.1803.0.0 5784 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1803.0.0 5784 0
+S 1787.0.0.1802.0.0 5781 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1802.0.0 5781 0
+S 1787.0.0.1801.0.0 5778 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1801.0.0 5778 0
+S 1787.0.0.1800.0.0 5775 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1800.0.0 5775 0
+S 1787.0.0.1797.0.0 5764 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1797.0.0 5764 0
+S 1787.0.0.1794.0.0 5753 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1794.0.0 5753 0
+S 1787.0.0.1793.0.0 5750 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 1787.0.0.1793.0.0 5750 0
+S 1833.0.0 5900 0
+# tclsrv3.epfl.ch(0):     17568  1 _density_m
+F 3385.0.0 11231 1
+S 1597.0.0.1598.0.0.1601.0.0 5056 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 1597.0.0.1598.0.0.1601.0.0 5056 1
+S 1637.0.0.1638.0.0.1640.0.0 5199 1
+# tclsrv3.epfl.ch(1):      3697  1 _boolean_or_list
+F 1637.0.0.1638.0.0.1640.0.0 5199 1
+S 1646.0.0.1670.0.0 5307 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 1646.0.0.1670.0.0 5307 1
+S 1646.0.0.1669.0.0 5303 1
+# tclsrv3.epfl.ch(1):      3570  1 _boolean_not
+F 1646.0.0.1669.0.0 5303 1
+S 1646.0.0.1665.0.0 5288 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1646.0.0.1665.0.0 5288 1
+S 1646.0.0.1666.0.0 5292 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1646.0.0.1666.0.0 5292 1
+S 1646.0.0.1663.0.0 5280 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1646.0.0.1663.0.0 5280 1
+S 1646.0.0.1664.0.0 5284 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1646.0.0.1664.0.0 5284 1
+S 1646.0.0.1657.0.0 5260 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1646.0.0.1657.0.0 5260 1
+S 1646.0.0.1658.0.0 5264 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1646.0.0.1658.0.0 5264 1
+S 1646.0.0.1654.0.0 5249 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 1646.0.0.1654.0.0 5249 1
+S 1646.0.0.1655.0.0 5253 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 1646.0.0.1655.0.0 5253 1
+S 1646.0.0.1662.0.0 5277 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1662.0.0 5277 1
+S 1646.0.0.1661.0.0 5274 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1661.0.0 5274 1
+S 1646.0.0.1660.0.0 5271 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1660.0.0 5271 1
+S 1646.0.0.1659.0.0 5268 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1659.0.0 5268 1
+S 1646.0.0.1656.0.0 5257 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1656.0.0 5257 1
+S 1646.0.0.1653.0.0 5246 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1653.0.0 5246 1
+S 1646.0.0.1652.0.0 5243 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 1646.0.0.1652.0.0 5243 1
+S 1692.0.0 5393 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 1833.0.0 5900 0
+S 907.0.0 2782 0
+# tclsrv3.epfl.ch(0):      4404  1 _optimize_unmerged_layer_dp
+F 907.0.0 2782 0
+S 906.0.0 2777 0
+# tclsrv3.epfl.ch(0):      4400  1 _optimize_unmerged_layer_dp
+F 906.0.0 2777 0
+S 905.0.0 2772 0
+# tclsrv3.epfl.ch(0):      4257  1 _optimize_layer_dp
+F 1692.0.0 5393 1
+S 926.0.0 2835 1
+# tclsrv3.epfl.ch(1):      4404  1 _optimize_unmerged_layer_dp
+F 905.0.0 2772 0
+S 2153.0.0 6998 0
+# tclsrv3.epfl.ch(0):       537  1 _create_q
+F 926.0.0 2835 1
+S 983.0.0 2981 1
+# tclsrv3.epfl.ch(1):       518  1 _create_q
+F 2153.0.0 6998 0
+S 925.0.0 2830 0
+# tclsrv3.epfl.ch(0):      4400  1 _optimize_unmerged_layer_dp
+F 983.0.0 2981 1
+S 2154.0.0 7000 1
+# tclsrv3.epfl.ch(1):      2336  1 _boolean_and_q
+F 925.0.0 2830 0
+S 2150.0.0 6987 0
+# tclsrv3.epfl.ch(0):      2298  1 _boolean_and_q
+F 2150.0.0 6987 0
+S 2151.0.0 6991 0
+# tclsrv3.epfl.ch(0):      2025  1 _compress_isolated
+F 2151.0.0 6991 0
+S 924.0.0 2825 0
+# tclsrv3.epfl.ch(0):      4257  1 _optimize_layer_dp
+F 2154.0.0 7000 1
+S 2155.0.0 7004 1
+# tclsrv3.epfl.ch(1):      2044  1 _compress_isolated
+F 2155.0.0 7004 1
+S 3625.0.0.3626.0.0.3629.0.0 12059 1
+# tclsrv3.epfl.ch(1):      3734  1 _boolean_or_list
+F 924.0.0 2825 0
+S 2457.0.0 8056 0
+# tclsrv3.epfl.ch(0):       537  1 _create_q
+F 3625.0.0.3626.0.0.3629.0.0 12059 1
+S 990.0.0 2996 1
+# tclsrv3.epfl.ch(1):       518  1 _create_q
+F 2457.0.0 8056 0
+S 3610.0.0.3611.0.0.3614.0.0 12004 0
+# tclsrv3.epfl.ch(0):      3753  1 _boolean_or_list
+F 990.0.0 2996 1
+S 2458.0.0 8058 1
+# tclsrv3.epfl.ch(1):      2336  1 _boolean_and_q
+F 3610.0.0.3611.0.0.3614.0.0 12004 0
+S 2454.0.0 8045 0
+# tclsrv3.epfl.ch(0):      2298  1 _boolean_and_q
+F 2454.0.0 8045 0
+S 2455.0.0 8049 0
+# tclsrv3.epfl.ch(0):      2025  1 _compress_isolated
+F 2455.0.0 8049 0
+S 3580.0.0.3581.0.0.3584.0.0 11894 0
+# tclsrv3.epfl.ch(0):      3760  1 _boolean_or_list
+F 3580.0.0.3581.0.0.3584.0.0 11894 0
+S 3565.0.0.3566.0.0.3569.0.0 11839 0
+# tclsrv3.epfl.ch(0):      3760  1 _boolean_or_list
+F 3565.0.0.3566.0.0.3569.0.0 11839 0
+S 2377.0.0.2378.0.0.2381.0.0 7796 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 2377.0.0.2378.0.0.2381.0.0 7796 0
+S 2362.0.0.2363.0.0.2366.0.0 7741 0
+# tclsrv3.epfl.ch(0):      4010  1 _boolean_or_list
+F 2362.0.0.2363.0.0.2366.0.0 7741 0
+S 2332.0.0.2333.0.0.2336.0.0 7631 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2332.0.0.2333.0.0.2336.0.0 7631 0
+S 2317.0.0.2318.0.0.2321.0.0 7576 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2317.0.0.2318.0.0.2321.0.0 7576 0
+S 2237.0.0.2238.0.0.2241.0.0 7296 0
+# tclsrv3.epfl.ch(0):      3991  1 _boolean_or_list
+F 2237.0.0.2238.0.0.2241.0.0 7296 0
+S 2222.0.0.2223.0.0.2226.0.0 7241 0
+# tclsrv3.epfl.ch(0):      4010  1 _boolean_or_list
+F 2222.0.0.2223.0.0.2226.0.0 7241 0
+S 2192.0.0.2193.0.0.2196.0.0 7131 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2192.0.0.2193.0.0.2196.0.0 7131 0
+S 2177.0.0.2178.0.0.2181.0.0 7076 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2177.0.0.2178.0.0.2181.0.0 7076 0
+S 3595.0.0.3596.0.0.3599.0.0 11949 0
+# tclsrv3.epfl.ch(0):      3695  1 _boolean_or_list
+F 3595.0.0.3596.0.0.3599.0.0 11949 0
+S 3635.0.0.3636.0.0.3638.0.0 12092 0
+# tclsrv3.epfl.ch(0):      3440  1 _boolean_or_list
+F 3635.0.0.3636.0.0.3638.0.0 12092 0
+S 3644.0.0.3667.0.0 12195 0
+# tclsrv3.epfl.ch(0):      3249  1 _remove_overlap
+F 3644.0.0.3667.0.0 12195 0
+S 3644.0.0.3666.0.0 12191 0
+# tclsrv3.epfl.ch(0):      3313  1 _boolean_not
+F 3644.0.0.3666.0.0 12191 0
+S 3644.0.0.3662.0.0 12176 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3644.0.0.3662.0.0 12176 0
+S 3644.0.0.3663.0.0 12180 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 2458.0.0 8058 1
+S 2459.0.0 8062 1
+# tclsrv3.epfl.ch(1):      2044  1 _compress_isolated
+F 3644.0.0.3663.0.0 12180 0
+S 3644.0.0.3660.0.0 12168 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3644.0.0.3660.0.0 12168 0
+S 3644.0.0.3661.0.0 12172 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 2459.0.0 8062 1
+S 3777.0.0.3778.0.0.3781.0.0 12583 1
+# tclsrv3.epfl.ch(1):      3734  1 _boolean_or_list
+F 3777.0.0.3778.0.0.3781.0.0 12583 1
+S 3762.0.0.3763.0.0.3766.0.0 12528 1
+# tclsrv3.epfl.ch(1):      3753  1 _boolean_or_list
+F 3762.0.0.3763.0.0.3766.0.0 12528 1
+S 3732.0.0.3733.0.0.3736.0.0 12418 1
+# tclsrv3.epfl.ch(1):      3760  1 _boolean_or_list
+F 3732.0.0.3733.0.0.3736.0.0 12418 1
+S 3717.0.0.3718.0.0.3721.0.0 12363 1
+# tclsrv3.epfl.ch(1):      3760  1 _boolean_or_list
+F 3717.0.0.3718.0.0.3721.0.0 12363 1
+S 2681.0.0.2682.0.0.2685.0.0 8854 1
+# tclsrv3.epfl.ch(1):      3991  1 _boolean_or_list
+F 2681.0.0.2682.0.0.2685.0.0 8854 1
+S 2666.0.0.2667.0.0.2670.0.0 8799 1
+# tclsrv3.epfl.ch(1):      4010  1 _boolean_or_list
+F 3644.0.0.3661.0.0 12172 0
+S 2636.0.0.2637.0.0.2640.0.0 8689 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2666.0.0.2667.0.0.2670.0.0 8799 1
+S 2621.0.0.2622.0.0.2625.0.0 8634 1
+# tclsrv3.epfl.ch(1):      4017  1 _boolean_or_list
+F 2621.0.0.2622.0.0.2625.0.0 8634 1
+S 2541.0.0.2542.0.0.2545.0.0 8354 1
+# tclsrv3.epfl.ch(1):      3991  1 _boolean_or_list
+F 2541.0.0.2542.0.0.2545.0.0 8354 1
+S 2526.0.0.2527.0.0.2530.0.0 8299 1
+# tclsrv3.epfl.ch(1):      4010  1 _boolean_or_list
+F 2636.0.0.2637.0.0.2640.0.0 8689 0
+S 2496.0.0.2497.0.0.2500.0.0 8189 0
+# tclsrv3.epfl.ch(0):      4017  1 _boolean_or_list
+F 2526.0.0.2527.0.0.2530.0.0 8299 1
+S 2481.0.0.2482.0.0.2485.0.0 8134 1
+# tclsrv3.epfl.ch(1):      4017  1 _boolean_or_list
+F 2496.0.0.2497.0.0.2500.0.0 8189 0
+S 3747.0.0.3748.0.0.3751.0.0 12473 0
+# tclsrv3.epfl.ch(0):      3695  1 _boolean_or_list
+F 2481.0.0.2482.0.0.2485.0.0 8134 1
+S 2651.0.0.2652.0.0.2655.0.0 8744 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 3747.0.0.3748.0.0.3751.0.0 12473 0
+S 3787.0.0.3788.0.0.3790.0.0 12616 0
+# tclsrv3.epfl.ch(0):      3440  1 _boolean_or_list
+F 2651.0.0.2652.0.0.2655.0.0 8744 1
+S 2691.0.0.2692.0.0.2694.0.0 8887 1
+# tclsrv3.epfl.ch(1):      3697  1 _boolean_or_list
+F 3787.0.0.3788.0.0.3790.0.0 12616 0
+S 3796.0.0.3819.0.0 12719 0
+# tclsrv3.epfl.ch(0):      3249  1 _remove_overlap
+F 2691.0.0.2692.0.0.2694.0.0 8887 1
+S 2700.0.0.2723.0.0 8990 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 3796.0.0.3819.0.0 12719 0
+S 2700.0.0.2722.0.0 8986 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 2700.0.0.2723.0.0 8990 1
+S 2700.0.0.2710.0.0 8943 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2700.0.0.2722.0.0 8986 0
+S 2700.0.0.2715.0.0 8960 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2700.0.0.2710.0.0 8943 1
+S 2700.0.0.2711.0.0 8947 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2700.0.0.2715.0.0 8960 0
+S 2700.0.0.2714.0.0 8957 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2700.0.0.2714.0.0 8957 0
+S 2700.0.0.2713.0.0 8954 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2700.0.0.2711.0.0 8947 1
+S 2700.0.0.2712.0.0 8951 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2700.0.0.2713.0.0 8954 0
+S 2700.0.0.2709.0.0 8940 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2700.0.0.2712.0.0 8951 1
+S 2700.0.0.2708.0.0 8937 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2700.0.0.2709.0.0 8940 0
+S 2700.0.0.2707.0.0 8934 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2700.0.0.2708.0.0 8937 1
+S 2700.0.0.2706.0.0 8931 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2700.0.0.2707.0.0 8934 0
+S 3796.0.0.3818.0.0 12715 0
+# tclsrv3.epfl.ch(0):      3313  1 _boolean_not
+F 2700.0.0.2706.0.0 8931 1
+S 3796.0.0.3814.0.0 12700 1
+# tclsrv3.epfl.ch(1):      3371  1 _boolean_not
+F 3796.0.0.3818.0.0 12715 0
+S 3796.0.0.3812.0.0 12692 0
+# tclsrv3.epfl.ch(0):      3371  1 _boolean_not
+F 3796.0.0.3814.0.0 12700 1
+S 3796.0.0.3815.0.0 12704 1
+# tclsrv3.epfl.ch(1):      3247  1 _remove_overlap
+F 3796.0.0.3812.0.0 12692 0
+S 3796.0.0.3813.0.0 12696 0
+# tclsrv3.epfl.ch(0):      3247  1 _remove_overlap
+F 3796.0.0.3815.0.0 12704 1
+S 2700.0.0.2716.0.0 8963 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2700.0.0.2716.0.0 8963 1
+S 2700.0.0.2718.0.0 8971 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2700.0.0.2718.0.0 8971 1
+S 2700.0.0.2719.0.0 8975 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2700.0.0.2719.0.0 8975 1
+S 3796.0.0.3806.0.0 12672 1
+# tclsrv3.epfl.ch(1):      3322  1 _boolean_not
+F 3796.0.0.3806.0.0 12672 1
+S 3796.0.0.3807.0.0 12676 1
+# tclsrv3.epfl.ch(1):      3267  1 _remove_overlap
+F 3796.0.0.3807.0.0 12676 1
+S 3796.0.0.3811.0.0 12689 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3811.0.0 12689 1
+S 3796.0.0.3810.0.0 12686 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3810.0.0 12686 1
+S 3796.0.0.3809.0.0 12683 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3809.0.0 12683 1
+S 3796.0.0.3808.0.0 12680 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3808.0.0 12680 1
+S 3796.0.0.3805.0.0 12669 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3805.0.0 12669 1
+S 3796.0.0.3804.0.0 12666 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3804.0.0 12666 1
+S 3796.0.0.3803.0.0 12663 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3803.0.0 12663 1
+S 3796.0.0.3802.0.0 12660 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3802.0.0 12660 1
+S 2511.0.0.2512.0.0.2515.0.0 8244 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 2511.0.0.2512.0.0.2515.0.0 8244 1
+S 2551.0.0.2552.0.0.2554.0.0 8387 1
+# tclsrv3.epfl.ch(1):      3697  1 _boolean_or_list
+F 2551.0.0.2552.0.0.2554.0.0 8387 1
+S 2560.0.0.2583.0.0 8490 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 2560.0.0.2583.0.0 8490 1
+S 2560.0.0.2582.0.0 8486 1
+# tclsrv3.epfl.ch(1):      3570  1 _boolean_not
+F 2560.0.0.2582.0.0 8486 1
+S 2560.0.0.2578.0.0 8471 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2560.0.0.2578.0.0 8471 1
+S 2560.0.0.2579.0.0 8475 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2560.0.0.2579.0.0 8475 1
+S 2560.0.0.2576.0.0 8463 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2560.0.0.2576.0.0 8463 1
+S 2560.0.0.2570.0.0 8443 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2560.0.0.2570.0.0 8443 1
+S 2560.0.0.2571.0.0 8447 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2560.0.0.2571.0.0 8447 1
+S 2560.0.0.2575.0.0 8460 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2575.0.0 8460 1
+S 2560.0.0.2574.0.0 8457 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2574.0.0 8457 1
+S 2560.0.0.2573.0.0 8454 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2573.0.0 8454 1
+S 2560.0.0.2572.0.0 8451 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2572.0.0 8451 1
+S 2560.0.0.2569.0.0 8440 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2569.0.0 8440 1
+S 2560.0.0.2568.0.0 8437 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2568.0.0 8437 1
+S 2560.0.0.2567.0.0 8434 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2567.0.0 8434 1
+S 2560.0.0.2566.0.0 8431 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2560.0.0.2566.0.0 8431 1
+S 3644.0.0.3654.0.0 12148 1
+# tclsrv3.epfl.ch(1):      3322  1 _boolean_not
+F 3644.0.0.3654.0.0 12148 1
+S 3644.0.0.3655.0.0 12152 1
+# tclsrv3.epfl.ch(1):      3267  1 _remove_overlap
+F 3644.0.0.3655.0.0 12152 1
+S 3644.0.0.3659.0.0 12165 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3644.0.0.3659.0.0 12165 1
+S 3644.0.0.3658.0.0 12162 1
+# tclsrv3.epfl.ch(1):      3094  1 _empty_layer
+F 3796.0.0.3813.0.0 12696 0
+S 3841.0.0 12803 0
+# tclsrv3.epfl.ch(0):     17310  1 _density_m
+F 3644.0.0.3658.0.0 12162 1
+S 2560.0.0.2577.0.0 8467 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2560.0.0.2577.0.0 8467 1
+S 2605.0.0 8574 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 2605.0.0 8574 1
+S 2700.0.0.2717.0.0 8967 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2700.0.0.2717.0.0 8967 1
+S 2745.0.0 9074 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 3841.0.0 12803 0
+S 3644.0.0.3657.0.0 12159 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3644.0.0.3657.0.0 12159 0
+S 3644.0.0.3656.0.0 12156 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3644.0.0.3656.0.0 12156 0
+S 3644.0.0.3653.0.0 12145 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3644.0.0.3653.0.0 12145 0
+S 3644.0.0.3652.0.0 12142 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3644.0.0.3652.0.0 12142 0
+S 3644.0.0.3651.0.0 12139 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3644.0.0.3651.0.0 12139 0
+S 3644.0.0.3650.0.0 12136 0
+# tclsrv3.epfl.ch(0):      3094  1 _empty_layer
+F 3644.0.0.3650.0.0 12136 0
+S 3689.0.0 12279 0
+# tclsrv3.epfl.ch(0):     17310  1 _density_m
+F 3689.0.0 12279 0
+S 2347.0.0.2348.0.0.2351.0.0 7686 0
+# tclsrv3.epfl.ch(0):      3952  1 _boolean_or_list
+F 2745.0.0 9074 1
+S 2207.0.0.2208.0.0.2211.0.0 7186 1
+# tclsrv3.epfl.ch(1):      3952  1 _boolean_or_list
+F 2347.0.0.2348.0.0.2351.0.0 7686 0
+S 2387.0.0.2388.0.0.2390.0.0 7829 0
+# tclsrv3.epfl.ch(0):      3697  1 _boolean_or_list
+F 2207.0.0.2208.0.0.2211.0.0 7186 1
+S 2247.0.0.2248.0.0.2250.0.0 7329 1
+# tclsrv3.epfl.ch(1):      3697  1 _boolean_or_list
+F 2387.0.0.2388.0.0.2390.0.0 7829 0
+S 2396.0.0.2419.0.0 7932 0
+# tclsrv3.epfl.ch(0):      3506  1 _remove_overlap
+F 2247.0.0.2248.0.0.2250.0.0 7329 1
+S 2256.0.0.2279.0.0 7432 1
+# tclsrv3.epfl.ch(1):      3506  1 _remove_overlap
+F 2396.0.0.2419.0.0 7932 0
+S 2256.0.0.2278.0.0 7428 0
+# tclsrv3.epfl.ch(0):      3570  1 _boolean_not
+F 2256.0.0.2279.0.0 7432 1
+S 2256.0.0.2274.0.0 7413 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2256.0.0.2278.0.0 7428 0
+S 2256.0.0.2272.0.0 7405 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 2256.0.0.2272.0.0 7405 0
+S 2256.0.0.2273.0.0 7409 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 2256.0.0.2274.0.0 7413 1
+S 2256.0.0.2275.0.0 7417 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2256.0.0.2273.0.0 7409 0
+S 2256.0.0.2266.0.0 7385 0
+# tclsrv3.epfl.ch(0):      3579  1 _boolean_not
+F 2256.0.0.2266.0.0 7385 0
+S 2256.0.0.2267.0.0 7389 0
+# tclsrv3.epfl.ch(0):      3524  1 _remove_overlap
+F 2256.0.0.2275.0.0 7417 1
+S 2256.0.0.2271.0.0 7402 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2256.0.0.2267.0.0 7389 0
+S 2256.0.0.2270.0.0 7399 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2256.0.0.2271.0.0 7402 1
+S 2256.0.0.2269.0.0 7396 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2256.0.0.2270.0.0 7399 0
+S 2256.0.0.2268.0.0 7393 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2256.0.0.2269.0.0 7396 1
+S 2256.0.0.2265.0.0 7382 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2256.0.0.2268.0.0 7393 0
+S 2256.0.0.2264.0.0 7379 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2256.0.0.2265.0.0 7382 1
+S 2256.0.0.2263.0.0 7376 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2256.0.0.2264.0.0 7379 0
+S 2256.0.0.2262.0.0 7373 0
+# tclsrv3.epfl.ch(0):      3351  1 _empty_layer
+F 2256.0.0.2263.0.0 7376 1
+S 2396.0.0.2418.0.0 7928 1
+# tclsrv3.epfl.ch(1):      3570  1 _boolean_not
+F 2256.0.0.2262.0.0 7373 0
+S 2301.0.0 7516 0
+# tclsrv3.epfl.ch(0):     17568  1 _density_m
+F 2396.0.0.2418.0.0 7928 1
+S 2396.0.0.2414.0.0 7913 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2396.0.0.2414.0.0 7913 1
+S 2396.0.0.2415.0.0 7917 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2396.0.0.2415.0.0 7917 1
+S 2396.0.0.2412.0.0 7905 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2396.0.0.2412.0.0 7905 1
+S 2396.0.0.2413.0.0 7909 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2396.0.0.2413.0.0 7909 1
+S 2396.0.0.2406.0.0 7885 1
+# tclsrv3.epfl.ch(1):      3579  1 _boolean_not
+F 2396.0.0.2406.0.0 7885 1
+S 2396.0.0.2407.0.0 7889 1
+# tclsrv3.epfl.ch(1):      3524  1 _remove_overlap
+F 2396.0.0.2407.0.0 7889 1
+S 2396.0.0.2411.0.0 7902 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2411.0.0 7902 1
+S 2396.0.0.2410.0.0 7899 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2410.0.0 7899 1
+S 2396.0.0.2409.0.0 7896 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2409.0.0 7896 1
+S 2396.0.0.2408.0.0 7893 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2408.0.0 7893 1
+S 2396.0.0.2405.0.0 7882 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2405.0.0 7882 1
+S 2396.0.0.2404.0.0 7879 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2404.0.0 7879 1
+S 2396.0.0.2403.0.0 7876 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2403.0.0 7876 1
+S 2396.0.0.2402.0.0 7873 1
+# tclsrv3.epfl.ch(1):      3351  1 _empty_layer
+F 2396.0.0.2402.0.0 7873 1
+S 2441.0.0 8016 1
+# tclsrv3.epfl.ch(1):     17568  1 _density_m
+F 2301.0.0 7516 0
+F 0 0 0
+F 2441.0.0 8016 1
+S 3981.0.0 13232 0
+# tclsrv3.epfl.ch(0):       385  1 _accumulate_results
+F 3981.0.0 13232 0
+}

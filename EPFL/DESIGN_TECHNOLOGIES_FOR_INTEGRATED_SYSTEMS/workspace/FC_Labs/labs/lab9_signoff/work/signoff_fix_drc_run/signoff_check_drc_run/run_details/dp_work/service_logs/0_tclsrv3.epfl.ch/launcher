@@ -1,0 +1,33 @@
+[138883:2025-09-24 09:55:05.084] Starting service 'launcher' (Node ID=0, Host Name=tclsrv3.epfl.ch)
+[138883:2025-09-24 09:55:05.087] Service Launcher starting
+[138883:2025-09-24 09:55:05.087] Starting service mapper
+[138883:2025-09-24 09:55:05.087] Started service mapper with PID 138884
+[138883:2025-09-24 09:55:05.087] Loading service mapper info
+[138883:2025-09-24 09:55:05.138] Starting services
+[138883:2025-09-24 09:55:05.139] Started service license_manager with PID 138889
+[138883:2025-09-24 09:55:05.139] Started service cluster with PID 138890
+[138883:2025-09-24 09:55:05.139] Started service hdb with PID 138891
+[138883:2025-09-24 09:55:05.139] Started service lock_manager with PID 138892
+[138883:2025-09-24 09:55:05.140] Started service log_manager with PID 138893
+[138883:2025-09-24 09:55:05.165] Service 'log_manager' with PID 138893 exited with exit status 33
+[138883:2025-09-24 09:55:18.855] Received signal 15. Shutting down.
+[138883:2025-09-24 09:55:18.855] Shutting down service 'cluster'
+[138883:2025-09-24 09:55:18.855]     Closing die FD
+[138883:2025-09-24 09:55:18.855] Shutting down service 'hdb'
+[138883:2025-09-24 09:55:18.855]     Closing die FD
+[138883:2025-09-24 09:55:18.855] Shutting down service 'license_manager'
+[138883:2025-09-24 09:55:18.855]     Closing die FD
+[138883:2025-09-24 09:55:18.855] Shutting down service 'lock_manager'
+[138883:2025-09-24 09:55:18.855]     Closing die FD
+[138883:2025-09-24 09:55:18.855] Waiting for service shutdown
+[138883:2025-09-24 09:55:18.857] Service 'cluster' with PID 138890 exited with exit status 0
+[138883:2025-09-24 09:55:18.857] Service 'hdb' with PID 138891 exited with exit status 0
+[138883:2025-09-24 09:55:18.857] Service 'lock_manager' with PID 138892 exited with exit status 0
+[138883:2025-09-24 09:55:18.869] Service 'license_manager' with PID 138889 exited with exit status 0
+[138883:2025-09-24 09:55:18.869] Waited 0 seconds on services to shutdown
+[138883:2025-09-24 09:55:18.869] Shutting down service 'mapper'
+[138883:2025-09-24 09:55:18.869]     Sending SIGTERM to PID 138884
+[138883:2025-09-24 09:55:18.869] Waiting for service shutdown
+[138883:2025-09-24 09:55:18.875] Service 'mapper' with PID 138884 exited with exit status 0
+[138883:2025-09-24 09:55:18.875] Waited 0 seconds on services to shutdown
+[138883:2025-09-24 09:55:18.875] Service Launcher exiting

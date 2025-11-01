@@ -1,0 +1,13 @@
+#!/bin/sh
+ulimit -c 0
+total=0
+pathsize=`/usr/bin/du -s --block-size=1 /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details --exclude=group | awk '{print $1}'`
+total=$(($total+$pathsize))
+group=0
+group=`/usr/bin/du -s --block-size=1 /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/group | awk '{print $1}'`
+echo $group > /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/group/duse_group.tmp && \
+mv /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/group/duse_group.tmp /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/group/duse_group
+pathsize=`/usr/bin/du -s --block-size=1 /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/i2c_master_top.LAYOUT_ERRORS | awk '{print $1}'`
+total=$(($total+$pathsize))
+echo $total > /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/duse_manager_res.tmp && \
+mv /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/duse_manager_res.tmp /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/run_details/duse_manager_res

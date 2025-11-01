@@ -1,0 +1,4 @@
+signoff icv i2c_master_top.dlib i2c_master_top NDM 2 /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl/signoff_metal_fill.rs /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl /softs/synopsys/fusioncompiler/W-2024.09-SP2/etc/pxl /scratch/schiavon/FC_Labs/FC_Labs/labs/results /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1/icvOptionFile.rc /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run/icv_run_1 /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fill_run /scratch/schiavon/FC_Labs/FC_Labs/common/map/saed14nm_1p9m_gdsout_mw.map -rc -p -ndm_design_label -lf -icc_density_blockage -icc2 -i -host_init -f -c -I -I -I -I 
+schematic=UNSPECIFIED
+ICV_HOME_DIR=/softs/synopsys/icv/V-2023.12
+ICV_INCLUDES=UNSET

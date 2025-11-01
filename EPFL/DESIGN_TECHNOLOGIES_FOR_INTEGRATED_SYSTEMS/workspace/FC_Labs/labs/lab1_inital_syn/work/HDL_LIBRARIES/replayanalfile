@@ -1,0 +1,16 @@
+set search_path [list . /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/syn_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/sim_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/libraries/syn ] 
+analyze -format verilog  "/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/lab1_inital_syn/work/../../../common/rtl/verilog/i2c_master_bit_ctrl.v /home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/lab1_inital_syn/work/../../../common/rtl/verilog/i2c_master_defines.v /home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/lab1_inital_syn/work/../../../common/rtl/verilog/i2c_master_top.v /home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/lab1_inital_syn/work/../../../common/rtl/verilog/timescale.v /home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/lab1_inital_syn/work/../../../common/rtl/verilog/i2c_master_byte_ctrl.v" 
+C/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/labs/lab1_inital_syn/work
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_bit_ctrl.v
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_defines.v
+i2c_master_bit_ctrl
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_defines.v
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_top.v
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_defines.v
+i2c_master_top
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/timescale.v
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_byte_ctrl.v
+/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs/common/rtl/verilog/i2c_master_defines.v
+i2c_master_byte_ctrl
+elaborate i2c_master_top
+set_top_module i2c_master_top

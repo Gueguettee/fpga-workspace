@@ -1,0 +1,9 @@
+original_files
+**/common
+*.rpt
+*.log
+*_log
+*.txt
+**/**/results
+**/**/result
+**/**/reports

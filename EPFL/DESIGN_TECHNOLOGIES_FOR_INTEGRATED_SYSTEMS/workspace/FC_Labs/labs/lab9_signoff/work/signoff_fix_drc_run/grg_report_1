@@ -1,0 +1,48 @@
+
+                            Generate_Route_Guidance 
+
+            Version V-2023.12 for linux64 - Dec 04, 2023 cl#9489491
+
+                    Copyright (c) 2009 - 2023 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Input PYDB Path ............... /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/signoff_check_drc_run/run_details/pydb
+Input PYDB Name ............... PYDB_i2c_master_top
+Output Route Guidance File .... /scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_fix_drc_run/Route_guidance_input1_tmp
+Limit to Cell ................. i2c_master_top
+Unselect Violation Comments ... "USER_GUIDE.M*","USER_GUIDE.VIA*","*:*Density*of*","M*.DN.*:*","VIA*.DN.*:*","CSR*:*","DM*:*","Rule*DEN*:*","Rule:.*USER_GUIDE.M*","Rule:.*USER_GUIDE.VIA*","Rule:.*:*Density*of*","Rule:.*M*.DN.*:*","Rule:.*VIA*.DN.*:*","Rule:.*CSR*:*","Rule:.*DM*:*","*M*.R.14*","*USER_GUIDE*","*:WARNING*","*:LOGO*","*NW.[A-Z].*","*NWRSTI.[A-Z].*","*NWROD.[A-Z].*","*OD[0-1].[A-Z].*","*OD.[A-Z].*","*Gate","*PP.[A-Z].*","*NP.[A-Z].*","*SSD.[A-Z].*","*DIODMY.[A-Z].*","*RH_OD.[A-Z].*","*RH_TN.[A-Z].*","*HV_N.[A-Z].*","*SR.[A-Z].*","*:*Density*of*","*ESD.[A-Z].*","*SRAM.[A-Z].[0-9]*","*ROM.[A-Z].[0-9]*","*LUP.[A-Z][0-9].*","*[0-9][A-Z]:HIADMY","*[A-Z][0-9]:BJTDMY*","*[A-Z][0-9]:BJTHDMY*","*AN.R.[0-9]*","*DOD.[A-Z].[0-9]*","*DIODMY.[A-Z].[0-9]*","*DTCD.[A-Z].[0-9]*","*GRMx.C.2_M1*","*GRMx.C.2_M2*","*GRMx.C.2_M3*","*GRMx.C.2_M4*","*GRV1.C.6*","*GRVx.C.6_V2*","*GRVx.C.6_V3*","*M1.G0.1__M1.G0.2__M1.G0.3*","*M2.G0.1__M2.G0.2__M2.G0.3*","*M3.G0.1__M3.G0.2__M3.G0.3*","*M4.G0.1__M4.G0.2__M4.G0.3*","*M5.G0.1__M5.G0.2__M5.G0.3*","*M6.G0.1__M6.G0.2__M6.G0.3*"
+Maximum Area (sq micron) ...... 1000000000
+Maximum Errors/Command ........ 1000
+
+
+IC Validator was run with error categorization enabled.
+Processing 2 of 2 errors for violation: M2.S.2: Minimum spacing if metal width of one of lines > 0.058 and  their parallel run length > 0.15 must be 0.06
+  2 errors written
+Processing 2 of 2 errors for violation: M2.S.3: Minimum spacing if metal width of one of lines > 0.06 and  their parallel run length > 0.2 must be 0.065
+  2 errors written
+Processing 6 of 6 errors for violation: M5.S.1.2 Minimum notch must be 0.005
+  6 errors written
+Processing 4 of 4 errors for violation: M5.S.1: Minimum m5 spacing must be 0.04
+  4 errors written
+Processing 10 of 10 errors for violation: M5.S.2.1: Minimum m5 spacing when widht =0.16 must be 0.06
+  10 errors written
+Processing 6 of 6 errors for violation: M5.W.1: m5 width must be  0.06 , 0.08 , 0.10, 0.12, 0.16 or > 0.2
+  6 errors written
+Processing 3 of 3 errors for violation: VIA5.S.1: Minimum center to center spacing of VIA5SQ to VIA5SQ: 0.05
+  3 errors written
+Route Guidance Generation Successful.
+Generate_Route_Guidance is done.

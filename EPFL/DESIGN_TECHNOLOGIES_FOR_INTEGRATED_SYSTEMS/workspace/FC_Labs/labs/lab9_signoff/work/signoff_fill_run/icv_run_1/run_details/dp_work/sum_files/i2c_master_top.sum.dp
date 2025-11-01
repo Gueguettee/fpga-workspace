@@ -1,0 +1,27 @@
+density() at ME8_14.rs:17: Command replaced with an internal function.
+density(window_layer = M8_extent, layer_hash = { "layer1" => M8 }, window_function = densityEQ_single_M8, delta_window = { w_window, l_window }, delta_x = 10, delta_y = 10, resize_delta_xy = true)
+  Comment: "Fill candidates within window"
+  Function: density
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+density() at saed14nm_1p9m_mfill_rules.rs:701: Command replaced with an internal function.
+density(window_layer = ME8_extent, layer_hash = { "layer1" => ME8 }, window_function = densityEQ_single_ME8, statistics_files = sf8_global_start)
+  Comment: "Densisty across chip"
+  Function: density
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+density() at saed14nm_1p9m_mfill_rules.rs:813: Command replaced with an internal function.
+density(window_layer = ME8_extent, layer_hash = { "layer1" => ME8 }, window_function = densityEQ_ME, delta_window = { w_window, l_window }, delta_x = 10.0, delta_y = 10.0, statistics_files = sf8_window_start)
+  Comment: "Density across window"
+  Function: density
+No output written.
+   Check Time=0:00:00  User=0.00 Sys=0.00 Mem=0.000 GB
+
+Completing error storage...
+  Overall error storage time: User=0.01 Sys=0.00 Mem=0.001 GB
+
+Generating i2c_master_top.LAYOUT_ERRORS...
+  Generation Time=0:00:00  User=0.00 Sys=0.00 Mem=0.001 GB
+

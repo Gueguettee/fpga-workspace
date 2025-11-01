@@ -1,0 +1,10 @@
+09/24/2025 09:54:19 (icv) Licensing related environment variables:
+
+  SNPSLMD_LICENSE_FILE = "27020@edalicsrv.epfl.ch:27000@ielsrv01.epfl.ch"
+
+09/24/2025 09:54:20 License manager initialized. (Time=0:00:00)
+09/24/2025 09:54:20 Using license file: 27020@edalicsrv.epfl.ch
+09/24/2025 09:54:20 Using license file: 27000@ielsrv01.epfl.ch
+09/24/2025 09:54:20 (icv) Pre-Checking (ICValidator2-GeometryEngine/2023.12)
+09/24/2025 09:54:20 (icv)   ICValidator2-GeometryEngine license is installed. (Time=0:00:00)
+09/24/2025 09:54:20 License manager shutting down. (Time=0:00:00)

@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep tclsrv3.epfl.ch > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 144264 
+else 
+ssh tclsrv3.epfl.ch kill 144264 
+ sleep 10 
+ssh tclsrv3.epfl.ch kill -9 144264 
+fi

@@ -1,0 +1,8 @@
+#define METAL_FILL_INSTALL_ICV_RH <icv_wrapper.rh>
+#define METAL_FILL_OUTLIB "icv_indesign_nlib.nlib"
+#define METAL_FILL_OUTLIB_PATH "/scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work/signoff_report_density_run"
+#define NDM_OPTIONS_SEARCH_PATH "/scratch/schiavon/FC_Labs/FC_Labs/labs/lab9_signoff/work /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/syn_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/dw/sim_ver /softs/synopsys/fusioncompiler/W-2024.09-SP2/libraries/syn  ."
+#define NDM_OPTIONS_INSTANCE_NAMES DISCARD
+#define NDM_OPTIONS_INTERNAL_DESIGNS {{use=FILL_USE,read_from=ALL,out_of_date=USE}}
+#define NDM_OPTIONS_MERGE_BLOCKAGE_WITH_LAYER { views={DESIGN_VIEW, FRAME_VIEW}, cells={"*"} }
+#define ALL_METAL_FILL_LAYER_NUMBERS {19,21,23,25,27,29,31,20,22,24,26,28,30}

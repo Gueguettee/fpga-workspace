@@ -1,0 +1,2 @@
+#define NDM_OPTIONS_DRC_BLACK_BOX_CELLS {"*","!i2c_master_top"}
+#define NDM_OPTIONS_MISSING_CELL ABORT

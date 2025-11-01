@@ -1,0 +1,15 @@
+ICV_HOME_DIR      = /softs/synopsys/icv/V-2023.12
+ICV_COORDS_BIT    = 32
+WORKING_DIR       = .
+INLIB             = i2c_master_top.dlib
+INLIB_PATH        = /scratch/schiavon/FC_Labs/FC_Labs/labs/results
+BLOCK             = i2c_master_top
+CREATE_VUE_OUTPUT = TRUE
+PYDB_PATH         = run_details/pydb
+RUN_DETAILS_DIR   = run_details
+NDB_PATH          = run_details/.ndb
+REPORT_LAYOUT_ERRORS = HIERARCHICAL
+FORMAT            = NDM
+SCHEMATIC_FORMAT  = ICV
+GROUP_PATH        = run_details/group
+RUNSET_FILE_NAME  = saed14nm_1p9m_drc_rules.rs
