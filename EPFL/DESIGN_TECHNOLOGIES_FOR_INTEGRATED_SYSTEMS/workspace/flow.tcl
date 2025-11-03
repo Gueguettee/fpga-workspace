@@ -8,6 +8,8 @@ source -echo ../../setup/fc_flow_setup.tcl
 set EXPORT_NAME "project6_mac_unit_3"
 set DESIGN_NAME "mac_unit_3"
 set SV_FILE "mac_unit_3.sv"
+set SDC_FILE_MAC_UNIT_NAME "mac_unit.sdc"
+set CREATE_BLOCK false
 
 # Open the design library
 open_lib ${RESULTS_PATH}/${DESIGN_LIBRARY}
@@ -15,34 +17,26 @@ open_lib ${RESULTS_PATH}/${DESIGN_LIBRARY}
 #### Report reference libraries
 report_ref_libs
 
-#### Reading RTL
+if {${CREATE_BLOCK} == true} {
+    #### Reading RTL
 
-# Suppress known warnings 
-suppress_message VER-130
+    # Suppress known warnings 
+    suppress_message VER-130
 
-# Unsuppress after analyze stage
-unsuppress_message VER-130
+    analyze -format sverilog ${SV_FILE}
 
-analyze -format sverilog ${SV_FILE}
+    # Unsuppress after analyze stage
+    unsuppress_message VER-130
 
-# Unsuppress after analyze stage
-unsuppress_message VER-130
+    # Elaborate
+    elaborate ${DESIGN_NAME}
 
-# Elaborate
-elaborate ${DESIGN_NAME}
+    # Set top module in the design
+    set_top_module ${DESIGN_NAME}
 
-# Set top module in the design
-set_top_module ${DESIGN_NAME}
-
-save_block -as ${DESIGN_NAME}/${EXPORT_NAME}_read_rtl
-
-# Source tech setup script
-source -echo ../../setup/tech_setup.tcl
-
-# Setup application options
-set_lib_cell_purpose -include none {*/*_AO21* */*V2LP*}
-set_app_options -name place.coarse.continue_on_missing_scandef -value true
-set_app_options -name compile.flow.enable_ccd -value false
+    save_block -as ${DESIGN_NAME}/${EXPORT_NAME}_read_rtl
+    close_block -force
+}
 
 # Define candidate shapes and sizes
 # Must be tried in order from largest to smallest
@@ -61,6 +55,16 @@ foreach fp $candidate_floorplans {
     set height [lindex $size_list 1]
 
     puts "Trying floorplan shape ${shape}, size ${width} x ${height}"
+
+    open_block ${DESIGN_NAME}/${EXPORT_NAME}_read_rtl
+
+    # Source tech setup script
+    source -echo ../../setup/tech_setup.tcl
+
+    # Setup application options
+    set_lib_cell_purpose -include none {*/*_AO21* */*V2LP*}
+    set_app_options -name place.coarse.continue_on_missing_scandef -value true
+    set_app_options -name compile.flow.enable_ccd -value false
 
     # Initialize floorplan
     initialize_floorplan -control_type core -core_utilization 0.6 -core_offset 5 -shape $shape -side_length $size_list -flip_first_row true
@@ -113,17 +117,24 @@ foreach fp $candidate_floorplans {
     source -echo ../scripts/create_pg_network.tcl
 
     # MCMM setup
-    set SDC_FILE_MAC_UNIT "mac_unit.sdc"
+    set SDC_FILE_MAC_UNIT "${SDC_FILE_MAC_UNIT_NAME}"
     source -echo ../scripts/project_mcmm_setup.tcl
 
     set_app_options -name time.delay_calculation_style -value auto
-    catch {compile_fusion -to final_opto} result
+    set status [catch {compile_fusion -to final_opto} result]
 
-    if {[string match "*error*" $result]} {
-        puts "Floorplan ${shape} ${width}x${height} FAILED"
+    if {$status == 1} {
+        puts "--------------------------------"
+        puts "Floorplan ${shape} ${width}x${height} FAILED:"
+        puts "Result: ${result}, status: ${status}"
+        puts "Smallest SUCCESSFUL floorplan so far: ${last_successful}"
+        puts "--------------------------------"
         exit
     } else {
+        puts "--------------------------------"
         puts "Floorplan ${shape} ${width}x${height} SUCCESS"
+        puts "Result: ${result}, status: ${status}"
+        puts "--------------------------------"
         set last_successful "${shape} ${width}x${height}"
 
         # Reports
@@ -140,6 +151,8 @@ foreach fp $candidate_floorplans {
     }
 }
 
-puts "Smallest successful floorplan: ${last_successful}"
+puts "--------------------------------"
+puts "Smallest SUCCESSFUL floorplan so far: ${last_successful}"
+puts "--------------------------------"
 
 exit
