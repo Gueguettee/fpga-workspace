@@ -7,3 +7,7 @@ original_files
 **/**/results
 **/**/result
 **/**/reports
+**/**/dso_db
+**/**/data/nlib
+**/**/sbs_sessions
+**/**/dso_work_compile

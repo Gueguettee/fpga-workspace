@@ -34,7 +34,7 @@ set_app_options -name compile.flow.enable_ccd -value false
 ### USE the three previous projects script AS REFERENCE TO COMPLETE THE this script and BUILD THE REPORTS ###
 
 # manual floorplan
-initialize_floorplan -control_type core -core_utilization 0.6 -core_offset 5 -shape R -side_length {33 33} -flip_first_row true
+initialize_floorplan -control_type core -core_utilization 0.6 -core_offset 5 -shape R -side_length {32 33} -flip_first_row true
 
 set_block_pin_constraints -self -allowed_layers {M4 M3} -sides {1 4} -pin_spacing_distance 1 -width 0.11 -length 0.11 
 	

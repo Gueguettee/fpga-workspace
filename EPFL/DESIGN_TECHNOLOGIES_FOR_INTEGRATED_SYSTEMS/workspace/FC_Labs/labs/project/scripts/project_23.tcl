@@ -20,10 +20,18 @@ unsuppress_message VER-130
 
 set DESIGN_NAME mac_unit_2
 
-### PLEASE CONTINUE FROM HERE ###
-### USE the three previous projects script AS REFERENCE TO COMPLETE THE this script and BUILD THE REPORTS ###
+analyze -format sverilog mac_unit_2.sv
 
-open_block ${DESIGN_NAME}/project2_read_rtl
+# Unsuppress after analyze stage
+unsuppress_message VER-130
+
+# Elaborate
+elaborate ${DESIGN_NAME}
+
+# Set top module in the design
+set_top_module ${DESIGN_NAME}
+
+save_block -as ${DESIGN_NAME}/project23_read_rtl
 
 # Source tech setup script
 source -echo ../../setup/tech_setup.tcl
@@ -33,8 +41,12 @@ set_lib_cell_purpose -include none {*/*_AO21* */*V2LP*}
 set_app_options -name place.coarse.continue_on_missing_scandef -value true
 set_app_options -name compile.flow.enable_ccd -value false
 
-#manual floorplan
-initialize_floorplan -control_type core -core_utilization 0.6 -core_offset 5 -shape R -side_length {33 33} -flip_first_row true
+# manual floorplan
+
+### TODO ###
+### COPY FROM project_1.tcl the FLOORPLAN and make it the right size AND ADJUST THE SIDE LENGTH ###
+### If it doesnt fit, compile_fusion will error out, thus reatry with a bigger value ###
+initialize_floorplan -control_type core -core_utilization 0.6 -core_offset 5 -shape R -side_length {36 36} -flip_first_row true
 
 set_block_pin_constraints -self -allowed_layers {M4 M3} -sides {1 4} -pin_spacing_distance 1 -width 0.11 -length 0.11 
 	
@@ -61,17 +73,21 @@ source -echo ../scripts/create_pg_network.tcl
 set SDC_FILE_MAC_UNIT "mac_unit.sdc"
 source -echo ../scripts/project_mcmm_setup.tcl
 
+compile_fusion -to initial_map
+
+compile_fusion -from initial_map -to logic_opto
+
 compile_fusion -to final_opto
 
 #for the final reports, we want to use zero_interconnect to be consistent with previous runs
 set_app_options -name time.delay_calculation_style -value zero_interconnect
 
-report_area > reports/area_final_opto_report_p4.log
-report_timing -significant_digits 10 > reports/timing_final_opto_report_p4.log
+report_area > reports/area_final_opto_report_p23.log
+report_timing -significant_digits 10 > reports/timing_final_opto_report_p23.log
 
-report_resources > reports/resource_final_opto_report_p4.log
-report_utilization > reports/utilization_final_opto_report_p4.log
+report_resources > reports/resource_final_opto_report_p23.log
+report_utilization > reports/utilization_final_opto_report_p23.log
 
-save_block -as ${DESIGN_NAME}/project4_final_opto
+save_block -as ${DESIGN_NAME}/project23_final_opto
 
 exit

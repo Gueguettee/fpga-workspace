@@ -11,10 +11,10 @@ set -euo pipefail
 
 REMOTE_USER="gjenni"
 REMOTE_HOST="jed.hpc.epfl.ch"
-# REMOTE_DIR="/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs"
-REMOTE_DIR="/education/classes/2025-2026/CS472/FC_Labs/FC_Labs"
-# LOCAL_DEST="/mnt/c/git/fpga-workspace/EPFL/DESIGN_TECHNOLOGIES_FOR_INTEGRATED_SYSTEMS/workspace"
-LOCAL_DEST="/mnt/c/git/fpga-workspace/EPFL/DESIGN_TECHNOLOGIES_FOR_INTEGRATED_SYSTEMS/workspace/original_files"
+REMOTE_DIR="/home/gjenni/Synopsys_Labs/Lab1/CS472/FC_Labs/FC_Labs"
+# REMOTE_DIR="/education/classes/2025-2026/CS472/FC_Labs/FC_Labs"
+LOCAL_DEST="/mnt/c/git/fpga-workspace/EPFL/DESIGN_TECHNOLOGIES_FOR_INTEGRATED_SYSTEMS/workspace"
+# LOCAL_DEST="/mnt/c/git/fpga-workspace/EPFL/DESIGN_TECHNOLOGIES_FOR_INTEGRATED_SYSTEMS/workspace/original_files"
 
 ZIP_BASENAME="FC_Labs_$(date +%Y%m%d_%H%M%S).zip"
 

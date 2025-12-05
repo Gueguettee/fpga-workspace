@@ -1,0 +1,84 @@
+namespace eval default {
+  proc show_available_area {} {
+
+    # available area
+    set show_available_area true
+    set ad "availabe area for default plane"; # description
+    set ac "green"; # color
+    set ap "DiagCrossPattern"; # pattern
+    set aw 1; # width
+
+    # partially blocked area (is included in available area)
+    set show_partially_blocked_area true
+    set pd "partially blocked area for default plane"; # description
+    set pc "lightgreen"; # color
+    set pp "DiagCrossPattern"; # pattern
+    set pw 1; # width
+
+    if { $show_available_area } {
+      set available_rects {
+        {{20.836 23.6} {24.684 24.2}}
+        {{5.296 23.6} {19.948 24.2}}
+        {{5.296 23} {24.684 23.6}}
+        {{20.836 22.4} {24.684 23}}
+        {{5.296 22.4} {19.948 23}}
+        {{5.296 21.8} {24.684 22.4}}
+        {{20.836 21.2} {24.684 21.8}}
+        {{5.296 21.2} {19.948 21.8}}
+        {{5.296 20.6} {24.684 21.2}}
+        {{20.836 20} {24.684 20.6}}
+        {{5.296 20} {19.948 20.6}}
+        {{5.296 19.4} {24.684 20}}
+        {{20.836 18.8} {24.684 19.4}}
+        {{5.296 18.8} {19.948 19.4}}
+        {{5.296 18.2} {24.684 18.8}}
+        {{20.836 17.6} {24.684 18.2}}
+        {{5.296 17.6} {19.948 18.2}}
+        {{5.296 17} {24.684 17.6}}
+        {{20.836 16.4} {24.684 17}}
+        {{5.296 16.4} {19.948 17}}
+        {{5.296 15.8} {24.684 16.4}}
+        {{20.836 15.2} {24.684 15.8}}
+        {{5.296 15.2} {19.948 15.8}}
+        {{5.296 14.6} {24.684 15.2}}
+        {{20.836 14} {24.684 14.6}}
+        {{5.296 14} {19.948 14.6}}
+        {{5.296 13.4} {24.684 14}}
+        {{20.836 12.8} {24.684 13.4}}
+        {{5.296 12.8} {19.948 13.4}}
+        {{5.296 12.2} {24.684 12.8}}
+        {{20.836 11.6} {24.684 12.2}}
+        {{5.296 11.6} {19.948 12.2}}
+        {{5.296 11} {24.684 11.6}}
+        {{20.836 10.4} {24.684 11}}
+        {{5.296 10.4} {19.948 11}}
+        {{5.296 9.8} {24.684 10.4}}
+        {{20.836 9.2} {24.684 9.8}}
+        {{5.296 9.2} {19.948 9.8}}
+        {{5.296 8.6} {24.684 9.2}}
+        {{20.836 8} {24.684 8.6}}
+        {{5.296 8} {19.948 8.6}}
+        {{5.296 7.4} {24.684 8}}
+        {{20.836 6.8} {24.684 7.4}}
+        {{5.296 6.8} {19.948 7.4}}
+        {{5.296 6.2} {24.684 6.8}}
+        {{20.836 5.6} {24.684 6.2}}
+        {{5.296 5.6} {19.948 6.2}}
+      }
+      foreach rect $available_rects {
+        gui_add_annotation -type rectangle $rect -color $ac -width $aw -pattern $ap -info_tip "$ad"
+      }
+    }
+    if { $show_partially_blocked_area } {
+      set partially_blocked_rects {
+      }
+      foreach blocked_rect $partially_blocked_rects {
+        set rect [lindex $blocked_rect 0]
+        set blocked [lindex $blocked_rect 1]
+        gui_add_annotation -type rectangle $rect -color $pc -width $pw -pattern $pp -info_tip "$blocked $pd"
+      }
+    }
+  }
+}
+
+default::show_available_area
