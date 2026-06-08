@@ -1,0 +1,39 @@
+# LP IPM sparse benchmark.
+# Loads SPLI fixtures, runs three IPMs per fixture (HW SparseSolve, SW
+# sparse same-algo, SW dense Gaussian for m≤256), and writes a comparison
+# report to ../data/lp_ipm_sparse_report.csv.
+#
+# Build: make -f Makefile.lp_ipm_sparse
+# Run:   sudo ./lp_ipm_sparse_bench
+
+CXX=g++
+CC=gcc
+CXXFLAGS=-O2 -std=c++17 -Idrivers -Iinclude -I../shared -I/usr/local/include -Wall -Wextra
+CFLAGS=-O2 -std=c11 -Idrivers -Iinclude -I../shared -Wall -Wextra
+LDFLAGS=-lcma -lpthread -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lpmt
+
+SRC_CPP = \
+    src/lpIpmSparseTestbench.cpp \
+    src/lp_ipm_sparse_hw.cpp \
+    src/lp_ipm_sparse_sw.cpp \
+    src/sparse_sw_ref.cpp \
+    src/pmt_power_meter.cpp \
+    drivers/CAccelProxy.cpp \
+    drivers/CSparseSolveProxy.cpp
+
+# lp_ipm.c (dense baseline) and linalg.c (csr_spmv etc.) are C; compile
+# them with g++ to keep linkage simple (matches Makefile.milp_bnb).
+SRC_C = \
+    src/lp_ipm.c \
+    src/linalg.c \
+    src/utils.c
+
+BIN=lp_ipm_sparse_bench
+
+all: $(BIN)
+
+$(BIN): $(SRC_CPP) $(SRC_C)
+	$(CXX) $(CXXFLAGS) -o $@ $(SRC_CPP) $(SRC_C) $(LDFLAGS)
+
+clean:
+	rm -f $(BIN)

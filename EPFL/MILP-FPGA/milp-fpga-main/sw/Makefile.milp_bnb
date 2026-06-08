@@ -1,0 +1,26 @@
+# Full MILP pipeline profiling with FPGA DenseSolve.
+# Requires Xilinx CMA library — build and run on the Zynq board.
+#
+# Build: make -f Makefile.milp_bnb
+# Run:   sudo ./milp_bnb_bench
+
+CXX=g++
+# C++17 required for PMT public headers. The .c files still compile under C99
+# (gcc applies the appropriate standard per file extension).
+CXXFLAGS=-O2 -std=c++17 -Iinclude -Idrivers -I../shared -Isrc -I/usr/local/include -Wall -Wextra
+LDFLAGS=-lcma -lm -lpthread -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lpmt
+
+SRC=src/linalg.c src/utils.c \
+    src/lp_ipm.c src/milp_bnb.c \
+    src/lp_ipm_hw.cpp src/milp_bnb_hw.cpp src/milpBnbTestbench.cpp \
+    src/pmt_power_meter.cpp \
+    drivers/CAccelProxy.cpp drivers/CDenseSolveProxy.cpp
+BIN=milp_bnb_bench
+
+all: $(BIN)
+
+$(BIN): $(SRC)
+	$(CXX) $(CXXFLAGS) -o $@ $(SRC) $(LDFLAGS)
+
+clean:
+	rm -f $(BIN)

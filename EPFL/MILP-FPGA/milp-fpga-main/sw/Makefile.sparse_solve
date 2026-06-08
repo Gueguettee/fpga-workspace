@@ -1,0 +1,21 @@
+# SparseSolve FPGA testbench.
+# Requires Xilinx CMA library — build and run on the Zynq board.
+#
+# Build: make -f Makefile.sparse_solve
+# Run:   sudo ./sparse_solve_bench
+
+CXX=g++
+# C++17 required for PMT public headers; otherwise this project compiles at C++11.
+CXXFLAGS=-O2 -std=c++17 -Idrivers -Iinclude -I../shared -I/usr/local/include -Wall -Wextra
+LDFLAGS=-lcma -lpthread -L/usr/local/lib -Wl,-rpath,/usr/local/lib -lpmt
+
+SRC=src/sparseSolveTestbench.cpp src/sparse_sw_ref.cpp src/pmt_power_meter.cpp drivers/CAccelProxy.cpp drivers/CSparseSolveProxy.cpp src/linalg.c
+BIN=sparse_solve_bench
+
+all: $(BIN)
+
+$(BIN): $(SRC)
+	$(CXX) $(CXXFLAGS) -o $@ $(SRC) $(LDFLAGS)
+
+clean:
+	rm -f $(BIN)

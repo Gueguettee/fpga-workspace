@@ -1,0 +1,17 @@
+.DS_Store
+
+*.o
+
+.env
+
+.claude
+CLAUDE.md
+
+_full.mps
+
+**/__pycache__/
+
+**/data/
+
+/others/
+/scripts/

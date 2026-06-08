@@ -1,0 +1,25 @@
+# All build outputs (IP exports, Vivado projects, bitstreams, logs)
+/build/
+/logs/
+
+# HLS project workspace (kept at hw/ root due to Vitis HLS path relativization)
+/*_HLS/
+
+# Xilinx tool artifacts
+.Xil/
+NA/
+*.jou
+*.log
+*.str
+*.lock
+*.bin
+*.pdi
+.vitisWorkspace.json
+_ide/
+.hls.failed
+dfx_runtime.txt
+
+# Secrets
+.env
+
+/workspace/
